@@ -3,7 +3,7 @@ layout: work/vapor-quiz
 title:  Vapor quiz
 subtitle: Sunny hockey season
 button-text: View case
-date:   2019-02-04 11:00:00 +0100
+date:   2019-01-01 12:00:00 +0100
 categories: film
 slug: vapor-quiz
 client: Bauer / The Bond
@@ -17,10 +17,11 @@ author-email: alexander.tengner@fullystudios.se
 promo-image: "promo.png"
 
 casetop-bgcolor: "#F3F4F5"
+casetop-video: "case_top.mp4"
 link: "https://demo.fullystudios.se/quiz"
 link-text: "Try demo"
 
-shareimage: work/jool/shareimage.jpg
+shareimage: work/vapor-quiz/share_img.jpg
 
 ingress: |
   Even though it sounds like plain balderdash, summer is the busiest season for hockey sales. And this summer, hockey heavyweight Bauer had three brand new products to release. Lucky for us, our friends at The Bond asked us to help out with the campaign.
@@ -43,7 +44,7 @@ text1: |
   Animations was also a big part of making the quiz exciting. A lot of focus was put into creating a smooth and fun UI, accompanied by the cheers and boos from the sound effects.
 
 video4: |
-  315429408
+  340010991
 
 endtext: |
   ### Wanna try? We made and easy mode just for you.
