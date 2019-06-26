@@ -3,7 +3,7 @@ layout: work/vapor-quiz
 title:  Vapor quiz
 subtitle: Sunny hockey season
 button-text: View case
-date:   2019-01-01 12:00:00 +0100
+date:   2019-06-25 12:00:00 +0100
 categories: film
 slug: vapor-quiz
 client: Bauer / The Bond
