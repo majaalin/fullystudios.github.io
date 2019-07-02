@@ -2,7 +2,6 @@
 layout: case
 ---
 
-
 <div class="grid grid--space grid--padding sectionspacing-small">
   <div class="grid__column1-2 center-vertical">
       {{ page.title-box1_title | markdownify }}
@@ -12,15 +11,13 @@ layout: case
   </div>
 </div>
 
-<img src="{{site.baseurl}}/assets/work/{{page.slug}}/{{ page.fullwidthimage1 }}" alt="{{page.fullwidthimage1_alt}}">
-
+<img class="image" src="{{site.baseurl}}/assets/work/{{page.slug}}/{{ page.fullwidthimage1 }}" alt="{{page.fullwidthimage1_alt}}">
 
 <section class="sectionspacing-small">
   <h2 class="center">{{page.heading1}}</h2>
-  <img src="{{site.baseurl}}/assets/work/{{page.slug}}/{{ page.fullwidthimage2 }}" alt="{{page.fullwidthimage2_alt}}">
+  <img class="image" src="{{site.baseurl}}/assets/work/{{page.slug}}/{{ page.fullwidthimage2 }}" alt="{{page.fullwidthimage2_alt}}">
   <p class="sectionspacing-small">{{page.text1}}</p>
 </section>
-
 
 <section class="sectionspacing">
   <div class="video">

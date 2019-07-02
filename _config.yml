@@ -39,15 +39,16 @@ morenews: "More news"
 # Pågen: 8
 # Svenska skolan: 9
 # Qgroup: 10
-# Brooklyn: 12
-# Vapor Quiz: 13
 # JOOL: 11
+# Brooklyn: 12
+# Weibulls: 13
+# Vapor Quiz: 14
 
 case_highlight1_id: 11
 
 case_highlight2_id: 13
 
-case_highlight3_id: 12
+case_highlight3_id: 14
 
 # Links
 works: "/work"

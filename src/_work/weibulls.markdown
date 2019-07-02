@@ -18,7 +18,7 @@ casetop-bg_640: bg-top.jpg
 casetop-bg_1440: bg-top.jpg
 casetop-video: WEIBULLS_WEBSITE_CASE_643x360.mp4
 casetop-bgcolor: "#B2CE56"
-
+promo-image: promo.png
 shareimage: work/weibulls/shareimage.jpg
 
 ingress: |
