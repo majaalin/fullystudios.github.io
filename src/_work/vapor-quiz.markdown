@@ -36,7 +36,9 @@ fullwidthimage1: "vapor-quiz-logo.svg"
 fullwidthimage1_alt: "Vapor Quiz"
 
 heading1: Quiz with a gameplay
-fullwidthimage2: "screenshot-prices.png"
+fullwidthimage2_720: "tiers@05x.png"
+fullwidthimage2_1440: "tiers.png"
+fullwidthimage2_2880: "tiers@2x.png"
 fullwidthimage2_alt: "Three columns with hockey equipment prices for three levels; Rookie, Elite and Pro."
 text1: |
   We didn’t treat the experience as a quiz per se, but rather as a game. Meaning that the players could rank up in tiers, use power-ups, explore mini-games, all while answering a flurry of tricky questions.
