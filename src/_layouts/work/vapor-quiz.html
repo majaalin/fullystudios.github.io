@@ -1,0 +1,31 @@
+---
+layout: case
+---
+
+<div class="grid grid--space grid--padding sectionspacing-small">
+  <div class="grid__column1-2 center-vertical">
+      {{ page.title-box1_title | markdownify }}
+  </div>
+  <div class="grid__column2-2 box box--curiosities">
+      {{ page.title-box1_box | markdownify }}
+  </div>
+</div>
+
+<img class="image" src="{{site.baseurl}}/assets/work/{{page.slug}}/{{ page.fullwidthimage1 }}" alt="{{page.fullwidthimage1_alt}}">
+
+<section class="sectionspacing-small">
+  <h2 class="center">{{page.heading1}}</h2>
+  <img class="image" src="{{site.baseurl}}/assets/work/{{page.slug}}/{{ page.fullwidthimage2 }}" alt="{{page.fullwidthimage2_alt}}">
+  <p class="sectionspacing-small">{{page.text1}}</p>
+</section>
+
+<section class="sectionspacing">
+  <div class="video">
+      <iframe src="https://player.vimeo.com/video/{{page.video4}}?autoplay=1&loop=1&color=5F11E8&title=0&byline=0&portrait=0&autopause=0&muted=1" width="1920" height="1080" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+  </div>
+</section>
+
+<section class="sectionspacing box box--noshadow box--center center">
+  {{ page.endtext | markdownify }}
+  <p><a class="button" href="{{page.link}}"><span>{{page.endcta}}</span></a></p>
+</section>

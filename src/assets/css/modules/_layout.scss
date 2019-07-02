@@ -6,6 +6,8 @@ $grh: 5vh;
     grid-template-rows: minmax($grh, auto); // 20 rows per vp
     grid-auto-rows: minmax($grh, auto);
     // min-height: 100vh;
+
+    // Modifiers and helpclasses
     &--space {
         margin-top: $s-small*2;
         margin-bottom: $s-small*2;
@@ -16,6 +18,12 @@ $grh: 5vh;
         @include media-query($on-laptop) {
             padding-left: $s-small;
             padding-right: $s-small;
+        }
+    }
+    // For usage on childs to center vertically
+    .center-vertical {
+        @include media-query($on-laptop) {
+            align-self: center;
         }
     }
 

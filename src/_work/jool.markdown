@@ -13,7 +13,7 @@ background-image_1440: "hero2.jpg"
 background-image_720: "hero1.jpg"
 background-image_color: "#f29200"
 author: Alexander Tengner
-author-email: joakim.hanner@fullystudios.se
+author-email: alexander.tengner@fullystudios.se
 promo-image: "promo.png"
 
 casetop-bg_640: bg-top.jpg
