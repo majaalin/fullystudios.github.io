@@ -1,11 +1,11 @@
 ---
-layout: work/vapor-quiz
-title:  Vapor quiz
+layout: work/bauer-quiz
+title:  Bauer quiz
 subtitle: Sunny hockey season
 button-text: View case
 date:   2019-06-25 12:00:00 +0100
 categories: film
-slug: vapor-quiz
+slug: bauer-quiz
 client: Bauer / The Bond
 project: Game
 background-image_2880: "hero@2x.jpg"
@@ -21,7 +21,7 @@ casetop-video: "case_top.mp4"
 link: "https://demo.fullystudios.se/quiz"
 link-text: "Try demo"
 
-shareimage: work/vapor-quiz/share_img.jpg
+shareimage: work/bauer-quiz/share_img.jpg
 
 ingress: |
   Even though it sounds like plain balderdash, summer is the busiest season for hockey sales. And this summer, hockey heavyweight Bauer had three brand new products to release. Lucky for us, our friends at The Bond asked us to help out with the campaign.
