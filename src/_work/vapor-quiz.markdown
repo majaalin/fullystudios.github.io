@@ -49,7 +49,7 @@ video4: |
   340010991
 
 endtext: |
-  ### Wanna try? We made and easy mode just for you.
+  ### Wanna try? We made an easy mode just for you.
 
 endcta: Play now
 
