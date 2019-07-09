@@ -81,7 +81,7 @@ section4_image2_alt: |
 
 
 section4_image3: section4_image3_2652.jpg
-section4_image3_1440: section4_image3_1400.jpg
+section4_image3_1440: section4_image3_1440.jpg
 section4_image3_640: section4_image3_640.jpg
 section4_image3_alt: |
   Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam, hic.
