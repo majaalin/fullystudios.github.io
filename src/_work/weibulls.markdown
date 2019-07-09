@@ -24,8 +24,7 @@ shareimage: work/weibulls/shareimage.jpg
 ingress: |
   You don’t need to be a master gardener to get things growing. To give weight to this statement, gardening brand Weibulls followed a group of – for other reasons than gardening – celebrated swedes in their quest of creating a green oasis.
 
-video4: |
-  337773820
+video1: 337773820
 
 section1_title: |
   ## First up: Amelia Adamo - Queen of the magazines
@@ -33,28 +32,60 @@ section1_title: |
 section1: |
   Potato, potatoe? Amelia Adamo shows you how to plant those little aspiring spuds with confidence and grace. No garden required.
 
-section5: |
+section2: |
   The campaign totalling 8 episodes will run primarily on Facebook & Instagram.
 
-section5_image1: image1_2274.jpg
-section5_image1_1440: image1_1440.jpg
-section5_image1_640: image1_640.jpg
-section5_image1_alt: |
+section2_image1: image1_2274.jpg
+section2_image1_1440: image1_1440.jpg
+section2_image1_640: image1_640.jpg
+section2_image1_alt: |
   A small pile of potatoes, and three Weibulls gardening tools, placed on the floor of Amelia's wooden deck outside.
 
 
-section5_image2: image2_2274.jpg
-section5_image2_1440: image2_1440.jpg
-section5_image2_640: image2_640.jpg
-section5_image2_alt: |
+section2_image2: image2_2274.jpg
+section2_image2_1440: image2_1440.jpg
+section2_image2_640: image2_640.jpg
+section2_image2_alt: |
   Close up of Amelia's hands as she plants potatoes in the soil.
 
 
-section5_image3: image3_2274.jpg
-section5_image3_1440: image3_1440.jpg
-section5_image3_640: image3_640.jpg
-section5_image3_alt: |
+section2_image3: image3_2274.jpg
+section2_image3_1440: image3_1440.jpg
+section2_image3_640: image3_640.jpg
+section2_image3_alt: |
   Amelia sitting in a comfortable chair outside in the sun, pouring herself some tea.
+
+video2: 343423301
+
+section3_title: |
+  ## Second: Thomas Ep - Lorem Ipsum
+
+section3: |
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam itaque exercitationem minus reprehenderit nihil, deleniti quas ducimus culpa animi. Eligendi.
+
+section4: |
+  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit quis repellendus cupiditate minima culpa ad, praesentium fuga ea iste ab itaque iure nemo voluptas, dolor, esse exercitationem est accusamus dolores?
+
+section4_image1: section4_image1_1920.jpg
+section4_image1_1440: section4_image1_1440.jpg
+section4_image1_640: section4_image1_640.jpg
+section4_image1_alt: |
+  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea, accusamus.
+
+
+section4_image2: section4_image2_2650.jpg
+section4_image2_1440: section4_image2_1440.jpg
+section4_image2_640: section4_image2_640.jpg
+section4_image2_alt: |
+  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum, sunt.
+
+
+section4_image3: section4_image3_2652.jpg
+section4_image3_1440: section4_image3_1400.jpg
+section4_image3_640: section4_image3_640.jpg
+section4_image3_alt: |
+  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam, hic.
+
 
 ---
 You don’t need to be a master gardener to get things growing. To give weight to this statement, gardening brand Weibulls followed a group of – for other reasons than gardening – celebrated swedes in their quest of creating a green oasis.

@@ -40,40 +40,100 @@ layout: case
 
 
 <div class="sectionspacing-small grid--padding">
+  <div class="weibulls-image-grid">
+    <div class="weibulls-image-grid__left">
+      <div class="">
+        <img
+          alt="{{page.section2_image1_alt}}"
+          width="1440" height="817"
+          src="{{site.baseurl}}/assets/work/{{page.slug}}/{{ page.section2_image1_1440 }}"
+          srcset="{{site.baseurl}}/assets/work/{{page.slug}}/{{ page.section2_image1 }} 2274w,
+                  {{site.baseurl}}/assets/work/{{page.slug}}/{{ page.section2_image1_1440 }} 1440w,
+                  {{site.baseurl}}/assets/work/{{page.slug}}/{{ page.section2_image1_640 }} 640w"
+          sizes="(max-width: 800px) 50vw, 33vw">
+      </div>
+      <div class="">
+        <img
+          alt="{{page.section2_image2_alt}}"
+          width="1440" height="817"
+          src="{{site.baseurl}}/assets/work/{{page.slug}}/{{ page.section2_image2_1440 }}"
+          srcset="{{site.baseurl}}/assets/work/{{page.slug}}/{{ page.section2_image2 }} 2274w,
+                  {{site.baseurl}}/assets/work/{{page.slug}}/{{ page.section2_image2_1440 }} 1440w,
+                  {{site.baseurl}}/assets/work/{{page.slug}}/{{ page.section2_image2_640 }} 640w"
+          sizes="(max-width: 800px) 50vw, 33vw">
+      </div>
+    </div>
+    <div class="weibulls-image-grid__right">
+      <img
+        alt="{{page.section2_image3_alt}}"
+        width="1440" height="817"
+        src="{{site.baseurl}}/assets/work/{{page.slug}}/{{ page.section2_image3_1440 }}"
+        srcset="{{site.baseurl}}/assets/work/{{page.slug}}/{{ page.section2_image3 }} 2274w,
+                {{site.baseurl}}/assets/work/{{page.slug}}/{{ page.section2_image3_1440 }} 1440w,
+                {{site.baseurl}}/assets/work/{{page.slug}}/{{ page.section2_image3_640 }} 640w"
+        sizes="(max-width: 800px) 100vw, 50vw">
+      <div class="">
+        {{ page.section2 | markdownify }}
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+  <section class="sectionspacing-small marginbottom-none">
+    <div class="video">
+        <iframe src="https://player.vimeo.com/video/{{page.video2}}?autoplay=1&loop=1&color=5F11E8&title=0&byline=0&portrait=0&autopause=0&muted=1" width="1920" height="1080" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    </div>
+  </section>
+
+
+  <div class="grid grid--padding section sectionspacing-custom aligncenter">
+      <div class="grid__column1-2">
+          {{ page.section3_title | markdownify }}
+      </div>
+      <div class="grid__column2-2 box box--business">
+          {{ page.section3 | markdownify }}
+      </div>
+  </div>
+
+
+  <div class="sectionspacing-small grid--padding">
     <div class="weibulls-image-grid">
       <div class="weibulls-image-grid__left">
         <div class="">
             <img
-              alt="{{page.section5_image1_alt}}"
-              width="1440" height="643"
-              src="{{site.baseurl}}/assets/work/{{page.slug}}/{{ page.section5_image1_1440 }}"
-              srcset="{{site.baseurl}}/assets/work/{{page.slug}}/{{ page.section5_image1 }} 2274w,
-                      {{site.baseurl}}/assets/work/{{page.slug}}/{{ page.section5_image1_1440 }} 1440w,
-                      {{site.baseurl}}/assets/work/{{page.slug}}/{{ page.section5_image1_640 }} 640w"
+              alt="{{page.section4_image1_alt}}"
+              width="1440" height="810"
+              src="{{site.baseurl}}/assets/work/{{page.slug}}/{{ page.section4_image1_1440 }}"
+              srcset="{{site.baseurl}}/assets/work/{{page.slug}}/{{ page.section4_image1 }} 1920w,
+                      {{site.baseurl}}/assets/work/{{page.slug}}/{{ page.section4_image1_1440 }} 1440w,
+                      {{site.baseurl}}/assets/work/{{page.slug}}/{{ page.section4_image1_640 }} 640w"
               sizes="(max-width: 800px) 50vw, 33vw">
         </div>
         <div class="">
             <img
-              alt="{{page.section5_image2_alt}}"
-              width="1440" height="643"
-              src="{{site.baseurl}}/assets/work/{{page.slug}}/{{ page.section5_image2_1440 }}"
-              srcset="{{site.baseurl}}/assets/work/{{page.slug}}/{{ page.section5_image2 }} 2274w,
-                      {{site.baseurl}}/assets/work/{{page.slug}}/{{ page.section5_image2_1440 }} 1440w,
-                      {{site.baseurl}}/assets/work/{{page.slug}}/{{ page.section5_image2_640 }} 640w"
+              alt="{{page.section4_image2_alt}}"
+              width="1440" height="810"
+              src="{{site.baseurl}}/assets/work/{{page.slug}}/{{ page.section4_image2_1440 }}"
+              srcset="{{site.baseurl}}/assets/work/{{page.slug}}/{{ page.section4_image2 }} 2650w,
+                      {{site.baseurl}}/assets/work/{{page.slug}}/{{ page.section4_image2_1440 }} 1440w,
+                      {{site.baseurl}}/assets/work/{{page.slug}}/{{ page.section4_image2_640 }} 640w"
               sizes="(max-width: 800px) 50vw, 33vw">
         </div>
       </div>
       <div class="weibulls-image-grid__right">
         <img
-          alt="{{page.section5_image3_alt}}"
-          width="1440" height="643"
-          src="{{site.baseurl}}/assets/work/{{page.slug}}/{{ page.section5_image3_1440 }}"
-          srcset="{{site.baseurl}}/assets/work/{{page.slug}}/{{ page.section5_image3 }} 2274w,
-                  {{site.baseurl}}/assets/work/{{page.slug}}/{{ page.section5_image3_1440 }} 1440w,
-                  {{site.baseurl}}/assets/work/{{page.slug}}/{{ page.section5_image3_640 }} 640w"
+          alt="{{page.section4_image3_alt}}"
+          width="1440" height="810"
+          src="{{site.baseurl}}/assets/work/{{page.slug}}/{{ page.section4_image3_1440 }}"
+          srcset="{{site.baseurl}}/assets/work/{{page.slug}}/{{ page.section4_image3 }} 2652w,
+                  {{site.baseurl}}/assets/work/{{page.slug}}/{{ page.section4_image3_1440 }} 1400w,
+                  {{site.baseurl}}/assets/work/{{page.slug}}/{{ page.section4_image3_640 }} 640w"
           sizes="(max-width: 800px) 100vw, 50vw">
         <div class="">
-            {{ page.section5 | markdownify }}
+            {{ page.section4 | markdownify }}
         </div>
       </div>
     </div>
