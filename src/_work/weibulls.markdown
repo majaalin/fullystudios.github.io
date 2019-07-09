@@ -58,13 +58,13 @@ section2_image3_alt: |
 video2: 343423301
 
 section3_title: |
-  ## Second: Thomas Ep - Lorem Ipsum
+  ## Tomas Andersson Wij: King of ballads
 
 section3: |
-  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam itaque exercitationem minus reprehenderit nihil, deleniti quas ducimus culpa animi. Eligendi.
+  Singer Songwriter TAW has a terrace to decorate and is never short of ideas. Roses, lavender, a tree perhaps? No time for music when you can make your own garden 2 floors up.
 
 section4: |
-  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit quis repellendus cupiditate minima culpa ad, praesentium fuga ea iste ab itaque iure nemo voluptas, dolor, esse exercitationem est accusamus dolores?
+
 
 section4_image1: section4_image1_1920.jpg
 section4_image1_1440: section4_image1_1440.jpg
