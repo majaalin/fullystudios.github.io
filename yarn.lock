@@ -1389,10 +1389,6 @@ body-parser@1.19.0:
     raw-body "2.4.0"
     type-is "~1.6.17"
 
-bodymovin@^4.7.0:
-  version "4.13.0"
-  resolved "https://registry.yarnpkg.com/bodymovin/-/bodymovin-4.13.0.tgz#06d97c0130e2334dccb33bea638136f88a74540b"
-
 boom@2.x.x:
   version "2.10.1"
   resolved "https://registry.yarnpkg.com/boom/-/boom-2.10.1.tgz#39c8918ceff5799f83f9492a848f625add0c766f"
@@ -3452,8 +3448,8 @@ lodash.without@~4.4.0:
   resolved "https://registry.yarnpkg.com/lodash.without/-/lodash.without-4.4.0.tgz#3cd4574a00b67bae373a94b748772640507b7aac"
 
 lodash@^4.17.10, lodash@^4.17.11, lodash@^4.17.4, lodash@^4.3.0:
-  version "4.17.11"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.11.tgz#b39ea6229ef607ecd89e2c8df12536891cac9b8d"
+  version "4.17.14"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.14.tgz#9ce487ae66c96254fe20b599f21b6816028078ba"
 
 longest@^1.0.1:
   version "1.0.1"
@@ -3469,9 +3465,9 @@ lory.js@^2.3.3:
   version "2.3.4"
   resolved "https://registry.yarnpkg.com/lory.js/-/lory.js-2.3.4.tgz#4974abe1b8240ffffe7a388ec4aa7f047e63e0d6"
 
-lottie-web@^5.2.1:
-  version "5.5.3"
-  resolved "https://registry.yarnpkg.com/lottie-web/-/lottie-web-5.5.3.tgz#988d054ea3a8445f27ede5938c3ad00ec8959082"
+lottie-web@^5.5.5:
+  version "5.5.6"
+  resolved "https://registry.yarnpkg.com/lottie-web/-/lottie-web-5.5.6.tgz#3aa77cb13510ca4121d17e31efcd7978e75e9298"
 
 lowercase-keys@^1.0.0:
   version "1.0.1"
