@@ -144,7 +144,7 @@ peoples:
     email_name_correct: anders.tibbling
     email_name: anders.tibbling
     email_domain: fullystudios.se
-    tel: +46 709 70 08 26
+    tel: +46 701 41 14 43
 
   - name: Mattias Ivarsson
     image: mattias-ivarsson.jpg
