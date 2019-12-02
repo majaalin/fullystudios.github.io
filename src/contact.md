@@ -179,6 +179,14 @@ peoples:
     email_name: emil.graden
     email_domain: fullystudios.se
 
+  - name: Linn Johansson
+    image: linn-johansson.jpg
+    title: Web Developer Intern
+    email: linn.johansson@fullystudios.se
+    email_name_correct: linn.johansson
+    email_name: linn.johansson
+    email_domain: fullystudios.se
+
   # - name: Amanda Fässberg
   #   image: amanda-fassberg.jpg
   #   title: Design Intern
