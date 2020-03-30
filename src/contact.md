@@ -51,7 +51,7 @@ peoples:
 
   - name: John Rejnäs
     image: john-rejnas.jpg
-    title: Account Manager
+    title: Studio Director
     email: john.rejnas@fullystudios.se
     email_name_correct: john.rejnäs
     email_name: john.rejnas
