@@ -1,6 +1,5 @@
 [![fullystudios.se](https://fullystudios.se/mailsignatur/fully-studios.gif)](https://fullystudios.se)
 
-=============================
 Website for the Swedish agency Fully Studios
 
 [Fully Studios site](https://fullystudios.se) is build on [Jekyll](https://jekyllrb.com/) in combination with [Webpack](https://webpack.js.org/) where we run [Babel](https://babeljs.io/) to be able to compile ES6+ code to ES5.
