@@ -1,4 +1,5 @@
-[fullystudios.se](https://fullystudios.se)
+[![fullystudios.se](https://fullystudios.se/mailsignatur/fully-studios.gif)](https://fullystudios.se)
+
 =============================
 Website for the Swedish agency Fully Studios
 
