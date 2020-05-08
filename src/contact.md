@@ -74,7 +74,7 @@ peoples:
     email_name_correct: frida.netzén
     email_name: frida.netzen
     email_domain: fullystudios.se
-    # tel: +46 703 77 72 07
+    tel: +46 703 77 72 07
 
   - name: Marc Zacharoff
     image: marc-zacharoff.jpg
