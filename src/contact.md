@@ -2,7 +2,7 @@
 layout: contact
 title: Contact us
 pagetitle: |
-  ## If you want to learn more about us and you’re not sure who to call, just ring [+46 738 07 30 72](tel:+46738073072). Or drop a line at [hello@&shy;fullystudios.se](mailto:hello@fullystudios.se). Our doors and inboxes are always open to new friends.
+  ## If you want to learn more about us and you’re not sure who to call, just drop a line at [hello@&shy;fullystudios.se](mailto:hello@fullystudios.se). Our doors and inboxes are always open to new friends.
 
 #pagetitle-link: "#we-are-fully"
 #pagetitle-linktext: Looking for someone special?
@@ -40,15 +40,6 @@ peoples:
     email_domain: fullystudios.se
     tel: +46 702 53 54 60
 
-  - name: Joakim Hanner
-    image: joakim-hanner.jpg
-    title: Motion & Film Director
-    email: joakim.hanner@fullystudios.se
-    email_name_correct: joakim.hanner
-    email_name: joakim.hanner
-    email_domain: fullystudios.se
-    tel: +46 738 07 30 72
-
   - name: John Rejnäs
     image: john-rejnas.jpg
     title: Studio Director
@@ -66,6 +57,15 @@ peoples:
     email_name: frida.netzen
     email_domain: fullystudios.se
     # tel: +46 703 77 72 07
+
+  - name: Joakim Hanner
+    image: joakim-hanner.jpg
+    title: Associate Creative Director
+    email: joakim.hanner@fullystudios.se
+    email_name_correct: joakim.hanner
+    email_name: joakim.hanner
+    email_domain: fullystudios.se
+    tel: +46 738 07 30 72
 
   - name: Marc Zacharoff
     image: marc-zacharoff.jpg
