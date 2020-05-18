@@ -42,12 +42,21 @@ peoples:
 
   - name: John Rejnäs
     image: john-rejnas.jpg
-    title: Studio Director
+    title: Studio Director GBG
     email: john.rejnas@fullystudios.se
     email_name_correct: john.rejnäs
     email_name: john.rejnas
     email_domain: fullystudios.se
     tel: +46 704 68 97 03
+
+  - name: Lina Hellström
+    image: lina-hellstrom.jpg
+    title: Studio Director STHLM
+    email: lina.hellstrom@fullystudios.se
+    email_name_correct: lina.hellström
+    email_name: lina.hellstrom
+    email_domain: fullystudios.se
+    tel: +46 703 21 44 22
 
   - name: Frida Netzén
     image: frida-netzen.jpg
@@ -56,7 +65,7 @@ peoples:
     email_name_correct: frida.netzén
     email_name: frida.netzen
     email_domain: fullystudios.se
-    # tel: +46 703 77 72 07
+    tel: +46 703 77 72 07
 
   - name: Joakim Hanner
     image: joakim-hanner.jpg
