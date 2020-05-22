@@ -1,7 +1,7 @@
 {
-  "name": "jekyll-starter",
-  "version": "1.4.0",
-  "description": "A jekyll based project boilerplate.",
+  "name": "fully-studios",
+  "version": "2.0.0",
+  "description": "Based on jekyll-starter",
   "main": "bundle.js",
   "scripts": {
     "start": "rake start",
@@ -11,16 +11,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mdxprograms/jekyll-starter.git"
+    "url": "git+https://github.com/fullystudios/fullystudios.github.io"
   },
   "keywords": [
     "jekyll",
-    "webpack",
-    "react"
+    "webpack"
   ],
-  "author": "Josh Waller",
+  "author": "Jonas Sandstedt",
   "license": "ISC",
-  "homepage": "https://github.com/mdxprograms/jekyll-starter#readme",
+  "homepage": "https://fullystudios.se",
   "browserlist": "last 2 version, > 2%, maintained node versions, not dead, IE 11",
   "devDependencies": {
     "@babel/core": "^7.0.0",

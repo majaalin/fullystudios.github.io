@@ -97,7 +97,7 @@ defaults:
 
 # Build settings
 highlighter: rouge
-markdown: kramdown
+# markdown: kramdown
 source: src
 destination: public
 sass:
@@ -124,4 +124,18 @@ autoprefixer:
   - ios_saf 7
   - IE 11
 
-exclude: ['node_modules', 'webpack', 'Gemfile', 'Gemfile.lock', 'Rakefile']
+exclude:
+- .sass-cache/
+- .jekyll-cache/
+- gemfiles/
+- Gemfile
+- Gemfile.lock
+- node_modules/
+- vendor/bundle/
+- vendor/cache/
+- vendor/gems/
+- vendor/ruby/
+
+include:
+- .htaccess
+- node_modules/uglifier/index.js
