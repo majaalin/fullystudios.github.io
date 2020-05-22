@@ -44,11 +44,11 @@ morenews: "More news"
 # Weibulls: 13
 # Vapor Quiz: 14
 
-case_highlight1_id: 11
+# case_highlight1_id: 11
 
-case_highlight2_id: 12
+# case_highlight2_id: 12
 
-case_highlight3_id: 14
+# case_highlight3_id: 14
 
 # Links
 works: "/work"
