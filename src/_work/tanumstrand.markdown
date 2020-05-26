@@ -1,4 +1,5 @@
 ---
+archived: false
 layout: work/tanumstrand
 title:  "TanumStrand"
 subtitle: "A year by the sea"

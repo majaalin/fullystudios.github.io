@@ -1,10 +1,11 @@
 ---
+archived: false
 layout: work/qgroup
 title:  "Qgroup"
 subtitle: "A tunnel and a website"
 button-text: View case
 date:   2018-04-15 12:00:00 +0100
-categories: design, branding, web
+categories: design, identity, web
 slug: qgroup
 client: Qgroup
 project: Website

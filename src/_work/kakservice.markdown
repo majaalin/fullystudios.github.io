@@ -1,4 +1,5 @@
 ---
+archived: true
 layout: case-film
 title:  "Kakservice"
 subtitle: "Cookies for a cause? Take my money!"

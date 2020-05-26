@@ -1,4 +1,5 @@
 ---
+archived: false
 layout: work/weibulls
 title:  "Weibulls"
 subtitle: "We are gardeners"

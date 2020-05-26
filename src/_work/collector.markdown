@@ -1,4 +1,5 @@
 ---
+archived: false
 layout: work/collector
 title:  "Collector"
 subtitle: "Success & the niche bank"

@@ -1,10 +1,11 @@
 ---
+archived: false
 layout: work/bauer-quiz
 title:  Bauer quiz
 subtitle: Sunny hockey season
 button-text: View case
 date:   2019-06-25 12:00:00 +0100
-categories: film
+categories: web
 slug: bauer-quiz
 client: Bauer / The Bond
 project: Game

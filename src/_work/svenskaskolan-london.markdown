@@ -1,10 +1,11 @@
 ---
+archived: false
 layout: work/svenskaskolan-london
 title:  "The Swedish School in London"
 subtitle: "One of a kind. In fact."
 button-text: View case
 date:   2018-02-11 11:00:00 +0100
-categories: web
+categories: web, identity
 slug: swedishschool-london
 client: The Swedish School in London
 project: Profile & Website

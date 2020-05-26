@@ -23,16 +23,22 @@ $bgMqLarge: 1100px;
         margin-top: $s-small*3;
         margin-bottom: $s-small*3;
     }
-    a {
+    a:not(.link) {
         color: $c-dark;
     }
 
-    &__header {
+    &__header, &__info {
         width: 100%;
         max-width: 100%;
         text-align: center;
-        padding: $s-small 15% $s-small*0.5;
         color: $c-signal;
+    }
+    &__header {
+        padding: $s-small 15% $s-small*0.5;
+    }
+    .boxgrid__info {
+        padding: 0 15% 0;
+        margin: 0;
     }
     a.boxgrid__box {
         transition: transform 0.3s $easeout;
@@ -115,6 +121,7 @@ $bgMqLarge: 1100px;
     // The box border effect
     &:before {
         content: "";
+        pointer-events: none;
         border: 4px solid $c-signal;
         @at-root {
             .c-people-bg .boxgrid:before { border-color: $c-dark }

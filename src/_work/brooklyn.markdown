@@ -1,4 +1,5 @@
 ---
+archived: false
 layout: work/brooklyn
 title:  "Brooklyn Brewery Special Effects"
 subtitle: "A branded content mini-series"

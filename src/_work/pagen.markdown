@@ -1,4 +1,5 @@
 ---
+archived: false
 layout: work/pagen
 title:  "Pågen"
 subtitle: "Social&nbsp;meals"

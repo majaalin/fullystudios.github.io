@@ -3,19 +3,39 @@
 ## Loop through the latest work
 
 -->
+<!-- Get all work posts and revers them -->
+{% assign items = site.work | sort: 'date' | reverse %}
+
 <section class="boxgrid boxgrid--compact">
-    <h2 class="boxgrid__header h4">Recent work</h2>
-    <!-- Get all work posts and revers them -->
-    {% assign items = site.work | sort: 'date' | reverse %}
+    <h2 class="boxgrid__header h4">Selected work</h2>
+    <nav aria-labelledby="filter" class="filter boxgrid__info">
+        <h2 class="visuallyhidden">Selected work filter</h2>
+        <a class="link{% if page.category == 'all' %} link--active {% endif%}" href={{site.works}}#projects><span>All</span></a> 
+        <a class="link{% if page.category == 'film' %} link--active {% endif%}" href={{site.works_film}}#projects><span>Film</span></a> 
+        <a class="link{% if page.category == 'web' %} link--active {% endif%}" href={{site.works_web}}#projects><span>Web</span></a> 
+        <a class="link{% if page.category == 'apps' %} link--active {% endif%}" href={{site.works_apps}}#projects><span>Apps</span></a> 
+        <a class="link{% if page.category == 'identity' %} link--active {% endif%}" href={{site.works_identity}}#projects><span>Identity</span></a> 
+        <a class="link{% if page.category == 'games' %} link--active {% endif%}" href={{site.works_games}}#projects><span>Games</span></a> 
+    </nav>
 
     {% for work in items %}
+   
+        {%- comment -%}
+        set `archived: true` in a post to not show it in this list
+        {%- endcomment -%}
+        {% if work.archived %}
+            {% continue %}
+        {% endif %}
 
-    {% comment %}
-    {% if work.title == page.title or work.title == work1.title or work.title == work2.title or work.title == work3.title %}
-      {% continue %}
-    {% endif %}
-    {% endcomment %}
-
+        {%- comment -%}
+        If page category is all, show all posts, if page cateogy is ex film,
+        then only show work posts that has the word film in its categories
+        {%- endcomment -%}
+        {% unless page.category == "all" %}
+            {% unless work.categories contains page.category %}
+                {% continue %}
+            {% endunless %}
+        {% endunless %}
 
         <a href="{{work.url | prepend: site.baseurl}}" class="boxgrid__box">
 

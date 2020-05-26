@@ -1,4 +1,5 @@
 ---
+archived: false
 layout: work/click-or-treat
 title:  Liseberg
 subtitle: "A Halloween click-or-treat"
@@ -6,7 +7,7 @@ author: "Jonathan David Asp"
 author-email: jonathan.asp@fullystudios.se
 button-text: View case
 date:   2017-06-08 12:00:00 +0100
-categories: film
+categories: web
 slug: click-or-treat
 client: DDB / Liseberg
 project: Campaign

@@ -1,4 +1,5 @@
 ---
+archived: false
 layout: work/studyinsweden
 title:  "Study in Sweden"
 subtitle: "Redesign of the student blog"
@@ -6,7 +7,7 @@ author: Alexander
 author-email: alexander.tengner@fullystudios.se
 button-text: View case
 date:   2017-10-05 12:00:00 +0100
-categories: design, branding, web
+categories: design, identity, web
 slug: studyinsweden
 client: Study In Sweden
 project: Design

@@ -203,19 +203,21 @@ $bshadow: 3px; // the size of the shadow
 	color: $c-signal;
 	position: relative;
 	padding: $s-small*0.5;
+	// min-width: 4em;
+	display: inline-block;
 	&:before {
 		content: "";
 		position: absolute;
 		bottom: $s-small * 0.4;
-		left: $s-small;
-		right: $s-small;
+		left: 20%;
+		right: 20%;
 		height: 4px;
 		background-color: $c-signal;
 		transition: transform 0.4s $cb-ease_out;
 		transform: translateX(-1em) scaleX(0);
 		transform-origin: top left;
 	}
-	&:hover {
+	&:hover, &--active {
 		color: $c-signal;
 		&:before {
 			transform: translateX(0) scaleX(1);

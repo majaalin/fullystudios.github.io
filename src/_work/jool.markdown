@@ -1,10 +1,11 @@
 ---
+archived: false
 layout: work/jool
 title:  "JOOL"
 subtitle: "A financial service for bond investments"
 button-text: View case
 date:   2019-02-04 11:00:00 +0100
-categories: film
+categories: web
 slug: jool
 client: JOOL Markets
 project: Digital Service

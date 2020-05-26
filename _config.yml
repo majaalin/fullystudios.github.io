@@ -52,6 +52,12 @@ morenews: "More news"
 
 # Links
 works: "/work"
+works_film: "/work/film"
+works_web: "/work/web"
+works_apps: "/work/apps"
+works_identity: "/work/identity"
+works_games: "/work/games"
+
 about: "/about"
 curiosities: "/curiosities"
 

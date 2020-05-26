@@ -1,6 +1,7 @@
 ---
 layout: work
 title: Work
+category: all
 pagetitle: |
   # We make
   ## websites, apps, films & games
