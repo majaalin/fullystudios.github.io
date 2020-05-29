@@ -13,6 +13,7 @@ background-image_2880: "hero@2x.jpg"
 background-image_1440: "hero@1.jpg"
 background-image_720: "hero@1.jpg"
 background-image_color: "#3d3f9b"
+thumbnail-video: casetop.mp4
 author: Jakob Åhl
 author-email: jakob.ahl@fullystudios.se
 promo-image: "promo.png"

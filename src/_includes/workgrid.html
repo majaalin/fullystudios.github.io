@@ -40,9 +40,15 @@
         <a href="{{work.url | prepend: site.baseurl}}" class="boxgrid__box">
 
             <div class="boxgrid__image" style="background-color: {{work.background-color}}">
-                {% unless work.background-image_720 == nil %}
+                {% if work.thumbnail-video %}
+                <video width="1440" height="830" muted playsinline loop autoplay>
+                    <source src="{{site.baseurl}}/assets/work/{{work.slug}}/{{work.thumbnail-video}}" type="video/mp4">
+                </video>
+                {% endif %}
+                
+                {% if work.background-image_720 and work.thumbnail-video == nil  %}
                     <img src="{{site.baseurl}}/assets/work/{{work.slug}}/{{work.background-image_720}}" alt="{{work.title}}">
-                {% endunless %}
+                {% endif %}
             </div>
 
             <div class="boxgrid__caption">

@@ -13,6 +13,7 @@ background-image_2880: "hero@2x.jpg"
 background-image_1440: "hero@1x.jpg"
 background-image_720: "hero@1x.jpg"
 background-image_color: "#156290"
+thumbnail-video: WEIBULLS_WEBSITE_CASE_643x360.mp4
 author: Jakob Åhl
 author-email: jakob.ahl@fullystudios.se
 casetop-bg_640: bg-top.jpg

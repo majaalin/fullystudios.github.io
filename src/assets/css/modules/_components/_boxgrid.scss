@@ -90,8 +90,10 @@ $bgMqLarge: 1100px;
                 align-items: flex-end;
             }
         }
-        img {
+        img, video {
             width: 100%;
+            height: auto;
+            display: block;
         }
     }
 
