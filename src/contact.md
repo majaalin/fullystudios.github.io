@@ -59,7 +59,7 @@ peoples:
     tel: +46 703 21 44 22
 
   - name: Frida Netzén
-    image: frida-netzen.jpg
+    image: frida-netzen-2.jpg
     title: Account Manager
     email: frida.netzen@fullystudios.se
     email_name_correct: frida.netzén
