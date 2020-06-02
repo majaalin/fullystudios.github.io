@@ -68,7 +68,14 @@
                     <h3>{{work.title}}</h3>
                     <p>{{work.subtitle}}</p>
                 </div>
-                <a href="{{work.url | prepend: site.baseurl}}" class="button"><span>{{work.button-text}}</span></a>
+                {% if work.onlypreview == nil %}
+                    <a href="{{work.url | prepend: site.baseurl}}" class="button"><span>{{work.button-text}}</span></a>
+                {% endif %}
+                {% if work.onlypreview %}
+                    <a data-preview="{{work.preview}}" href="{{work.url | prepend: site.baseurl}}" class="button" style="background-color: {{work.background-color}}">
+                        <span>{{work.button-text}}</span>
+                    </a>
+                {% endif %}
             </div>
         </div>
 
@@ -98,7 +105,7 @@ const openVideoModal = (e, video) => {
     console.log(previewModal);
 
     vimeoVideo = document.createElement("iframe");
-    vimeoVideo.src = `https://player.vimeo.com/video/${vimeoId}`;
+    vimeoVideo.src = `https://player.vimeo.com/video/${vimeoId}?controls=1`;
     vimeoVideo.width ="1920";
     vimeoVideo.height = "1080";
     vimeoVideo.frameborder = "0";
