@@ -1,7 +1,6 @@
 import {lory} from 'lory.js';
 
-module.exports =
-class Slider {
+export default class Slider {
 	constructor () {
        	this._js_slider = document.querySelector('.js_slider');
 

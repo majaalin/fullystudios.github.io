@@ -1,5 +1,4 @@
-module.exports =
-class Opinioated {
+export default class Opinioated {
 	constructor () {
         const swipers = document.querySelectorAll('[data-coeswipe]');
         const swipersArr = [...swipers];

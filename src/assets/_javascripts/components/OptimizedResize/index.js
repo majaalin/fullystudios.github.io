@@ -1,5 +1,4 @@
-module.exports =
-class OptimizedResize {
+export default class OptimizedResize {
 	constructor () {
         this.running = false;
         this.callbacks = [];

@@ -1,6 +1,7 @@
-import "babel-polyfill";
+import "core-js/stable";
+import "regenerator-runtime/runtime";
 
-import ComponentsRegister from './components/ComponentRegister';
+import './components/ComponentRegister';
 import SweetScroll from "sweet-scroll";
 import ScrollTrigger from 'scrolltrigger-classes';
 import enableInlineVideo from 'iphone-inline-video';
@@ -9,6 +10,7 @@ import defaultHero from './news/fully-hero.js';
 import threeHouses from './news/threeHouses.js';
 
 document.addEventListener("DOMContentLoaded", () => {
+
     defaultHero();
     threeHouses();
 

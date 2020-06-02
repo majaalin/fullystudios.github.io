@@ -1,7 +1,6 @@
 import LogoAnimation from '../LogoAnimation';
 
-module.exports =
-class Nav {
+export default class Nav {
 	constructor () {
         this._menutoggle = document.getElementById('openmenu');
         this._menu = document.getElementById('menu');

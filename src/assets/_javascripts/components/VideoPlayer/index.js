@@ -1,5 +1,4 @@
-module.exports =
-class VideoPlayer {
+export default class VideoPlayer {
 	constructor () {
         //console.log('test');
         this.triggerTime = 0.5;

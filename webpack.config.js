@@ -32,21 +32,14 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.js?$/,
-        exclude: /(node_modules)/,
-        loader: 'babel-loader',
-        query: {
-          presets: [
-            ["env", {
-              "targets": [
-                "last 2 version",
-                "> 2%",
-                "maintained node versions",
-                "not dead",
-                "IE 11"
-              ]
-            }]
-          ]
+        test: /\.m?js$/,
+        exclude: /(node_modules|bower_components)/,
+        use: {
+          loader: 'babel-loader',
+          options: {
+            presets: ['@babel/preset-env'],
+            plugins: ['@babel/plugin-proposal-object-rest-spread']
+          }
         }
       }
     ]

@@ -4,8 +4,7 @@ import 'gsap';
 // import 'debug.addIndicators';
 import OptimizedResize from "../OptimizedResize";
 
-module.exports =
-class ScrollAnimations {
+export default class ScrollAnimations {
 	constructor () {
 			if(document.getElementById("work-cases")){
         this._hasBeenCreated = false;

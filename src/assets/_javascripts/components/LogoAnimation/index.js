@@ -1,6 +1,6 @@
 import lottie from 'lottie-web';
 
-module.exports = class LogoAnimation {
+export default class LogoAnimation {
 	constructor () {
 		this._logoContainer = document.getElementById('logo_anim');
 		this._path = '/assets/fully_logo_singel.json';

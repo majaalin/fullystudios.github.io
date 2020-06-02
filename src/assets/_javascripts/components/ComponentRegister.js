@@ -7,7 +7,7 @@ import ScrollAnimations from './ScrollAnimations';
 // import PageTransition from './PageTransition';
 // import BarbaWrapper from './BarbaWrapper';
 
-module.exports = {
+export default {
 	nav: new Nav,
 	slider: new Slider,
 	scrollanimations: new ScrollAnimations,

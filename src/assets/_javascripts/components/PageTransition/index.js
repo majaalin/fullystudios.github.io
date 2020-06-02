@@ -1,8 +1,7 @@
 import lottie from 'lottie-web';
 import Barba from 'barba.js';
 
-module.exports =
-class PageTransition {
+export default class PageTransition {
 
 	constructor () {
         Barba.Pjax.start();
