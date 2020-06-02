@@ -1,15 +1,15 @@
 ---
 layout: work
-title: Identity
+title: Creative Studio and Production House
 category: identity
 pagetitle: |
-  # We make identities
+  # Creative Studio and Production House
 permalink: /work/identity/
 slug: work/identity
 background-color: "#f8f8f8"
 
 sublink: '#projects'
-sublink-text: Hey, look
+sublink-text: All projects
 
 background: |
   <video class="hero__background" poster="./../../assets/work/hero-poster.jpg" loop autoplay muted playsinline>
@@ -17,7 +17,7 @@ background: |
     <img src="./../../assets/work/hero-poster.jpg">
   </video>
 
-excerpt: A collection of identities we have created
+excerpt: We create identities
 
 ---
 

@@ -1,15 +1,15 @@
 ---
 layout: work
-title: Film
-category: film
+title: Creative Studio and Production House
+category: video
 pagetitle: |
-  # We make films
-permalink: /work/film/
-slug: work/film
+  # Creative Studio and Production House
+permalink: /work/video/
+slug: work/video
 background-color: "#f8f8f8"
 
 sublink: '#projects'
-sublink-text: Moving down
+sublink-text: All projects
 
 background: |
   <video class="hero__background" poster="./../../assets/work/hero-poster.jpg" loop autoplay muted playsinline>
@@ -17,7 +17,7 @@ background: |
     <img src="./../../assets/work/hero-poster.jpg">
   </video>
 
-excerpt: A collection of film and animations made or directed by Fully
+excerpt: We make videos
 
 ---
 

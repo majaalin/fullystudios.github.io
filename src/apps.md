@@ -1,15 +1,15 @@
 ---
 layout: work
-title: Apps
+title: Creative Studio and Production House
 category: apps
 pagetitle: |
-  # We make apps
+  # Creative Studio and Production House
 permalink: /work/apps/
 slug: work/apps
 background-color: "#f8f8f8"
 
 sublink: '#projects'
-sublink-text: See our apps
+sublink-text: All projects
 
 background: |
   <video class="hero__background" poster="./../../assets/work/hero-poster.jpg" loop autoplay muted playsinline>
@@ -17,7 +17,7 @@ background: |
     <img src="./../../assets/work/hero-poster.jpg">
   </video>
 
-excerpt: A collection of apps build by Fully
+excerpt: We make apps
 
 ---
 

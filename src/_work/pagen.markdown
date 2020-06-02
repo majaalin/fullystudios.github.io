@@ -4,8 +4,8 @@ layout: work/pagen
 title:  "Pågen"
 subtitle: "Social&nbsp;meals"
 button-text: View case
-date:   2017-10-17 12:00:00 +0100
-categories: film
+date: 2020-05-27 +0100
+categories: video
 slug: pagen
 client: Pågen
 project: Film

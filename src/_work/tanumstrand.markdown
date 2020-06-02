@@ -4,8 +4,8 @@ layout: work/tanumstrand
 title:  "TanumStrand"
 subtitle: "A year by the sea"
 button-text: View case
-date:   2016-05-13 12:00:00 +0100
-categories: film
+date: 2020-05-23 12:00:00 +0100
+categories: video
 slug: tanumstrand
 client: Tanumstrand
 project: Film production

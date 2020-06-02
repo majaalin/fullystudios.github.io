@@ -4,8 +4,8 @@ layout: work/weibulls
 title:  "Weibulls"
 subtitle: "We are gardeners"
 button-text: View case
-date:   2019-03-16 11:00:00 +0100
-categories: film
+date: 2020-06-01 12:00:00 +0100
+categories: video
 slug: weibulls
 client: Weibulls
 project: Film

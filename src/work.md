@@ -1,10 +1,9 @@
 ---
 layout: work
-title: Work
+title: Creative Studio and Production House
 category: all
 pagetitle: |
-  # We make
-  ## websites, apps, films & games
+  # Creative Studio and Production House
 permalink: /work/
 slug: work
 background-color: "#f8f8f8"
@@ -21,7 +20,7 @@ background: |
     <img src="./../assets/work/hero-poster.jpg">
   </video>
 
-excerpt: What we make - featured projects
+excerpt: What we make - All projects
 
 ---
 

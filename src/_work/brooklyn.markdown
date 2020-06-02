@@ -4,8 +4,8 @@ layout: work/brooklyn
 title:  "Brooklyn Brewery Special Effects"
 subtitle: "A branded content mini-series"
 button-text: View case
-date:   2019-02-12 12:00:00 +0100
-categories: film
+date: 2020-05-30 12:00:00 +0100
+categories: video
 slug: brooklyn
 client: Brooklyn Brewery
 project: Film

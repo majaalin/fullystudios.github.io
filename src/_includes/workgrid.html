@@ -11,7 +11,7 @@
     <nav aria-labelledby="filter" class="filter boxgrid__info">
         <h2 class="visuallyhidden">Selected work filter</h2>
         <a class="link{% if page.category == 'all' %} link--active {% endif%}" href={{site.works}}#projects><span>All</span></a> 
-        <a class="link{% if page.category == 'film' %} link--active {% endif%}" href={{site.works_film}}#projects><span>Film</span></a> 
+        <a class="link{% if page.category == 'video' %} link--active {% endif%}" href={{site.works_video}}#projects><span>Video</span></a> 
         <a class="link{% if page.category == 'web' %} link--active {% endif%}" href={{site.works_web}}#projects><span>Web</span></a> 
         <a class="link{% if page.category == 'apps' %} link--active {% endif%}" href={{site.works_apps}}#projects><span>Apps</span></a> 
         <a class="link{% if page.category == 'identity' %} link--active {% endif%}" href={{site.works_identity}}#projects><span>Identity</span></a> 
@@ -38,7 +38,6 @@
         {% endunless %}
 
         <div class="boxgrid__box">
-
             {% if work.preview %}
             <a data-preview="{{work.preview}}" href="{{work.url | prepend: site.baseurl}}" class="boxgrid__image boxgrid__image--preview" style="background-color: {{work.background-color}}">
             {% endif %}
@@ -121,7 +120,7 @@ const openVideoModal = (e, video) => {
 }
 
 const closeVideoModal = (e) => {
-    e.preventDefault();
+    e && e.preventDefault();
     player.destroy().then(function() {
         previewModal.classList.remove('preview-modal--open');
     }).catch(function(error) {
@@ -136,5 +135,13 @@ previews.forEach(video => {
 });
 
 previewClose.addEventListener('click', closeVideoModal);
+
+document.addEventListener('keypress', (logKey) => {
+    if (logKey === 'Escape') closeVideoModal();
+});
+
+function logKey(e) {
+  log.textContent += ` ${e.code}`;
+}
 
 </script>

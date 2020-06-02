@@ -52,7 +52,7 @@ morenews: "More news"
 
 # Links
 works: "/work"
-works_film: "/work/film"
+works_video: "/work/video"
 works_web: "/work/web"
 works_apps: "/work/apps"
 works_identity: "/work/identity"

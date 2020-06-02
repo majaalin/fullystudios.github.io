@@ -6,7 +6,7 @@ subtitle: "An interactive world for ICA's children's club"
 author: "Robin Kollberg"
 author-email: robin.kollberg@fullystudios.se
 button-text: View case
-date:   2017-04-27 12:00:00 +0100
+date: 2020-05-30 9:00:0 +0100
 categories: design, web, games
 slug: papricaklubben
 client: ICA

@@ -10,3 +10,5 @@ public
 vendor
 src/assets/bundles
 src/.jekyll-cache
+
+.vercel

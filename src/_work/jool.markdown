@@ -4,7 +4,7 @@ layout: work/jool
 title:  "JOOL"
 subtitle: "A financial service for bond investments"
 button-text: View case
-date:   2019-02-04 11:00:00 +0100
+date: 2020-05-30 10:00:00 +0100
 categories: web
 slug: jool
 client: JOOL Markets

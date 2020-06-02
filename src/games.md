@@ -1,15 +1,15 @@
 ---
 layout: work
-title: Games
+title: Creative Studio and Production House
 category: games
 pagetitle: |
-  # We make games
+  # Creative Studio and Production House
 permalink: /work/games/
 slug: work/games
 background-color: "#f8f8f8"
 
 sublink: '#projects'
-sublink-text: Let's game
+sublink-text: All projects
 
 background: |
   <video class="hero__background" poster="./../../assets/work/hero-poster.jpg" loop autoplay muted playsinline>
@@ -17,7 +17,7 @@ background: |
     <img src="./../../assets/work/hero-poster.jpg">
   </video>
 
-excerpt: A collection of games and gamification projects the we on Fully are extra proud of
+excerpt: We make games
 
 ---
 

@@ -1,15 +1,15 @@
 ---
 layout: work
-title: Web
+title: Creative Studio and Production House
 category: web
 pagetitle: |
-  # We love the web
+  # Creative Studio and Production House
 permalink: /work/web/
 slug: work/web
 background-color: "#f8f8f8"
 
 sublink: '#projects'
-sublink-text: Keep scrollin
+sublink-text: All projects
 
 background: |
   <video class="hero__background" poster="./../../assets/work/hero-poster.jpg" loop autoplay muted playsinline>
@@ -17,7 +17,7 @@ background: |
     <img src="./../../assets/work/hero-poster.jpg">
   </video>
 
-excerpt: A collection of websites and PWA's that is simply great
+excerpt: We love the web
 
 ---
 
