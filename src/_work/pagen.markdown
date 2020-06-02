@@ -22,6 +22,7 @@ promo-image: "promo.png"
 
 casetop-bgcolor: "#342971"
 casetop-video: casetop.mp4
+preview: 289837071
 
 shareimage: work/pagen/shareimage.png
 

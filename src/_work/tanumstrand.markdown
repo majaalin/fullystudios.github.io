@@ -22,6 +22,7 @@ casetop-bg_1440: casetop_bg@2x.jpg
 casetop-video: casetop.mp4
 
 shareimage: work/tanumstrand/shareimage.png
+preview: 162523357
 
 ingress: |
   TanumStrand is a hotel and retreat center on Sweden’s west coast, close-ish to the Norwegian border. With its granite archipelagos, misty mornings and gently rocking rowboats, it’s an idyll that would make any Swedish ex-pat weep. 

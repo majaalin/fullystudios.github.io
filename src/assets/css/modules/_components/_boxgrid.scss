@@ -46,7 +46,6 @@ $bgMqLarge: 1100px;
             outline: none;
             transform: translateY(-$s-small*0.5);
         }
-
     }
     &__box {
         width: 30em;
@@ -118,6 +117,27 @@ $bgMqLarge: 1100px;
         @media (min-width: $bgMqMedium) {
             transform: translate($s-small, -$s-small);
         }
+        &--preview {
+            position: relative;
+            &:hover {
+                .boxgrid__playicon {
+                    opacity: 1;
+                    transform: scale(1);
+                }
+            }
+        }
+    }
+    
+    .boxgrid__playicon {
+        position: absolute;
+        top: 35%;
+        left: 40%;
+        width: 20%;
+        height: auto;
+        pointer-events: none;
+        opacity: 0;
+        transform: scale(0.9) rotate(-10deg);
+        transition: opacity 0.3s, transform 0.3s cubic-bezier(.48,.57,.44,1);
     }
 
     // The box border effect
@@ -140,6 +160,7 @@ $bgMqLarge: 1100px;
             right: 8em;
         }
     }
+
 
     &--curiosity {
         .boxgrid__header {

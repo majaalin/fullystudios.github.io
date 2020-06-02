@@ -205,6 +205,9 @@ $bshadow: 3px; // the size of the shadow
 	padding: $s-small*0.5;
 	// min-width: 4em;
 	display: inline-block;
+	border: 0;
+	background: none;
+
 	&:before {
 		content: "";
 		position: absolute;

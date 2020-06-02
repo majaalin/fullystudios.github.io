@@ -19,6 +19,7 @@ author-email: jakob.ahl@fullystudios.se
 promo-image: "promo.png"
 casetop-bgcolor: "#009844"
 casetop-video: casetop.mp4
+preview: 313375709
 
 shareimage: work/brooklyn/shareimage.jpg
 

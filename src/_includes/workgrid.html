@@ -37,9 +37,14 @@
             {% endunless %}
         {% endunless %}
 
-        <a href="{{work.url | prepend: site.baseurl}}" class="boxgrid__box">
+        <div class="boxgrid__box">
 
+            {% if work.preview %}
+            <a data-preview="{{work.preview}}" href="{{work.url | prepend: site.baseurl}}" class="boxgrid__image boxgrid__image--preview" style="background-color: {{work.background-color}}">
+            {% endif %}
+            {% if work.preview == nil %}
             <div class="boxgrid__image" style="background-color: {{work.background-color}}">
+            {% endif %}
                 {% if work.thumbnail-video %}
                 <video width="720" height="415" muted playsinline loop autoplay>
                     <source src="{{site.baseurl}}/assets/work/{{work.slug}}/{{work.thumbnail-video}}" type="video/mp4">
@@ -49,17 +54,80 @@
                 {% if work.background-image_720 and work.thumbnail-video == nil  %}
                     <img src="{{site.baseurl}}/assets/work/{{work.slug}}/{{work.background-image_720}}" alt="{{work.title}}">
                 {% endif %}
+                <img class="boxgrid__playicon" src="{{site.baseurl}}/assets/icons/controls-play.svg" />
+            {% if work.preview %}
+            </a>
+            {% endif %}
+            {% if work.preview == nil %}
             </div>
+            {% endif %}
+
 
             <div class="boxgrid__caption">
                 <div>
                     <h3>{{work.title}}</h3>
                     <p>{{work.subtitle}}</p>
                 </div>
-                <div class="button"><span>{{work.button-text}}</span></div>
+                <a href="{{work.url | prepend: site.baseurl}}" class="button"><span>{{work.button-text}}</span></a>
             </div>
-        </a>
+        </div>
 
     {% endfor %}
 
 </section>
+
+<div id="preview-modal" class="preview-modal">
+    <button id="preview-close" type="button" class="link link--next link--invert preview-close"><span>Close</span></button>
+</div>
+
+<script src="https://player.vimeo.com/api/player.js"></script>
+<script>
+const previewModal = document.getElementById('preview-modal');
+const previewClose = document.getElementById('preview-close');
+let vimeoVideo = null;
+let player = null;
+
+// When clickin on a case with a preview,
+// open a fullscreen modal and play a vimeo video 
+const openVideoModal = (e, video) => {
+    e.preventDefault();
+    const vimeoId = video.dataset.preview;
+
+    previewModal.classList.add('preview-modal--open');
+    console.log(vimeoId);
+    console.log(previewModal);
+
+    vimeoVideo = document.createElement("iframe");
+    vimeoVideo.src = `https://player.vimeo.com/video/${vimeoId}`;
+    vimeoVideo.width ="1920";
+    vimeoVideo.height = "1080";
+    vimeoVideo.frameborder = "0";
+    vimeoVideo.webkitallowfullscreen = true;
+    vimeoVideo.mozallowfullscreen = true;
+    vimeoVideo.allowfullscreen = true;
+    vimeoVideo.allow = "autoplay; encrypted-media";
+
+    previewModal.appendChild(vimeoVideo);
+
+    player = new Vimeo.Player(vimeoVideo);
+    player.play();
+}
+
+const closeVideoModal = (e) => {
+    e.preventDefault();
+    player.destroy().then(function() {
+        previewModal.classList.remove('preview-modal--open');
+    }).catch(function(error) {
+        console.error('could not destroy preview video when closing modal', error);
+    });
+}
+
+const previews = [...document.querySelectorAll('[data-preview]')];
+previews.forEach(video => {
+    console.log(video);
+    video.addEventListener('click', (e) => openVideoModal(e, video));
+});
+
+previewClose.addEventListener('click', closeVideoModal);
+
+</script>

@@ -22,6 +22,7 @@ casetop-video: WEIBULLS_WEBSITE_CASE_643x360.mp4
 casetop-bgcolor: "#B2CE56"
 promo-image: promo.png
 shareimage: work/weibulls/shareimage.jpg
+preview: 337773820
 
 ingress: |
   You don’t need to be a master gardener to get things growing. To give weight to this statement, gardening brand Weibulls followed a group of – for other reasons than gardening – celebrated swedes in their quest of creating a green oasis.
