@@ -100,8 +100,6 @@ const openVideoModal = (e, video) => {
     const vimeoId = video.dataset.preview;
 
     previewModal.classList.add('preview-modal--open');
-    console.log(vimeoId);
-    console.log(previewModal);
 
     vimeoVideo = document.createElement("iframe");
     vimeoVideo.src = `https://player.vimeo.com/video/${vimeoId}?controls=1`;
@@ -121,23 +119,28 @@ const openVideoModal = (e, video) => {
 
 const closeVideoModal = (e) => {
     e && e.preventDefault();
-    player.destroy().then(function() {
-        previewModal.classList.remove('preview-modal--open');
-    }).catch(function(error) {
-        console.error('could not destroy preview video when closing modal', error);
-    });
+    player.pause();
+    previewModal.classList.add('preview-modal--fadeout');
+    window.setTimeout(() => {
+        player.destroy().then(function() {
+            previewModal.classList.remove('preview-modal--open');
+            previewModal.classList.remove('preview-modal--fadeout');
+        }).catch(function(error) {
+            console.error('could not destroy preview video when closing modal', error);
+        });
+    }, 1000)
 }
 
 const previews = [...document.querySelectorAll('[data-preview]')];
 previews.forEach(video => {
-    console.log(video);
     video.addEventListener('click', (e) => openVideoModal(e, video));
 });
 
 previewClose.addEventListener('click', closeVideoModal);
 
-document.addEventListener('keypress', (logKey) => {
-    if (logKey === 'Escape') closeVideoModal();
+document.addEventListener('keydown', (e) => {
+    console.log('key', e);
+    if (e.key === 'Escape' && player) closeVideoModal();
 });
 
 function logKey(e) {
