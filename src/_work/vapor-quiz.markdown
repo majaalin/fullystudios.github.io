@@ -5,7 +5,7 @@ title:  Bauer quiz
 subtitle: Sunny hockey season
 button-text: View case
 date: 2020-06-02 12:00:00 +0100
-categories: web
+categories: web, game
 slug: bauer-quiz
 client: Bauer / The Bond
 project: Game

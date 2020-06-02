@@ -13,7 +13,7 @@
         <a class="link{% if page.category == 'all' %} link--active {% endif%}" href={{site.works}}#projects><span>All</span></a> 
         <a class="link{% if page.category == 'video' %} link--active {% endif%}" href={{site.works_video}}#projects><span>Video</span></a> 
         <a class="link{% if page.category == 'web' %} link--active {% endif%}" href={{site.works_web}}#projects><span>Web</span></a> 
-        <a class="link{% if page.category == 'apps' %} link--active {% endif%}" href={{site.works_apps}}#projects><span>Apps</span></a> 
+        {%- comment -%} <a class="link{% if page.category == 'apps' %} link--active {% endif%}" href={{site.works_apps}}#projects><span>Apps</span></a>  {%- endcomment -%}
         <a class="link{% if page.category == 'identity' %} link--active {% endif%}" href={{site.works_identity}}#projects><span>Identity</span></a> 
         <a class="link{% if page.category == 'games' %} link--active {% endif%}" href={{site.works_games}}#projects><span>Games</span></a> 
     </nav>
@@ -31,7 +31,7 @@
         If page category is all, show all posts, if page cateogy is ex film,
         then only show work posts that has the word film in its categories
         {%- endcomment -%}
-        {% unless page.category == "all" %}
+        {% unless page.category == "all" or page.categories %}
             {% unless work.categories contains page.category %}
                 {% continue %}
             {% endunless %}

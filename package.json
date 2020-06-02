@@ -6,7 +6,7 @@
   "scripts": {
     "start": "rake start",
     "build": "rake build",
-    "deploy": "npm run build && cd public && open .",
+    "deploy": "npm run build && cd public && npx now --prod",
     "webpack": "webpack --config webpack.config.js -p -w --progress --verbose"
   },
   "repository": {
