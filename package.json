@@ -4,10 +4,10 @@
   "description": "Based on jekyll-starter",
   "main": "bundle.js",
   "scripts": {
-    "start": "rake start",
-    "build": "rake build",
-    "deploy": "npm run build && cd public && npx now --prod",
-    "webpack": "webpack --config webpack.config.js -p -w --progress --verbose"
+    "start": "webpack --watch | bundle exec jekyll serve --livereload --incremental",
+    "build": "webpack && bundle exec jekyll build",
+    "deploy": "npm run build && cd public && npx vercel --prod && cd ..",
+    "webpack": "webpack -p"
   },
   "repository": {
     "type": "git",
@@ -20,7 +20,6 @@
   "author": "Jonas Sandstedt",
   "license": "ISC",
   "homepage": "https://fullystudios.se",
-  "browserslist": "last 2 version, > 2%, IE 11",
   "devDependencies": {
     "@babel/core": "^7.10.2",
     "@babel/preset-env": "^7.10.2",

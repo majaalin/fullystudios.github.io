@@ -95,6 +95,11 @@ Get highlighting in markdown files in Sublime:
 3. Set default: Navigate through the following menus in Sublime Text: View -> Syntax -> Open all with current extension as... -> Markdown Extended
 ...
 
+## Automatic stage deploy
+1. Get access from Jonas to https://vercel.com/fullystudios
+2. run npx vercel to make a initial local config on you system (connect to project fullystudios)
+3. run `npm run stage`
+
 ## Manual deployment
 1. in _config.yml, make sure the baseurl is correct
 2. rake build
