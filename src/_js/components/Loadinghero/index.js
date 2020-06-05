@@ -23,6 +23,7 @@ ready(function(){});
     .set('.loadinghero__preview5', { scale: 1.4, y: '-45vh' })
     .set('.loadinghero__preview6', { scale: 0.9, y: '-30vh' })
     .set('.loadinghero__preview7', { scale: 1.2, y: '-98vh' })
+    .set('.loadinghero__heading', { opacity: 1 })
     .add('one', '+=0')
       .from('.loadinghero', 0, {}, 'one')
     .add('two', '-=0')
