@@ -12,3 +12,4 @@ src/assets/bundles
 src/.jekyll-cache
 
 .vercel
+src/.jekyll-metadata

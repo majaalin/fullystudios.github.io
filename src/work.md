@@ -2,8 +2,7 @@
 layout: work-loadinghero
 title: Creative Studio and Production House
 category: all
-pagetitle: |
-  # Creative Studio and Production House
+pagetitle: Creative Studio and Production House
 permalink: /work/
 slug: work
 background-color: "#f8f8f8"

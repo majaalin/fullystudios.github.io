@@ -9,6 +9,7 @@ module.exports = {
     'first-news-flash': path.join(__dirname, 'src/_js', 'news/first-news-flash.js'),
     'summer-2018': path.join(__dirname, 'src/_js', 'news/summer-2018.js'),
     'qgroup': path.join(__dirname, 'src/_js', 'cases/qgroup.js'),
+    loadinghero: path.join(__dirname, 'src/_js', 'components/Loadinghero'),
   },
   output: {
     filename: "[name].js",
