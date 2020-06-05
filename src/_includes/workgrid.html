@@ -14,8 +14,8 @@
         <a class="link{% if page.category == 'video' %} link--active {% endif%}" href={{site.works_video}}#projects><span>Video</span></a> 
         <a class="link{% if page.category == 'web' %} link--active {% endif%}" href={{site.works_web}}#projects><span>Web</span></a> 
         {%- comment -%} <a class="link{% if page.category == 'apps' %} link--active {% endif%}" href={{site.works_apps}}#projects><span>Apps</span></a>  {%- endcomment -%}
-        <a class="link{% if page.category == 'identity' %} link--active {% endif%}" href={{site.works_identity}}#projects><span>Identity</span></a> 
-        <a class="link{% if page.category == 'games' %} link--active {% endif%}" href={{site.works_games}}#projects><span>Games</span></a> 
+        {%- comment -%} <a class="link{% if page.category == 'identity' %} link--active {% endif%}" href={{site.works_identity}}#projects><span>Identity</span></a>  {%- endcomment -%}
+        {%- comment -%} <a class="link{% if page.category == 'games' %} link--active {% endif%}" href={{site.works_games}}#projects><span>Games</span></a>  {%- endcomment -%}
     </nav>
 
     {% for work in items %}
