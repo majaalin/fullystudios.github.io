@@ -23,6 +23,7 @@ casetop-image3_small: hero_720.jpg
 casetop-image3_medium: hero_720.jpg
 # casetop-video: casetop.mp4
 preview: 380508735
+thumbnail-video: ANICURA_SITE_THUMBNAIL.mp4
 
 # shareimage: work/anicura/shareimage.png
 

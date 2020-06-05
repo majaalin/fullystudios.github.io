@@ -15,8 +15,9 @@ background-image_720: "hero_720.jpg"
 background-image_color: "#000"
 
 casetop-bgcolor: "#000"
-# casetop-video: casetop.mp4
+casetop-video: casetop.mp4
 preview: 372593397
+thumbnail-video: NUDGING_SITE_THUMBNAIL.mp4
 
 # shareimage: work/lbs/shareimage.png
 

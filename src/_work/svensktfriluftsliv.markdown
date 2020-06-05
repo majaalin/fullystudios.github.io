@@ -13,7 +13,7 @@ background-image_2880: "hero_1920.jpg"
 background-image_1440: "hero_1920.jpg"
 background-image_720: "hero_1920.jpg"
 background-image_color: "#000"
-
+thumbnail-video: ALLEMANSRATTEN_SITE_THUMBNAIL.mp4
 casetop-bgcolor: "#000"
 # casetop-video: casetop.mp4
 preview: 288175442

@@ -20,6 +20,7 @@ promo-image: "promo.png"
 casetop-bgcolor: "#009844"
 casetop-video: casetop.mp4
 preview: 313375709
+thumbnail-video: BROOKLYN_SOUND_SITE_THUMBNAIL-Wi-Fi Low.mp4
 
 shareimage: work/brooklyn/shareimage.jpg
 

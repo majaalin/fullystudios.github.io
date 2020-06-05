@@ -43,6 +43,8 @@ casetop-image3_medium: casetop_image3@2x.jpg
 
 shareimage: work/qgroup/shareimage.png
 
+# thumbnail-video: QGROUP_SITE_THUMBNAIL.mp4
+
 ingress: |
   Qgroup is a global technology company that offers pretty much everything in the digital realm. They have offices all around the world, but their heart and head(quarters) remain in their beloved Malmö.
 

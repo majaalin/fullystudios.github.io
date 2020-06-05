@@ -4,10 +4,12 @@
   "description": "Based on jekyll-starter",
   "main": "bundle.js",
   "scripts": {
-    "start": "webpack --watch | bundle exec jekyll serve --livereload --incremental",
+    "jekyll": "bundle exec jekyll serve --livereload",
+    "start": "webpack --watch | bundle exec jekyll serve --livereload",
     "build": "webpack && bundle exec jekyll build",
     "stage": "npm run build && cd public && npx vercel --prod && cd ..",
-    "webpack": "webpack -p"
+    "webpack": "webpack -p",
+    "webpack-watch": "webpack --watch"
   },
   "repository": {
     "type": "git",
