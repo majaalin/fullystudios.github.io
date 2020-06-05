@@ -7,11 +7,13 @@ import enableInlineVideo from 'iphone-inline-video';
 
 import defaultHero from './news/fully-hero.js';
 import threeHouses from './news/threeHouses.js';
+import workGrid from './components/workGrid';
 
 document.addEventListener("DOMContentLoaded", () => {
 
     defaultHero();
     threeHouses();
+    workGrid();
 
     // Scroll reveal animations
     // Usage: add data-scroll on an html element to toggle the classes visible and invisible
