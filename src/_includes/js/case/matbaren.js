@@ -1,4 +1,5 @@
-
+import gsap from 'gsap';
+import CubicBezier from './../gsap-cubicbezier.js';
 
 // TODO: Make sure so mouseout/touchend doesn't trigger before start_case2 has animated
 // Note the dubble trigger from the event lisseners
@@ -24,11 +25,11 @@ ready(function(){
 
     // Reset
     var reset_case2 = function(){
-        TweenMax.set("#mbkz_bg", { rotationX:20, rotationZ:15, x:0, y:0, z:0 });
-        TweenMax.set("#mbkz_menu", { rotationX:20, rotationZ:15, x:-3, y:-10, z:40 }); 
-        TweenMax.set("#mbkz_side", { rotationX:20, rotationZ:15, x:-3, y:-20, z:60 });
-        TweenMax.set("#mbkz_content", { rotationX:20, rotationZ:15, x:-10, y:-2, z:15 });
-        TweenMax.set(".mbkz_textrow", { x:-5, y:-5 });
+        gsap.set("#mbkz_bg", { rotationX:20, rotationZ:15, x:0, y:0, z:0 });
+        gsap.set("#mbkz_menu", { rotationX:20, rotationZ:15, x:-3, y:-10, z:40 }); 
+        gsap.set("#mbkz_side", { rotationX:20, rotationZ:15, x:-3, y:-20, z:60 });
+        gsap.set("#mbkz_content", { rotationX:20, rotationZ:15, x:-10, y:-2, z:15 });
+        gsap.set(".mbkz_textrow", { x:-5, y:-5 });
     }
     reset_case2();
 
@@ -36,23 +37,23 @@ ready(function(){
         if (hover_case2) return;
         hover_case2 = true;
         // console.log('start');
-        TweenMax.to("#mbkz_bg", t, { rotationX:0, rotationZ:0, x:0, y:0, z:0, ease: easeBounce });
-        TweenMax.to("#mbkz_menu", t, { rotationX:0, rotationZ:0, x:0, y:0, z:0, ease: easeBounce }); 
-        TweenMax.to("#mbkz_side", t, { rotationX:0, rotationZ:0, x:0, y:0, z:0, ease: easeBounce });
-        TweenMax.to("#mbkz_content", t, { rotationX:0, rotationZ:0, x:0, y:0, z:0, ease: easeBounce });
+        gsap.to("#mbkz_bg", t, { rotationX:0, rotationZ:0, x:0, y:0, z:0, ease: easeBounce });
+        gsap.to("#mbkz_menu", t, { rotationX:0, rotationZ:0, x:0, y:0, z:0, ease: easeBounce }); 
+        gsap.to("#mbkz_side", t, { rotationX:0, rotationZ:0, x:0, y:0, z:0, ease: easeBounce });
+        gsap.to("#mbkz_content", t, { rotationX:0, rotationZ:0, x:0, y:0, z:0, ease: easeBounce });
 
-        TweenMax.staggerTo(".mbkz_textrow", 0.5, {x:0, y:0, ease:Back.easeOut, onComplete: function(){hover_case2 = false} }, 0.05);
+        gsap.staggerTo(".mbkz_textrow", 0.5, {x:0, y:0, ease:Back.easeOut, onComplete: function(){hover_case2 = false} }, 0.05);
     }
 
     var end_case2 = function() {
         if (hover_case2) return;
         // console.log('end');
-        TweenMax.to("#mbkz_bg", t, { rotationX:20, rotationZ:15, x:0, y:0, z:0, ease: easeBounce });
-        TweenMax.to("#mbkz_menu", t, { rotationX:20, rotationZ:15, x:-3, y:-10, z:40, ease: easeBounce }); 
-        TweenMax.to("#mbkz_side", t, { rotationX:20, rotationZ:15, x:-3, y:-20, z:60, ease: easeBounce });
-        TweenMax.to("#mbkz_content", t, { rotationX:20, rotationZ:15, x:-10, y:-2, z:15, ease: easeBounce });
+        gsap.to("#mbkz_bg", t, { rotationX:20, rotationZ:15, x:0, y:0, z:0, ease: easeBounce });
+        gsap.to("#mbkz_menu", t, { rotationX:20, rotationZ:15, x:-3, y:-10, z:40, ease: easeBounce }); 
+        gsap.to("#mbkz_side", t, { rotationX:20, rotationZ:15, x:-3, y:-20, z:60, ease: easeBounce });
+        gsap.to("#mbkz_content", t, { rotationX:20, rotationZ:15, x:-10, y:-2, z:15, ease: easeBounce });
 
-        TweenMax.staggerTo(".mbkz_textrow", 0.5, {x:-5, y:-5, ease:Back.easeOut}, 0.05);
+        gsap.staggerTo(".mbkz_textrow", 0.5, {x:-5, y:-5, ease:Back.easeOut}, 0.05);
     }
 
     // Events

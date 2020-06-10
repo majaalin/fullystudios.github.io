@@ -1,6 +1,5 @@
 import lottie from 'lottie-web';
 
-{% include js/gsap-cubicbezier.js %}
 // {% include js/lottie.min.js %}
 
 // Init all code on document eady
