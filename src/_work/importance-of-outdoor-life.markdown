@@ -15,7 +15,7 @@ background-image_720: "hero_720.jpg"
 background-image_color: "#000"
 thumbnail-video: FRILUFTSLIV_SITE_THUMBNAIL.mp4
 casetop-bgcolor: "#000"
-# casetop-video: casetop.mp4
+casetop-video: casetop.mp4
 preview: 296820982
 
 # shareimage: work/importance-of-outdoor-life/shareimage.png

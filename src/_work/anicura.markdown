@@ -15,13 +15,13 @@ background-image_720: "hero_720.jpg"
 background-image_color: "#e8bdc6"
 
 casetop-bgcolor: "#e8bdc6"
-casetop-image1_small: hero_720.jpg
-casetop-image1_medium: hero_720.jpg
-casetop-image2_small: hero_720.jpg
-casetop-image2_medium: hero_720.jpg
-casetop-image3_small: hero_720.jpg
-casetop-image3_medium: hero_720.jpg
-# casetop-video: casetop.mp4
+# casetop-image1_small: hero_720.jpg
+# casetop-image1_medium: hero_720.jpg
+# casetop-image2_small: hero_720.jpg
+# casetop-image2_medium: hero_720.jpg
+# casetop-image3_small: hero_720.jpg
+# casetop-image3_medium: hero_720.jpg
+casetop-video: casetop.mp4
 preview: 380508735
 thumbnail-video: ANICURA_SITE_THUMBNAIL.mp4
 
