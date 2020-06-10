@@ -1,4 +1,6 @@
 ---
+order: 14
+order-in-video: 9
 onlypreview: true
 layout: case-film
 title:  "LBS"

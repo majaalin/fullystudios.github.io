@@ -1,4 +1,6 @@
 ---
+order: 17
+order-in-video: 11
 onlypreview: true
 layout: case-film
 title:  "Mini documentaries"
@@ -7,8 +9,8 @@ button-text: Play video
 date: 2020-05-22 12:00:00 +0100
 categories: video
 slug: mini-documentaries
-client: Humly
-project: Animated film
+client: Personal project
+project: Live action
 background-image_2880: "hero_1920.jpg"
 background-image_1440: "hero_1920.jpg"
 background-image_720: "hero_720.jpg"

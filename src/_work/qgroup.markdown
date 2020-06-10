@@ -1,4 +1,7 @@
 ---
+order: 3
+order-in-web: 2
+order-in-identity: 1
 archived: false
 layout: work/qgroup
 title:  "Qgroup"

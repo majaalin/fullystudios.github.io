@@ -2,7 +2,7 @@
 layout: work-loadinghero
 title: Creative Studio and Production House
 category: games
-pagetitle: Creative Studio and Production House
+pagetitle: Whatever we do, we attempt to do it fully
 permalink: /work/games/
 slug: work/games
 background-color: "#f8f8f8"

@@ -2,7 +2,7 @@
 layout: work-loadinghero
 title: Creative Studio and Production House
 category: apps
-pagetitle: Creative Studio and Production House
+pagetitle: Whatever we do, we attempt to do it fully
 permalink: /work/apps/
 slug: work/apps
 background-color: "#f8f8f8"

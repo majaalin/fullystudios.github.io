@@ -4,7 +4,13 @@
 
 -->
 <!-- Get all work posts and revers them -->
-{% assign items = site.work | sort: 'date' | reverse %}
+{%- comment -%} {% assign items = site.work | sort: 'date' | reverse %} {%- endcomment -%}
+{% assign items = site.work | sort: 'order' %}
+
+{% unless page.category == "all" or page.categories %}
+    {% assign specialorder = 'order-in-' | append: page.category %}
+    {% assign items = site.work | sort: specialorder %}
+{% endunless %}
 
 <section class="boxgrid boxgrid--compact">
     <h2 class="boxgrid__header h4">Selected work</h2>

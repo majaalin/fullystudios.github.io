@@ -1,4 +1,7 @@
 ---
+order: 6
+order-in-web: 4
+order-in-games: 2
 archived: false
 layout: work/papricaklubben
 title:  "Paprica&shy;klubben"

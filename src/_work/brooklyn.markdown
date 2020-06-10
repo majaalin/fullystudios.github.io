@@ -1,4 +1,6 @@
 ---
+order: 4
+order-in-video: 3
 archived: false
 layout: work/brooklyn
 title:  "Brooklyn Brewery Special Effects"
@@ -13,14 +15,13 @@ background-image_2880: "hero@2x.jpg"
 background-image_1440: "hero@1.jpg"
 background-image_720: "hero@1.jpg"
 background-image_color: "#3d3f9b"
-thumbnail-video: casetop.mp4
+thumbnail-video: casetop_vfx.mp4
 author: Jakob Åhl
 author-email: jakob.ahl@fullystudios.se
 promo-image: "promo.png"
 casetop-bgcolor: "#009844"
-casetop-video: casetop.mp4
+casetop-video: casetop_vfx.mp4
 preview: 313375709
-thumbnail-video: BROOKLYN_SOUND_SITE_THUMBNAIL-Wi-Fi Low.mp4
 
 shareimage: work/brooklyn/shareimage.jpg
 

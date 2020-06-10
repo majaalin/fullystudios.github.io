@@ -1,4 +1,6 @@
 ---
+order: 15
+order-in-web: 7
 archived: false
 layout: work/click-or-treat
 title:  Liseberg

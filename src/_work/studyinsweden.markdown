@@ -1,4 +1,6 @@
 ---
+order: 13
+order-in-web: 6
 archived: false
 layout: work/studyinsweden
 title:  "Study in Sweden"

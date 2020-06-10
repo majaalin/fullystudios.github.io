@@ -1,4 +1,6 @@
 ---
+order: 8
+order-in-web: 5
 archived: false
 layout: work/svenskaskolan-london
 title:  "The Swedish School in London"

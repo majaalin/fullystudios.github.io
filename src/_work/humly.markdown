@@ -1,4 +1,6 @@
 ---
+order: 9
+order-in-video: 5
 onlypreview: true
 layout: case-film
 title:  "Humly"

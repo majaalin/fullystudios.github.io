@@ -1,4 +1,6 @@
 ---
+order: 11
+order-in-video: 6
 archived: false
 layout: work/pagen
 title:  "Pågen"

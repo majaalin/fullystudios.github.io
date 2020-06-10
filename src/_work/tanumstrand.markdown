@@ -1,4 +1,6 @@
 ---
+order: 16
+order-in-video: 10
 archived: false
 layout: work/tanumstrand
 title:  "TanumStrand"

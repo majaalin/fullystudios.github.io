@@ -1,4 +1,7 @@
 ---
+order: 1
+order-in-web: 1
+order-in-game: 1
 archived: false
 layout: work/bauer-quiz
 title:  Bauer quiz

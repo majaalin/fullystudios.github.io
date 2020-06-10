@@ -1,4 +1,6 @@
 ---
+order: 14
+orderInCategory: 0
 onlypreview: true
 layout: case-film
 title:  "Svenskt Friluftsliv"
@@ -8,7 +10,7 @@ date: 2020-05-24 12:00:00 +0100
 categories: video
 slug: importance-of-outdoor-life
 client: Svenskt Friluftsliv
-project: Animated film
+project: Live action
 background-image_2880: "hero_1920.jpg"
 background-image_1440: "hero_1920.jpg"
 background-image_720: "hero_720.jpg"

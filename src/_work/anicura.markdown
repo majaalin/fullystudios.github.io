@@ -1,4 +1,6 @@
 ---
+order: 12
+order-in-video: 7
 onlypreview: true
 layout: case-film
 title:  "AniCura"

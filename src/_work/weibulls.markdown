@@ -1,4 +1,6 @@
 ---
+order: 2
+order-in-video: 1
 archived: false
 layout: work/weibulls
 title:  "Weibulls"
