@@ -9,11 +9,11 @@ layout: default
         {% for heropreview in page.hero-previews %}
           {% assign previewIndex = forloop.index %}
           {% if heropreview.type == "video" %}
-            <video src="{{site.baseurl}}/assets/work/loadinghero/{{heropreview.path}}" class="loadinghero__preview loadinghero__preview{{previewIndex}} loadinghero__preview--{{heropreview.orientation}} loadinghero__video" autoplay playsinline muted>
+            <video src="{{site.baseurl}}/assets/{{heropreview.path}}" class="loadinghero__preview loadinghero__preview{{previewIndex}} loadinghero__preview--{{heropreview.orientation}} loadinghero__video" autoplay playsinline muted>
               <source src="{{heropreview.path}}" type="video/mp4">
             </video>
           {% else %}
-            <img src="{{site.baseurl}}/assets/work/loadinghero/{{heropreview.path}}" alt="{{heropreview.title}}" class="loadinghero__image loadinghero__preview loadinghero__preview{{previewIndex}} loadinghero__preview--{{heropreview.orientation}}"/>
+            <img src="{{site.baseurl}}/assets/{{heropreview.path}}" alt="{{heropreview.title}}" class="loadinghero__image loadinghero__preview loadinghero__preview{{previewIndex}} loadinghero__preview--{{heropreview.orientation}}"/>
           {% endif %}
         {% endfor %}
       </div>

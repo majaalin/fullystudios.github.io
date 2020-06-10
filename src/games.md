@@ -12,31 +12,31 @@ sublink-text: All projects
 excerpt: We make games
 
 hero-previews: 
-  - path: ratt.jpg
+  - path: work/loadinghero/ratt.jpg
     title: Rätt
     orientation: landscape
     type: image
-  - path: pinchovip.jpg
+  - path: work/loadinghero/pinchovip.jpg
     title: Pinchoversity
     orientation: portrait
     type: image
-  - path: jool.jpg
+  - path: work/loadinghero/jool.jpg
     title: Jool Investment Portal
     orientation: portrait
     type: image
-  - path: weibulls.jpg
-    title: Weibulls
+  - path: work/loadinghero/collector.jpg
+    title: Collector
     orientation: landscape
     type: image
-  - path: qgroup.png
+  - path: work/loadinghero/qgroup.png
     title: Q Group
     orientation: landscape
     type: image
-  - path: collector.jpg
-    title: Collector Bank
+  - path: work/brooklyn/casetop_vfx.mp4
+    title: Brooklyn VFX
     orientation: landscape
-    type: image
-  - path: video1.mp4
+    type: video
+  - path: work/weibulls/WEIBULLS_WEBSITE_CASE_643x360.mp4
     title: Film
     orientation: landscape
     type: video
