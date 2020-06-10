@@ -105,10 +105,13 @@ $animDelay: 0.3s;
   opacity: 0;
   transition: opacity $fadeAnimLength $animDelay linear, transform $animLength $animDelay linear;
 }
+@keyframes loadingHero {
+  to { transform: translate3d(0px, 0vh, 0px); opacity: 1 }
+}
 .loadinghero__heading {
   opacity: 0;
-  transition: opacity  0.8s 0s linear, transform 1.2s 0s cubic-bezier(0.215, 0.610, 0.355, 1);
   transform: translate3d(0px, 5vh, 0px);
+  animation: loadingHero 1.2s cubic-bezier(0.215, 0.610, 0.355, 1) forwards;
 }
 .loadinghero__preview1 { transform: scale(1.1) translate3d(0px, -40vh, 0px) }
 .loadinghero__preview2 { transform: scale(1.1) translate3d(0px, -60vh, 0px) }
@@ -120,9 +123,6 @@ $animDelay: 0.3s;
 
 // CSS animation - all content loaded
 .content-loaded {
-  .loadinghero__heading {
-    transform: translate3d(0px, 0vh, 0px); opacity: 1;
-  }
   .loadinghero__preview1 { transform: scale(1.1) translate3d(0px, -70vh, 0px); opacity: 1 }
   .loadinghero__preview2 { transform: scale(1.1) translate3d(0px, -100vh, 0px); opacity: 1 }
   .loadinghero__preview3 { transform: scale(1.2) translate3d(0px, -110vh, 0px); opacity: 1 }

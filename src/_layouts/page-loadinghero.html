@@ -4,7 +4,7 @@ layout: default
 
 <article class="page page--{{ page.slug }}">	
   <header class="loadinghero">
-      <h1 class="loadinghero__heading">{{page.pagetitle}}</h1>
+      <h1 class="loadinghero__heading"><div id="loadinghero-header">{{page.pagetitle}}</div></h1>
       <div class="loadinghero__previews-wrapper">
         {% for heropreview in page.hero-previews %}
           {% assign previewIndex = forloop.index %}
