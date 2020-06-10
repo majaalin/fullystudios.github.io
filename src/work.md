@@ -11,10 +11,10 @@ sublink-text: All projects
 excerpt: What we make - All projects
 
 hero-previews: 
-  - path: work/loadinghero/ratt.jpg
-    title: Rätt
+  - path: work/brooklyn/BROOKLYN_SPECIAL_THUMBNAIL.mp4
+    title: Brooklyn VFX
     orientation: landscape
-    type: image
+    type: video
   - path: work/loadinghero/pinchovip.jpg
     title: Pinchoversity
     orientation: portrait
@@ -31,11 +31,11 @@ hero-previews:
     title: Q Group
     orientation: landscape
     type: image
-  - path: work/brooklyn/casetop_vfx.mp4
-    title: Brooklyn VFX
+  - path: work/loadinghero/ratt.jpg
+    title: Rätt
     orientation: landscape
-    type: video
-  - path: work/weibulls/WEIBULLS_WEBSITE_CASE_643x360.mp4
+    type: image
+  - path: work/weibulls/WEIBULLS_THUMBNAIL.mp4
     title: Film
     orientation: landscape
     type: video

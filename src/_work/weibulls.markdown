@@ -15,12 +15,12 @@ background-image_2880: "hero@2x.jpg"
 background-image_1440: "hero@1x.jpg"
 background-image_720: "hero@1x.jpg"
 background-image_color: "#156290"
-thumbnail-video: WEIBULLS_WEBSITE_CASE_643x360.mp4
+thumbnail-video: WEIBULLS_THUMBNAIL.mp4
 author: Jakob Åhl
 author-email: jakob.ahl@fullystudios.se
 casetop-bg_640: bg-top.jpg
 casetop-bg_1440: bg-top.jpg
-casetop-video: WEIBULLS_WEBSITE_CASE_643x360.mp4
+casetop-video: WEIBULLS_CASETOP.mp4
 casetop-bgcolor: "#B2CE56"
 promo-image: promo.png
 shareimage: work/weibulls/shareimage.jpg

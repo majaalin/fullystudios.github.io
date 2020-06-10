@@ -32,11 +32,11 @@ hero-previews:
     title: Q Group
     orientation: landscape
     type: image
-  - path: work/brooklyn/casetop_vfx.mp4
+  - path: work/brooklyn/BROOKLYN_SPECIAL_THUMBNAIL.mp4
     title: Brooklyn VFX
     orientation: landscape
     type: video
-  - path: work/weibulls/WEIBULLS_WEBSITE_CASE_643x360.mp4
+  - path: work/weibulls/WEIBULLS_THUMBNAIL.mp4
     title: Film
     orientation: landscape
     type: video
