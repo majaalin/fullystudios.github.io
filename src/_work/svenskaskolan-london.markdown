@@ -5,7 +5,7 @@ title:  "The Swedish School in London"
 subtitle: "One of a kind. In fact."
 button-text: View case
 date: 2020-05-29 10:00:00 +0100
-categories: web, identity
+categories: web identity
 slug: swedishschool-london
 client: The Swedish School in London
 project: Profile & Website

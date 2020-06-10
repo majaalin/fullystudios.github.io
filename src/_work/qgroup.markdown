@@ -5,7 +5,7 @@ title:  "Qgroup"
 subtitle: "A tunnel and a website"
 button-text: View case
 date: 2020-05-30 13:00:00 +0100
-categories: design, identity, web
+categories: design identity web
 slug: qgroup
 client: Qgroup
 project: Website

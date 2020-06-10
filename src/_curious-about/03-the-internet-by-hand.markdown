@@ -4,7 +4,7 @@ type: curious-about
 title:  "The Internet by hand"
 subtitle: "An old art meets the new web"
 date:   2017-04-27 11:07:00 +0100
-categories: art, design, web
+categories: art design web
 slug: the-internet-by-hand
 background-image_720: "hero_720.jpg"
 background-image_color: "#ffde7f"

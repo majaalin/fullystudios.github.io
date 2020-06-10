@@ -3,7 +3,7 @@ layout: curious/opinionated-ecommerce
 title:  "Opinionated e&#x2011;commerce"
 subtitle: "Fully’s web store experiments"
 date:   2016-11-30 12:00:00 +0100
-categories: e-commerce, web, UX
+categories: e-commerce web UX
 slug: opinionated-ecommerce
 background-image_720: "hero_720.jpg"
 background-image_1440: "hero.jpg"

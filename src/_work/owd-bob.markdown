@@ -8,7 +8,7 @@ author: "Robin Kollberg"
 author-email: robin.kollberg@fullystudios.se
 button-text: View case
 date:   2017-04-18 12:00:00 +0100
-categories: web, identity
+categories: web identity
 slug: owd-bob
 client: Internal lab
 project: E-commerce
