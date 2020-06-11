@@ -1,6 +1,6 @@
 ---
 order: 7
-order-in-video: 4
+order-in-video: 1
 onlypreview: true
 layout: case-film
 title:  "Svenskt Friluftsliv"

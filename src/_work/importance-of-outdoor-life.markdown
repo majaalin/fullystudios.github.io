@@ -1,6 +1,6 @@
 ---
 order: 14
-order-in-video: 14
+order-in-video: 5
 onlypreview: true
 layout: case-film
 title:  "Svenskt Friluftsliv"
@@ -15,7 +15,7 @@ background-image_2880: "hero_1920.jpg"
 background-image_1440: "hero_1920.jpg"
 background-image_720: "hero_720.jpg"
 background-image_color: "#000"
-thumbnail-video: FRILUFTSLIV_SITE_THUMBNAIL.mp4
+# thumbnail-video: FRILUFTSLIV_SITE_THUMBNAIL.mp4
 casetop-bgcolor: "#000"
 casetop-video: casetop.mp4
 preview: 296820982

@@ -16,9 +16,9 @@
     <h2 class="boxgrid__header h4">Selected work</h2>
     <nav aria-labelledby="filter" class="filter boxgrid__info">
         <h2 class="visuallyhidden">Selected work filter</h2>
-        <a class="link{% if page.category == 'all' %} link--active {% endif%}" href={{site.works}}><span>All</span></a> 
-        <a class="link{% if page.category == 'video' %} link--active {% endif%}" href={{site.works_video}}><span>Video</span></a> 
-        <a class="link{% if page.category == 'web' %} link--active {% endif%}" href={{site.works_web}}><span>Web</span></a> 
+        <a class="link{% if page.category == 'all' %} link--active {% endif%}" href="{{site.works}}#projects"><span>All</span></a> 
+        <a class="link{% if page.category == 'video' %} link--active {% endif%}" href="{{site.works_video}}#projects"><span>Video</span></a> 
+        <a class="link{% if page.category == 'web' %} link--active {% endif%}" href="{{site.works_web}}#projects"><span>Web</span></a> 
         
         {%- comment -%} <a class="link{% if page.category == 'apps' %} link--active {% endif%}" href={{site.works_apps}}><span>Apps</span></a> {%- endcomment -%}
         {%- comment -%} <a class="link{% if page.category == 'identity' %} link--active {% endif%}" href={{site.works_identity}}><span>Identity</span></a>  {%- endcomment -%}

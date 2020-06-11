@@ -1,15 +1,21 @@
 ---
-layout: work-loadinghero
+layout: work
 title: Creative Studio and Production House
 category: video
-pagetitle: Whatever we do, we attempt to do it fully
+pagetitle: |
+  # Motion & Storytelling
 permalink: /work/video/
 slug: work/video
 background-color: "#f8f8f8"
+background: |
+  <video class="hero__background" poster="./../../assets/work/hero-poster.jpg" loop autoplay muted playsinline>
+    <source src="./../../assets/work/hero.mp4">
+    <img src="./../../assets/work/hero-poster.jpg">
+  </video>
 
 sublink: '#projects'
 sublink-text: All projects
-excerpt: We make videos
+excerpt: Motion & Storytelling
 
 hero-previews: 
   - path: work/loadinghero/ratt.jpg

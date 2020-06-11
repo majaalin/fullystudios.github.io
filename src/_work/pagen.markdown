@@ -1,6 +1,6 @@
 ---
 order: 11
-order-in-video: 6
+order-in-video: 7
 archived: false
 layout: work/pagen
 title:  "Pågen"
@@ -24,7 +24,7 @@ promo-image: "promo.png"
 casetop-bgcolor: "#342971"
 casetop-video: casetop.mp4
 preview: 289837071
-thumbnail-video: PAGEN_SITE_THUMBNAIL.mp4
+# thumbnail-video: PAGEN_SITE_THUMBNAIL.mp4
 
 shareimage: work/pagen/shareimage.png
 

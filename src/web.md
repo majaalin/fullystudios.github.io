@@ -1,15 +1,21 @@
 ---
-layout: work-loadinghero
+layout: work
 title: Creative Studio and Production House
 category: web
-pagetitle: Whatever we do, we attempt to do it fully
+pagetitle: |
+  # Technical and visual identities
 permalink: /work/web/
 slug: work/web
 background-color: "#f8f8f8"
+background: |
+  <video class="hero__background" poster="./../../assets/work/hero-poster.jpg" loop autoplay muted playsinline>
+    <source src="./../../assets/work/hero.mp4">
+    <img src="./../../assets/work/hero-poster.jpg">
+  </video>
 
 sublink: '#projects'
 sublink-text: All projects
-excerpt: We love the web
+excerpt: Technical and visual identities
 
 hero-previews: 
   - path: work/loadinghero/ratt.jpg

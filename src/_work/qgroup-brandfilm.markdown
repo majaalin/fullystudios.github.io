@@ -1,6 +1,6 @@
 ---
 order: 10
-orderInCategory: 2
+order-in-video: 2
 onlypreview: true
 layout: case-film
 title:  "Qgroup"

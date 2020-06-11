@@ -1,11 +1,17 @@
 ---
-layout: work-loadinghero
+layout: work
 title: Creative Studio and Production House
 category: all
-pagetitle: Whatever we do, we attempt to do it fully
+pagetitle: |
+  # Whatever we do, we attempt to do it fully
 permalink: /work/
 slug: work
 background-color: "#f8f8f8"
+background: |
+  <video class="hero__background" poster="./../assets/work/hero-poster.jpg" loop autoplay muted playsinline>
+    <source src="./../assets/work/hero.mp4">
+    <img src="./../assets/work/hero-poster.jpg">
+  </video>
 sublink: '#projects'
 sublink-text: All projects
 excerpt: What we make - All projects

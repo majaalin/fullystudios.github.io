@@ -1,6 +1,6 @@
 ---
 order: 12
-order-in-video: 7
+order-in-video: 8
 onlypreview: true
 layout: case-film
 title:  "AniCura"
@@ -25,7 +25,7 @@ casetop-bgcolor: "#e8bdc6"
 # casetop-image3_medium: hero_720.jpg
 casetop-video: casetop.mp4
 preview: 380508735
-thumbnail-video: ANICURA_SITE_THUMBNAIL.mp4
+# thumbnail-video: ANICURA_SITE_THUMBNAIL.mp4
 
 # shareimage: work/anicura/shareimage.png
 

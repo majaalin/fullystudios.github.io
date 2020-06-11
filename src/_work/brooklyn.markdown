@@ -1,6 +1,6 @@
 ---
 order: 4
-order-in-video: 3
+order-in-video: 4
 archived: false
 layout: work/brooklyn
 title:  "Brooklyn Brewery Special Effects"
@@ -15,7 +15,7 @@ background-image_2880: "hero@2x.jpg"
 background-image_1440: "hero@1.jpg"
 background-image_720: "hero@1.jpg"
 background-image_color: "#3d3f9b"
-thumbnail-video: BROOKLYN_SPECIAL_THUMBNAIL.mp4
+# thumbnail-video: BROOKLYN_SPECIAL_THUMBNAIL.mp4
 author: Jakob Åhl
 author-email: jakob.ahl@fullystudios.se
 promo-image: "promo.png"

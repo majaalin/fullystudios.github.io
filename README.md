@@ -97,7 +97,7 @@ Get highlighting in markdown files in Sublime:
 
 ## Automatic stage deploy
 1. Get access from Jonas to https://vercel.com/fullystudios
-2. run npx vercel to make a initial local config on you system (connect to project fullystudios)
+2. run npx vercel to make a initial local config on you system (connect to project fs and choose location ./public)
 3. run `npm run stage`
 
 ## Manual deployment
