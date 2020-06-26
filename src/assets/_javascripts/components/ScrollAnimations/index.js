@@ -1,5 +1,5 @@
 import {TweenMax, Power1} from "gsap";
-import ScrollMagic from 'ScrollMagic';
+import ScrollMagic from 'scrollmagic';
 import 'gsap';
 // import 'debug.addIndicators';
 import OptimizedResize from "../OptimizedResize";

@@ -207,6 +207,7 @@ video.hero__background {
         width: 100%;
         // max-width: none;
         max-width: calc( 18.6em + #{$spacing-unit*2});
+        hyphens: none;
     }
     a, h3, h4 {
         color: $c-dark;

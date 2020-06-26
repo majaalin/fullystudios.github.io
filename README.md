@@ -1,5 +1,5 @@
-[fullystudios.se](https://fullystudios.se)
-=============================
+[![fullystudios.se](https://fullystudios.se/mailsignatur/fully-studios.gif)](https://fullystudios.se)
+
 Website for the Swedish agency Fully Studios
 
 [Fully Studios site](https://fullystudios.se) is build on [Jekyll](https://jekyllrb.com/) in combination with [Webpack](https://webpack.js.org/) where we run [Babel](https://babeljs.io/) to be able to compile ES6+ code to ES5.
@@ -13,8 +13,9 @@ Only if you haven't installed Jekyll, node or Gulp installed on your machine:
 3. [Bundle](http://bundler.io/) -  `gem install bundler`
 
 Update Ruby using [rvm](https://rvm.io/):
+0. (only Linux:) ```sudo apt install gnupg2```
 1. ```gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB```
-2. ```\curl -sSL https://get.rvm.io | bash -s stable```
+2. ```curl -sSL https://get.rvm.io | bash -s stable```
 3. ```rvm install ruby-2.5.1```
 4. ```rvm use ruby-2.5.1```
 
@@ -28,7 +29,7 @@ Update gems:
 1. Clone this repo, or download it into a directory of your choice.
 2. Change to branch develop
 3. Inside the directory, run (if you have an old node version):
-- `nvm use 7.2.1`
+- `nvm use 7.2.1` ()
 - if you dont have node 7.2.1 run `nvm install 7.2.1`
 - if you dont have bundler run `gem install bundler` (see above)
 - `npm install`
@@ -36,8 +37,8 @@ Update gems:
 
 
 ## Usage
-To run in dev mode: `rake start`
-To build for deployment: `rake build`
+To run in dev mode: `npm run start`
+To build for deployment: `npm run build`
 
 
 ## Error?
@@ -76,6 +77,9 @@ Error: ```jekyll 3.5.0 | Error:  undefined method `registers' for nil:NilClass``
 Error: `rvm not found`
 [https://stackoverflow.com/questions/11677771/rvm-command-not-found-mac-ox](Sourcepath)
 You need to add path to bash
+
+Error: `Address already in use`
+The port :4000 is already in use by another instance of node. Try `killall node` to terminate all other processes and run `npm run start` again.
 
 ## Tips and tricks
 * Break browser cache: simple add this string appending to a file url: `?{{site.time | date: '%s%N'}}` eg `<script src="{{ boundle_src | prepend: site.baseurl }}?{{site.time | date: '%s%N'}}"></script>`

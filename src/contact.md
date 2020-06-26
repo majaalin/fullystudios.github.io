@@ -2,7 +2,7 @@
 layout: contact
 title: Contact us
 pagetitle: |
-  ## If you want to learn more about us and you’re not sure who to call, just ring [+46 738 07 30 72](tel:+46738073072). Or drop a line at [hello@&shy;fullystudios.se](mailto:hello@fullystudios.se). Our doors and inboxes are always open to new friends.
+  ## If you want to learn more about us and you’re not sure who to call, just drop a line at [hello@&shy;fullystudios.se](mailto:hello@fullystudios.se). Our doors and inboxes are always open to new friends.
 
 #pagetitle-link: "#we-are-fully"
 #pagetitle-linktext: Looking for someone special?
@@ -40,32 +40,50 @@ peoples:
     email_domain: fullystudios.se
     tel: +46 702 53 54 60
 
-  - name: Joakim Hanner
-    image: joakim-hanner.jpg
-    title: Motion & Film Director
-    email: joakim.hanner@fullystudios.se
-    email_name_correct: joakim.hanner
-    email_name: joakim.hanner
-    email_domain: fullystudios.se
-    tel: +46 738 07 30 72
-
   - name: John Rejnäs
     image: john-rejnas.jpg
-    title: Account Manager
+    title: Studio Director GBG
     email: john.rejnas@fullystudios.se
     email_name_correct: john.rejnäs
     email_name: john.rejnas
     email_domain: fullystudios.se
     tel: +46 704 68 97 03
 
+  - name: Lina Hellström
+    image: lina-hellstrom.jpg
+    title: Studio Director STHLM
+    email: lina.hellstrom@fullystudios.se
+    email_name_correct: lina.hellström
+    email_name: lina.hellstrom
+    email_domain: fullystudios.se
+    tel: +46 703 21 44 22
+
   - name: Frida Netzén
-    image: frida-netzen.jpg
+    image: frida-netzen-2.jpg
     title: Account Manager
     email: frida.netzen@fullystudios.se
     email_name_correct: frida.netzén
     email_name: frida.netzen
     email_domain: fullystudios.se
-    # tel: +46 703 77 72 07
+    tel: +46 703 77 72 07
+
+  - name: Joakim Hanner
+    image: joakim-hanner.jpg
+    title: Associate Creative Director
+    email: joakim.hanner@fullystudios.se
+    email_name_correct: joakim.hanner
+    email_name: joakim.hanner
+    email_domain: fullystudios.se
+    tel: +46 738 07 30 72
+
+  - name: Marc Zacharoff
+    image: marc-zacharoff.jpg
+    title: Associate Creative Director
+    email: marc.zacharoff@fullystudios.se
+    email_name_correct: marc.zacharoff
+    email_name: marc.zacharoff
+    email_domain: fullystudios.se
+    tel: +46 707 30 79 16
 
   - name: Jonathan Asp
     image: jonathan-davis-asp.jpg
@@ -177,6 +195,22 @@ peoples:
     email: emil.graden@fullystudios.se
     email_name_correct: emil.gradén
     email_name: emil.graden
+    email_domain: fullystudios.se
+
+  - name: Linn Johansson
+    image: linn-johansson.jpg
+    title: Web Developer Intern
+    email: linn.johansson@fullystudios.se
+    email_name_correct: linn.johansson
+    email_name: linn.johansson
+    email_domain: fullystudios.se
+
+  - name: Ylva Zacharoff
+    image: ylva-zacharoff.jpg
+    title: Motion Designer Intern
+    email: ylva.zacharoff@fullystudios.se
+    email_name_correct: ylva.zacharoff
+    email_name: ylva.zacharoff
     email_domain: fullystudios.se
 
   # - name: Amanda Fässberg

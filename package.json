@@ -32,10 +32,10 @@
     "eslint": "^4.0.0",
     "eslint-loader": "^1.8.0",
     "lory.js": "^2.3.3",
-    "three": "^0.91.0",
     "turbolinks": "^5.0.3",
-    "webpack": "^1.15.0",
-    "webpack-bundle-analyzer": "^3.3.2"
+    "webpack": "^4.43.0",
+    "webpack-bundle-analyzer": "^3.3.2",
+    "webpack-cli": "^3.3.11"
   },
   "dependencies": {
     "@babel/polyfill": "^7.0.0",
@@ -45,10 +45,10 @@
     "intersection-observer": "^0.7.0",
     "iphone-inline-video": "^2.2.2",
     "lottie-web": "^5.5.5",
-    "npm": "^6.4.0",
     "parallax-js": "^3.1.0",
     "scrollmagic": "^2.0.6",
     "scrolltrigger-classes": "^0.3.6",
-    "sweet-scroll": "^2.2.1"
+    "sweet-scroll": "^2.2.1",
+    "three": "^0.91.0"
   }
 }
