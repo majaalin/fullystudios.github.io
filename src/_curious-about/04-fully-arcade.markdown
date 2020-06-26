@@ -23,7 +23,7 @@ background: |
     </div>
     <div class="fa-bg__gt"></div>
     <script>
-      var runAnim = 'false';
+      var runAnim = 'true';
       function runStars(bool) {
         runAnim = bool;
         if (runAnim === 'true') draw();

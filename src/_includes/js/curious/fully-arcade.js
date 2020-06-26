@@ -59,7 +59,10 @@ function runScripts(pos) {
     typeSpeed: 20
   }
 
-  var typed = new Typed("#das_terminal", options);
+  new Typed("#das_terminal", options);
 }
 
-runScripts(0);
+// TODO: Only run when scrolled into view
+document.addEventListener("DOMContentLoaded", function () {
+  runScripts(0);
+});
