@@ -1,6 +1,6 @@
 ---
 order: 13
-order-in-web: 6
+order-in-development: 6
 archived: false
 layout: work/studyinsweden
 title:  "Study in Sweden"
@@ -9,7 +9,7 @@ author: Alexander
 author-email: alexander.tengner@fullystudios.se
 button-text: View case
 date: 2020-05-25 13:00:00 +0100
-categories: design identity web
+categories: design identity web development
 slug: studyinsweden
 client: Study In Sweden
 project: Design

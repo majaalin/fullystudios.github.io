@@ -7,7 +7,7 @@ author: "Mikael Biström"
 author-email: mikael.bistrom@fullystudios.se
 button-text: View case
 date:   2016-02-01 12:00:00 +0100
-categories: back-end ui web
+categories: back-end ui development
 slug: matbaren
 client: Matbaren
 project: Project

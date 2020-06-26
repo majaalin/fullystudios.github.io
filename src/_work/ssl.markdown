@@ -1,13 +1,13 @@
 ---
 order: 8
-order-in-web: 5
+order-in-development: 5
 archived: false
 layout: work/svenskaskolan-london
 title:  "The Swedish School in London"
 subtitle: "One of a kind. In fact."
 button-text: View case
 date: 2020-05-29 10:00:00 +0100
-categories: web identity
+categories: web identity development
 slug: swedishschool-london
 client: The Swedish School in London
 project: Profile & Website

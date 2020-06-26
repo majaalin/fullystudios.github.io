@@ -1,6 +1,6 @@
 ---
 order: 1
-order-in-web: 1
+order-in-development: 1
 order-in-game: 1
 archived: false
 layout: work/bauer-quiz
@@ -8,7 +8,7 @@ title:  Bauer quiz
 subtitle: Sunny hockey season
 button-text: View case
 date: 2020-06-02 12:00:00 +0100
-categories: web game
+categories: web development game
 slug: bauer-quiz
 client: Bauer / The Bond
 project: Game

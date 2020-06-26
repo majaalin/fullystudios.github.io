@@ -41,7 +41,7 @@ hero-previews:
     orientation: landscape
     type: video
 
-jsfile: 'loadinghero.js'
+# jsfile: 'loadinghero.js'
 
 ---
 
