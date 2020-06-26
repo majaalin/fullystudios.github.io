@@ -393,11 +393,11 @@ Load images with style
 
 <style>
     #{{page.slug}}_bg {
-        background-image: url(../assets/introfilmen-poster.jpg);
+        background-image: url(../assets/hero/introfilmen-poster.jpg);
     }
     @media (min-width: 800px) {
         #{{page.slug}}_bg {
-            background-image: url(../assets/introfilmen-poster.jpg);
+            background-image: url(../assets/hero/introfilmen-poster.jpg);
         }
     }
 </style>
@@ -412,11 +412,11 @@ Load images with style
 {% raw %}
 <style>
     #{{page.slug}}_bg {
-        background-image: url(../assets/introfilmen-poster.jpg);
+        background-image: url(../assets/hero/introfilmen-poster.jpg);
     }
     @media (min-width: 800px) {
         #{{page.slug}}_bg {
-            background-image: url(../assets/introfilmen-poster.jpg);
+            background-image: url(../assets/hero/introfilmen-poster.jpg);
         }
     }
 </style>
@@ -441,10 +441,10 @@ Load images with style
 
 {% endfor %}
     <div class="imagegrid__image imagegrid__image--two">
-        <img src="../assets/introfilmen-poster.jpg">
+        <img src="../assets/hero/introfilmen-poster.jpg">
     </div>
     <div class="imagegrid__image imagegrid__image--two">
-        <img src="../assets/introfilmen-poster.jpg">
+        <img src="../assets/hero/introfilmen-poster.jpg">
     </div>
 </section>
 {% endunless %}
@@ -476,7 +476,7 @@ Load images with style
 <p>Example of a custom CSS grid layout using a container with the class `grid`.</p>
 
 <div class="grid grid--space case-highlight" markdown='1'>
-<div class="flexcenter background-image invert grid__offsetcolumn1-2" id="lettering2" markdown='1' style="background-image: url(../assets/introfilmen-poster.jpg)">
+<div class="flexcenter background-image invert grid__offsetcolumn1-2" id="lettering2" markdown='1' style="background-image: url(../assets/hero/introfilmen-poster.jpg)">
 
 ### div #exampleimage
 ``` scss
@@ -509,7 +509,7 @@ grid-row: 1 / span 4;
 
 ``` html
 <div class="grid grid--space">
-    <div class="background-image grid__offsetcolumn1-2" id="exampleimage" style="background-image: url(assets/introfilmen-poster.jpg)"></div>
+    <div class="background-image grid__offsetcolumn1-2" id="exampleimage" style="background-image: url(assetshero//introfilmen-poster.jpg)"></div>
     <div class="boxtext grid__offsetcolumn2-2" id="exampletext"></div>
 </div>
 ```
@@ -525,9 +525,9 @@ grid-row: 1 / span 4;
         <img class="image"
             alt="{{page.section3_image_alt}}"
             width="1440" height="1653"
-            src="../assets/introfilmen-poster.jpg"
-            srcset="../assets/introfilmen-poster.jpg 1440w,
-                    ../assets/introfilmen-poster.jpg 720w"
+            src="../assets/hero/introfilmen-poster.jpg"
+            srcset="../assets/hero/introfilmen-poster.jpg 1440w,
+                    ../assets/hero/introfilmen-poster.jpg 720w"
             sizes="(min-width: 580px) 50vw,
                     100vw">
     </div>

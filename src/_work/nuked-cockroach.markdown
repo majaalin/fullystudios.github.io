@@ -1,6 +1,6 @@
 ---
 order: 10.5
-order-in-game: 2
+order-in-games: 2
 archived: false
 layout: image-and-films
 title:  "Veterans Online"
