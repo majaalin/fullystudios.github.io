@@ -11,6 +11,7 @@ date: 2020-06-16 12:00:00 +0100
 categories: web development video
 slug: nya-styr-och-stall
 client: Frank & Earnest
+client-link: https://www.frankandearnest.se
 project: Campaign site and video
 background-image_2880: "hero@2x.jpg"
 background-image_1440: "hero.jpg"
@@ -32,7 +33,7 @@ quote1_title: |
 
 quote1_box: |
   The city of Gothenburg and Mölndal has a beloved bike rental system called Styr & Ställ, that’s been around for exactly a decade. On its 10 year anniversary it was time for an update and Fully were tasked to create a campaign site to show off the new bikes.
-  
+
   The art style handed to us was perfect for playful animation. And we focused a lot on making the animations run smoothly and cleanly in the browser. Swoosh, swoosh!
 
 # image1: image1_1920.jpg

@@ -44,7 +44,14 @@ layout: default
 		<div class="metabox column__wrapper">
 			<div class="column column--vertical">
 				<strong class="meta-description">Client:</strong>
-				<span class="meta">{{page.client}}</span>
+				<span class="meta">
+					{% unless page.client-link == nil %}
+					<a href="{{page.client-link}}" class="link link--inline">{{page.client}}</a>
+					{% endunless %}
+					{% if page.client-link == nil %}
+					{{page.client}}
+					{% endif %}
+				</span>
 			</div>
 			<div class="column column--vertical">
 				<strong class="meta-description">Project:</strong>
