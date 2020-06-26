@@ -7,7 +7,7 @@ author: "Jonas Sandstedt"
 author-email: jonas.sandstedt@fullystudios.se
 button-text: View case
 date:   2017-04-27 12:00:00 +0100
-categories: identity web design
+categories: identity web design development
 slug: malbaren
 client: Matbaren
 project: Website

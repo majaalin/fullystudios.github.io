@@ -1,6 +1,6 @@
 ---
 order: 15
-order-in-web: 7
+order-in-development: 7
 archived: false
 layout: work/click-or-treat
 title:  Liseberg
@@ -9,7 +9,7 @@ author: "Jonathan David Asp"
 author-email: jonathan.asp@fullystudios.se
 button-text: View case
 date: 2020-05-23 13:00:00 +0100
-categories: web
+categories: web development
 slug: click-or-treat
 client: DDB / Liseberg
 project: Campaign

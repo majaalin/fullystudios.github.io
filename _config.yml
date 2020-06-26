@@ -53,7 +53,7 @@ case_highlight1_id: 16
 # Links
 works: "/work"
 works_video: "/work/video"
-works_web: "/work/web"
+works_development: "/work/development"
 works_apps: "/work/apps"
 works_identity: "/work/identity"
 works_games: "/work/games"

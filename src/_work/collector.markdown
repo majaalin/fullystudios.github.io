@@ -1,7 +1,7 @@
 ---
 order: 19
 order-in-video: 0
-order-in-web: 9
+order-in-development: 9
 archived: false
 layout: work/collector
 title:  "Collector"
@@ -13,7 +13,7 @@ author2-email: jonathan.asp@fullystudios.se
 link: "https://www.collector.se/arsredovisning2016"
 link-text: Visit the site
 date:   2016-05-13 12:00:00 +0100
-categories: web
+categories: web development
 slug: collector
 client: Collector
 project: Web and film

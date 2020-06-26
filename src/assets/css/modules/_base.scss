@@ -31,7 +31,7 @@ body {
 // * + *:not(body, path, #barba-wrapper, .barba-container, .site-footer, .box, .cc__background, .column, .meta) {
 //     margin-top: $spacing-unit;
 // }
-p + *, ol + *, ul + * {
+p + *, ol + *, ul + *, section + p {
     margin-top: $spacing-unit;
 }
 
