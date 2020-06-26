@@ -1,3 +1,10 @@
+// HEY FULLY DEVELOPER
+// If you wanna use this class in another project,
+// please use the one in styr-o-stall project in GitLab
+// It's mush better
+// HEY RANDOM DEVELOPER
+// Interested in having this new Bodymovin/Lotti Web helper Open Sourced? contact jonas.sandstedt@fullystudios.se 👨🏼‍💻
+
 // import "babel-polyfill";
 import lottie from 'lottie-web';
 import OptimizedResize from "./OptimizedResize";
@@ -18,6 +25,25 @@ require('intersection-observer');
  * @method loopBetween [segment, force] - Loops between the first and second value in the segment array
  * @method hoverPlayFrom [frame = 0] - Start the animation on hover from a certain frame
  */
+
+/*
+Usage js:
+const scene3 = new LottieScene(hero.querySelector('[data-scene="3"]'), limitFps);
+scene3.init(244);
+scene3.loopBetween([0, 195], true);
+//scene3.hoverPlayFrom(244);
+anims.push(scene3);
+
+Usage html:
+<div
+  class="lottie-scenes__scene scene4"
+  data-scene="4"
+  data-path="three-houses/house3/house3.json"
+  data-pathmobile="three-houses/house3_mobile/house3_mobile.json"
+  data-preserveaspectratio="xMinYMid slice"
+  data-preserveaspectratiomobile="xMinYMax slice"
+></div>
+*/
 export class LottieScene {
   constructor(node, limitFps = false, canvas = false, changeOnMedia = false) {
     this.node = node;
