@@ -69,7 +69,7 @@ contact: |
 
   Site: [wishfullystudios](https://wishfullystudios.com/)
 
-contact_image_alt: Bla bla
+contact_image_alt: People discuss game idéas around a table
 contact_image_720: contact_720.jpg
 contact_image_1440: contact_1440.jpg
 
