@@ -13,6 +13,12 @@ layout: case
 </div>
 {% endunless %}
 
+{% unless page.introtext == nil %}
+  <div class="section sectionspacing">
+    {{ page.introtext | markdownify }}
+  </div>
+{% endunless %}
+
 {% unless page.image1 == nil %}
 <img
   alt="{{page.image1_alt}}"
@@ -22,6 +28,12 @@ layout: case
           {{site.baseurl}}/assets/work/{{page.slug}}/{{ page.image1_1440 }} 1400w,
           {{site.baseurl}}/assets/work/{{page.slug}}/{{ page.image1_640 }} 640w"
   sizes="100vw">
+{% endunless %}
+
+{% unless page.image1_text == nil %}
+<div class="section sectionspacing">
+  {{ page.image1_text | markdownify }}
+</div>
 {% endunless %}
 
 

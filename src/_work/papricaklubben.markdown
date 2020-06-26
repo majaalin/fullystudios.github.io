@@ -1,7 +1,7 @@
 ---
 order: 6
 order-in-development: 4
-order-in-games: 2
+order-in-games: 3
 archived: false
 layout: work/papricaklubben
 title:  "Paprica&shy;klubben"
@@ -50,7 +50,7 @@ section2: |
 section3: |
   #### Since we know a thing or three about making the web fun, it was an ideal project for us. The answer was immediately clear. We would gamify the heck out of it.
 
-  #### Here’s what we built: [papricaklubben.se](https://papricaklubben.se/). An entire world for Gulis, Grönis, and Rodis to call home.  
+  #### Here’s what we built: [papricaklubben.se](https://papricaklubben.se/). An entire world for Gulis, Grönis, and Rodis to call home.
 
 section3_video: "221886014"
 
@@ -64,7 +64,7 @@ section4-image_medium: "process.jpg"
 section5: |
   While it looks like one big game, Papricaklubben is still an informational website. For instance, a full menu is present... it’s just not a menu as you’re used to seeing it. The house is “home” which takes you to ICA’s site to learn more about the club. The post box shows the address kids can send their drawings. And so on and so forth.
 
-  The navigation is rather straightforward: everything that moves is clickable. Embedded in the clickable objects are numerous different formats for taking in information: text with voiceovers, recipes with pictures, a “movie theater” playing Papricaklubben YouTube videos. And then there’s just the fun stuff, like the bad apple sorting game located in the greenhouse.  
+  The navigation is rather straightforward: everything that moves is clickable. Embedded in the clickable objects are numerous different formats for taking in information: text with voiceovers, recipes with pictures, a “movie theater” playing Papricaklubben YouTube videos. And then there’s just the fun stuff, like the bad apple sorting game located in the greenhouse.
 
 section5_videos:
   - 221886184
