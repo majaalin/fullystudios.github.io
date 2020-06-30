@@ -14,7 +14,7 @@ background: |
   </video>
 
 sublink: '#projects'
-sublink-text: All projects
+sublink-text: Projects
 excerpt: Motion & Storytelling
 
 hero-previews: 

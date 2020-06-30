@@ -13,8 +13,8 @@ background: |
     <img src="./../assets/work/hero-poster.jpg">
   </video>
 sublink: '#projects'
-sublink-text: All projects
-excerpt: What we make - All projects
+sublink-text: Projects
+excerpt: What we make - Projects
 
 hero-previews: 
   - path: work/brooklyn/BROOKLYN_SPECIAL_THUMBNAIL.mp4

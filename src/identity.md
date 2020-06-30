@@ -8,7 +8,7 @@ slug: work/identity
 background-color: "#f8f8f8"
 
 sublink: '#projects'
-sublink-text: All projects
+sublink-text: Projects
 excerpt: We create identities
 
 hero-previews: 
