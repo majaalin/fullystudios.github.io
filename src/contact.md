@@ -205,14 +205,6 @@ peoples:
     email_name: linn.johansson
     email_domain: fullystudios.se
 
-  - name: Ylva Zacharoff
-    image: ylva-zacharoff.jpg
-    title: Motion Designer Intern
-    email: ylva.zacharoff@fullystudios.se
-    email_name_correct: ylva.zacharoff
-    email_name: ylva.zacharoff
-    email_domain: fullystudios.se
-
   # - name: Amanda Fässberg
   #   image: amanda-fassberg.jpg
   #   title: Design Intern
