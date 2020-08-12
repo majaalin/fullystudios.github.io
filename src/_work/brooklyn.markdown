@@ -1,10 +1,13 @@
 ---
+order: 4
+order-in-video: 4
+archived: false
 layout: work/brooklyn
 title:  "Brooklyn Brewery Special Effects"
 subtitle: "A branded content mini-series"
 button-text: View case
-date:   2019-02-12 12:00:00 +0100
-categories: film
+date: 2020-05-30 12:00:00 +0100
+categories: video
 slug: brooklyn
 client: Brooklyn Brewery
 project: Film
@@ -12,11 +15,13 @@ background-image_2880: "hero@2x.jpg"
 background-image_1440: "hero@1.jpg"
 background-image_720: "hero@1.jpg"
 background-image_color: "#3d3f9b"
+# thumbnail-video: BROOKLYN_SPECIAL_THUMBNAIL.mp4
 author: Jakob Åhl
 author-email: jakob.ahl@fullystudios.se
 promo-image: "promo.png"
 casetop-bgcolor: "#009844"
-casetop-video: casetop.mp4
+casetop-video: BROOKLYN_SPECIAL_CASETOP.mp4
+preview: 313375709
 
 shareimage: work/brooklyn/shareimage.jpg
 

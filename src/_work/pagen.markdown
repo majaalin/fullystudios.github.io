@@ -1,10 +1,13 @@
 ---
+order: 11
+order-in-video: 7
+archived: false
 layout: work/pagen
 title:  "Pågen"
 subtitle: "Social&nbsp;meals"
 button-text: View case
-date:   2017-10-17 12:00:00 +0100
-categories: film
+date: 2020-05-27 +0100
+categories: video
 slug: pagen
 client: Pågen
 project: Film
@@ -20,6 +23,8 @@ promo-image: "promo.png"
 
 casetop-bgcolor: "#342971"
 casetop-video: casetop.mp4
+preview: 289837071
+# thumbnail-video: PAGEN_SITE_THUMBNAIL.mp4
 
 shareimage: work/pagen/shareimage.png
 

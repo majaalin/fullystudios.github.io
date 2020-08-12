@@ -1,4 +1,8 @@
 ---
+order: 18
+order-in-development: 8
+order-in-identity: 4
+archived: false
 layout: work/owd-bob
 type: work
 title:  "Owd Bob"
@@ -7,7 +11,7 @@ author: "Robin Kollberg"
 author-email: robin.kollberg@fullystudios.se
 button-text: View case
 date:   2017-04-18 12:00:00 +0100
-categories: back-end, ui, web
+categories: web development identity
 slug: owd-bob
 client: Internal lab
 project: E-commerce

@@ -1,10 +1,11 @@
 ---
+archived: true
 layout: case-film
 title:  "Kakservice"
 subtitle: "Cookies for a cause? Take my money!"
 button-text: View case
 date:   2016-05-11 12:00:00 +0100
-categories: film
+categories: video
 slug: kakservice
 client: Kakservice
 project: Animated film

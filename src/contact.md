@@ -199,7 +199,7 @@ peoples:
 
   - name: Linn Johansson
     image: linn-johansson.jpg
-    title: Web Developer Intern
+    title: Web Developer
     email: linn.johansson@fullystudios.se
     email_name_correct: linn.johansson
     email_name: linn.johansson

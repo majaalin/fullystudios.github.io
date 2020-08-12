@@ -3,37 +3,92 @@
 ## Loop through the latest work
 
 -->
+<!-- Get all work posts and revers them -->
+{%- comment -%} {% assign items = site.work | sort: 'date' | reverse %} {%- endcomment -%}
+{% assign items = site.work | sort: 'order' %}
+
+{% unless page.category == "all" or page.categories %}
+    {% assign specialorder = 'order-in-' | append: page.category %}
+    {% assign items = site.work | sort: specialorder %}
+{% endunless %}
+
 <section class="boxgrid boxgrid--compact">
-    <h2 class="boxgrid__header h4">Recent work</h2>
-    <!-- Get all work posts and revers them -->
-    {% assign items = site.work | sort: 'date' | reverse %}
+    <h2 class="boxgrid__header h4">Selected work</h2>
+    <nav aria-labelledby="filter" class="filter boxgrid__info">
+        <h2 class="visuallyhidden">Selected work filter</h2>
+        <a class="link{% if page.category == 'all' %} link--active {% endif%}" href="{{site.works}}#projects"><span>All</span></a>
+        <a class="link{% if page.category == 'video' %} link--active {% endif%}" href="{{site.works_video}}#projects"><span>Video</span></a>
+        <a class="link{% if page.category == 'development' %} link--active {% endif%}" href="{{site.works_development}}#projects"><span>Development</span></a>
+
+        {%- comment -%} <a class="link{% if page.category == 'apps' %} link--active {% endif%}" href={{site.works_apps}}><span>Apps</span></a> {%- endcomment -%}
+        {%- comment -%} <a class="link{% if page.category == 'identity' %} link--active {% endif%}" href={{site.works_identity}}><span>Identity</span></a>  {%- endcomment -%}
+        <a class="link{% if page.category == 'games' %} link--active {% endif%}" href={{site.works_games}}><span>Games</span></a>
+    </nav>
 
     {% for work in items %}
 
-    {% comment %}
-    {% if work.title == page.title or work.title == work1.title or work.title == work2.title or work.title == work3.title %}
-      {% continue %}
-    {% endif %}
-    {% endcomment %}
+        {%- comment -%}
+        set `archived: true` in a post to not show it in this list
+        {%- endcomment -%}
+        {% if work.archived %}
+            {% continue %}
+        {% endif %}
 
+        {%- comment -%}
+        If page category is all, show all posts, if page cateogy is ex film,
+        then only show work posts that has the word film in its categories
+        {%- endcomment -%}
+        {% unless page.category == "all" or page.categories %}
+            {% unless work.categories contains page.category %}
+                {% continue %}
+            {% endunless %}
+        {% endunless %}
 
-        <a href="{{work.url | prepend: site.baseurl}}" class="boxgrid__box">
-
+        <div class="boxgrid__box">
+            {% if work.preview %}
+            <a data-preview="{{work.preview}}" href="{{work.url | prepend: site.baseurl}}" class="boxgrid__image boxgrid__image--preview" style="background-color: {{work.background-color}}">
+            {% endif %}
+            {% if work.preview == nil %}
             <div class="boxgrid__image" style="background-color: {{work.background-color}}">
-                {% unless work.background-image_720 == nil %}
+            {% endif %}
+                {% if work.thumbnail-video %}
+                <video width="720" height="415" muted playsinline loop autoplay>
+                    <source src="{{site.baseurl}}/assets/work/{{work.slug}}/{{work.thumbnail-video}}" type="video/mp4">
+                </video>
+                {% endif %}
+
+                {% if work.background-image_720 and work.thumbnail-video == nil  %}
                     <img src="{{site.baseurl}}/assets/work/{{work.slug}}/{{work.background-image_720}}" alt="{{work.title}}">
-                {% endunless %}
+                {% endif %}
+                <img class="boxgrid__playicon" src="{{site.baseurl}}/assets/icons/controls-play.svg" />
+            {% if work.preview %}
+            </a>
+            {% endif %}
+            {% if work.preview == nil %}
             </div>
+            {% endif %}
+
 
             <div class="boxgrid__caption">
                 <div>
                     <h3>{{work.title}}</h3>
                     <p>{{work.subtitle}}</p>
                 </div>
-                <div class="button"><span>{{work.button-text}}</span></div>
+                {% if work.onlypreview == nil %}
+                    <a href="{{work.url | prepend: site.baseurl}}" class="button"><span>{{work.button-text}}</span></a>
+                {% endif %}
+                {% if work.onlypreview %}
+                    <a data-preview="{{work.preview}}" href="{{work.url | prepend: site.baseurl}}" class="button" style="background-color: {{work.background-color}}">
+                        <span>{{work.button-text}}</span>
+                    </a>
+                {% endif %}
             </div>
-        </a>
+        </div>
 
     {% endfor %}
 
 </section>
+
+<div id="preview-modal" class="preview-modal">
+    <button id="preview-close" type="button" class="link link--next link--invert preview-close"><span>Close</span></button>
+</div>

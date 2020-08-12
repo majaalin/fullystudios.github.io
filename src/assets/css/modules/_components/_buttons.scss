@@ -20,7 +20,7 @@ $bshadow: 3px; // the size of the shadow
 	padding: 0;
 	display: inline-block;
 	-webkit-tap-highlight-color: transparent;
-	
+
 	// 3D sida under
 	&:after {
 		content: "";
@@ -37,13 +37,13 @@ $bshadow: 3px; // the size of the shadow
 	}
 	&:hover, &:focus {
 		&:after {
-			transform: translateX(0);			
+			transform: translateX(0);
 		}
 	}
 
 	// End Shadow
 	&:focus, &:active {
-		outline: none;    
+		outline: none;
 	}
 
 	//The button-part with the text
@@ -123,7 +123,7 @@ $bshadow: 3px; // the size of the shadow
 			}
 		}
 	}
-	
+
 	&--nav, &--icon {
 		span {
 			line-height: 0;
@@ -139,13 +139,13 @@ $bshadow: 3px; // the size of the shadow
 			width: 100%;
 			height: 2px;
 			background-color: $c-signal;
-			transition: transform 0.3s $easeout;			
+			transition: transform 0.3s $easeout;
 		}
 		&:active {
 			.button--nav__line {
 				background-color: $c-white;
 			}
-		} 
+		}
 		line {
 			fill:none;
 			stroke:#5F11E8;
@@ -203,19 +203,24 @@ $bshadow: 3px; // the size of the shadow
 	color: $c-signal;
 	position: relative;
 	padding: $s-small*0.5;
+	// min-width: 4em;
+	display: inline-block;
+	border: 0;
+	background: none;
+
 	&:before {
 		content: "";
 		position: absolute;
 		bottom: $s-small * 0.4;
-		left: $s-small;
-		right: $s-small;
+		left: 20%;
+		right: 20%;
 		height: 4px;
 		background-color: $c-signal;
 		transition: transform 0.4s $cb-ease_out;
 		transform: translateX(-1em) scaleX(0);
 		transform-origin: top left;
 	}
-	&:hover {
+	&:hover, &--active {
 		color: $c-signal;
 		&:before {
 			transform: translateX(0) scaleX(1);
@@ -228,7 +233,7 @@ $bshadow: 3px; // the size of the shadow
 		fill: currentColor;
 		display: inline-block;
 		margin-left: $s-small*0.25;
-		width: 1.3em; 
+		width: 1.3em;
 		height: 0.5em;
 		transition: transform 0.4s $cb-ease_out;
 	}
@@ -255,6 +260,9 @@ $bshadow: 3px; // the size of the shadow
 		&:hover {
 			color: $c-dark;
 		}
+	}
+	&--inline {
+		padding: 0 0 $s-small*0.5;
 	}
 }
 
@@ -303,7 +311,7 @@ $bshadow: 3px; // the size of the shadow
 }
 
 * + .button {
-	margin-top: $s-small;		
+	margin-top: $s-small;
 }
 
 .custom-button {

@@ -55,6 +55,9 @@
         padding-bottom: $s-small*6;
     }
 }
+.s {
+    margin: $s-tiny $s-small;
+}
 
 // Position
 .center {
@@ -129,6 +132,21 @@
         display: none;
     }
 }
+/*
+* Hide only visually, but have it available for screen readers: h5bp.com/v
+*/
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
 
 .fullwidth {
   width: 100%;
@@ -139,3 +157,6 @@
     margin-bottom: 0;
 }
 
+.scroll-to-target {
+    scroll-margin: 30px 0 0;
+}

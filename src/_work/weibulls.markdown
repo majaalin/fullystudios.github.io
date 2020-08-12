@@ -1,10 +1,13 @@
 ---
+order: 2
+order-in-video: 3
+archived: false
 layout: work/weibulls
 title:  "Weibulls"
 subtitle: "We are gardeners"
 button-text: View case
-date:   2019-03-16 11:00:00 +0100
-categories: film
+date: 2020-06-01 12:00:00 +0100
+categories: video
 slug: weibulls
 client: Weibulls
 project: Film
@@ -12,14 +15,16 @@ background-image_2880: "hero@2x.jpg"
 background-image_1440: "hero@1x.jpg"
 background-image_720: "hero@1x.jpg"
 background-image_color: "#156290"
+thumbnail-video: WEIBULLS_THUMBNAIL.mp4
 author: Jakob Åhl
 author-email: jakob.ahl@fullystudios.se
 casetop-bg_640: bg-top.jpg
 casetop-bg_1440: bg-top.jpg
-casetop-video: WEIBULLS_WEBSITE_CASE_643x360.mp4
+casetop-video: WEIBULLS_CASETOP.mp4
 casetop-bgcolor: "#B2CE56"
 promo-image: promo.png
 shareimage: work/weibulls/shareimage.jpg
+preview: 337773820
 
 ingress: |
   You don’t need to be a master gardener to get things growing. To give weight to this statement, gardening brand Weibulls followed a group of – for other reasons than gardening – celebrated swedes in their quest of creating a green oasis.

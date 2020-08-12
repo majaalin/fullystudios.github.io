@@ -39,19 +39,25 @@ morenews: "More news"
 # Pågen: 8
 # Svenska skolan: 9
 # Qgroup: 10
-# JOOL: 11
+# Pågen: 11
 # Brooklyn: 12
 # Weibulls: 13
 # Vapor Quiz: 14
 
-case_highlight1_id: 11
+case_highlight1_id: 16
 
-case_highlight2_id: 12
+# case_highlight2_id: 12
 
-case_highlight3_id: 14
+# case_highlight3_id: 14
 
 # Links
 works: "/work"
+works_video: "/work/video"
+works_development: "/work/development"
+works_apps: "/work/apps"
+works_identity: "/work/identity"
+works_games: "/work/games"
+
 about: "/about"
 curiosities: "/curiosities"
 
@@ -97,7 +103,7 @@ defaults:
 
 # Build settings
 highlighter: rouge
-markdown: kramdown
+# markdown: kramdown
 source: src
 destination: public
 sass:
@@ -124,4 +130,18 @@ autoprefixer:
   - ios_saf 7
   - IE 11
 
-exclude: ['node_modules', 'webpack', 'Gemfile', 'Gemfile.lock', 'Rakefile']
+exclude:
+- .sass-cache/
+- .jekyll-cache/
+- gemfiles/
+- Gemfile
+- Gemfile.lock
+- node_modules/
+- vendor/bundle/
+- vendor/cache/
+- vendor/gems/
+- vendor/ruby/
+
+include:
+- .htaccess
+- node_modules/uglifier/index.js

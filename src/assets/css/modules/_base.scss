@@ -6,6 +6,11 @@ html,body {
     width: 100%;
     height: 100%;
 }
+
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-weight: $base-font-weight;
     font-size: calc( 12px + 0.5vw );
@@ -26,7 +31,7 @@ body {
 // * + *:not(body, path, #barba-wrapper, .barba-container, .site-footer, .box, .cc__background, .column, .meta) {
 //     margin-top: $spacing-unit;
 // }
-p + *, ol + *, ul + * {
+p + *, ol + *, ul + *, section + p {
     margin-top: $spacing-unit;
 }
 
@@ -173,7 +178,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     word-spacing: 0.1em;
     // background: red;
 }
-h1 + *, h2 + *, h3 + *, h4 + *, h5 + *, h6 + * {
+h1 + *, h2:not(.visuallyhidden) + *, h3 + *, h4 + *, h5 + *, h6 + * {
     margin-top: $s-small*0.5;
     @include media-query($on-laptop) {
         margin-top: $s-small;

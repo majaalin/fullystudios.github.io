@@ -1,0 +1,133 @@
+// custom CSS for loading hero
+
+.loadinghero {
+  height: 100vh;
+  background-color:$c-signal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  position: relative; 
+  
+
+  &__previews-wrapper{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100vh;
+  }
+
+  &__heading{
+    color: #fff;
+    text-align: center;
+    max-width: 10em;
+    margin: 0 auto;
+    position: relative;
+    z-index: 5;
+    opacity: 0;
+    @media (max-width: 800px) {
+      font-size: calc( 2em + 2vw)
+    }
+  }
+
+  &__preview{
+    position: absolute;
+    z-index: 4;
+    width: 49vw;
+    box-shadow: 0px 10px 10px rgba(0,0,0,0.3);
+    opacity: 0;
+    bottom: -51vw;
+
+    @media (orientation: landscape) {
+      width: 25vw;
+      bottom: -26vw;
+    }
+    
+    @media(min-aspect-ratio: 16/9){
+      width: 22vw;
+      bottom: -24vw;
+      border: none;
+    }
+  }
+
+  &__preview--portrait{
+    width: 25vw;
+    bottom: -47vw;
+
+    @media(min-width: 700px){
+      width: 18vw;
+      bottom: -34vw;
+    }
+    
+    @media(min-width: 1300px){
+      width: 14vw;
+      bottom: -28vw;
+    }
+  }
+
+  &__preview1{
+    right: 10vw;
+  }
+
+  &__preview2{
+    left: -5vh;
+  }
+
+  &__preview3{
+    right: -8vh;
+  }
+
+  &__preview4{
+    left: 12vw;
+    z-index: 3;
+  }
+
+  &__preview5{
+    left: 22vw;
+  } 
+
+  &__preview6{
+    left: 2vw;
+    z-index: 3;
+  }
+
+  &__preview7{
+    right: 10vw;
+  }
+}
+
+// CSS animations - initial values
+$fadeAnimLength: 1s;
+$animLength: 8.1s;
+$animDelay: 0.3s;
+.loadinghero__preview {
+  opacity: 0;
+  transition: opacity $fadeAnimLength $animDelay linear, transform $animLength $animDelay linear;
+}
+@keyframes loadingHero {
+  to { transform: translate3d(0px, 0vh, 0px); opacity: 1 }
+}
+.loadinghero__heading {
+  opacity: 0;
+  transform: translate3d(0px, 5vh, 0px);
+  animation: loadingHero 1.2s cubic-bezier(0.215, 0.610, 0.355, 1) forwards;
+}
+.loadinghero__preview1 { transform: scale(1.1) translate3d(0px, -40vh, 0px) }
+.loadinghero__preview2 { transform: scale(1.1) translate3d(0px, -60vh, 0px) }
+.loadinghero__preview3 { transform: scale(1.2) translate3d(0px, -60vh, 0px) }
+.loadinghero__preview4 { transform: scale(1.3) translate3d(0px, -110vh, 0px) }
+.loadinghero__preview5 { transform: scale(1.4) translate3d(0px, -45vh, 0px) }
+.loadinghero__preview6 { transform: scale(0.9) translate3d(0px, -30vh, 0px) }
+.loadinghero__preview7 { transform: scale(1.2) translate3d(0px, -98vh, 0px) }
+
+// CSS animation - all content loaded
+.content-loaded {
+  .loadinghero__preview1 { transform: scale(1.1) translate3d(0px, -70vh, 0px); opacity: 1 }
+  .loadinghero__preview2 { transform: scale(1.1) translate3d(0px, -100vh, 0px); opacity: 1 }
+  .loadinghero__preview3 { transform: scale(1.2) translate3d(0px, -110vh, 0px); opacity: 1 }
+  .loadinghero__preview4 { transform: scale(1.3) translate3d(0px, -140vh, 0px); opacity: 1 }
+  .loadinghero__preview5 { transform: scale(1.4) translate3d(0px, -100vh, 0px); opacity: 1 }
+  .loadinghero__preview6 { transform: scale(0.9) translate3d(0px, -60vh, 0px); opacity: 1 }
+  .loadinghero__preview7 { transform: scale(1.2) translate3d(0px, -140vh, 0px); opacity: 1 }
+}

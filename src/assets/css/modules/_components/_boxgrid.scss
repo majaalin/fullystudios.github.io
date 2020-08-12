@@ -23,16 +23,22 @@ $bgMqLarge: 1100px;
         margin-top: $s-small*3;
         margin-bottom: $s-small*3;
     }
-    a {
+    a:not(.link) {
         color: $c-dark;
     }
 
-    &__header {
+    &__header, &__info {
         width: 100%;
         max-width: 100%;
         text-align: center;
-        padding: $s-small 15% $s-small*0.5;
         color: $c-signal;
+    }
+    &__header {
+        padding: $s-small 15% $s-small*0.5;
+    }
+    .boxgrid__info {
+        padding: 0 15% 0;
+        margin: 0;
     }
     a.boxgrid__box {
         transition: transform 0.3s $easeout;
@@ -40,7 +46,6 @@ $bgMqLarge: 1100px;
             outline: none;
             transform: translateY(-$s-small*0.5);
         }
-
     }
     &__box {
         width: 30em;
@@ -84,8 +89,10 @@ $bgMqLarge: 1100px;
                 align-items: flex-end;
             }
         }
-        img {
+        img, video {
             width: 100%;
+            height: auto;
+            display: block;
         }
     }
 
@@ -110,11 +117,33 @@ $bgMqLarge: 1100px;
         @media (min-width: $bgMqMedium) {
             transform: translate($s-small, -$s-small);
         }
+        &--preview {
+            position: relative;
+            &:hover {
+                .boxgrid__playicon {
+                    opacity: 1;
+                    transform: scale(1);
+                }
+            }
+        }
+    }
+    
+    .boxgrid__playicon {
+        position: absolute;
+        top: 35%;
+        left: 40%;
+        width: 20%;
+        height: auto;
+        pointer-events: none;
+        opacity: 0;
+        transform: scale(0.9) rotate(-10deg);
+        transition: opacity 0.3s, transform 0.3s cubic-bezier(.48,.57,.44,1);
     }
 
     // The box border effect
     &:before {
         content: "";
+        pointer-events: none;
         border: 4px solid $c-signal;
         @at-root {
             .c-people-bg .boxgrid:before { border-color: $c-dark }
@@ -131,6 +160,7 @@ $bgMqLarge: 1100px;
             right: 8em;
         }
     }
+
 
     &--curiosity {
         .boxgrid__header {

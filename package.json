@@ -1,54 +1,54 @@
 {
-  "name": "jekyll-starter",
-  "version": "1.4.0",
-  "description": "A jekyll based project boilerplate.",
+  "name": "fully-studios",
+  "version": "2.0.0",
+  "description": "Based on jekyll-starter",
   "main": "bundle.js",
   "scripts": {
-    "start": "rake start",
-    "build": "rake build",
-    "deploy": "npm run build && cd public && open .",
-    "webpack": "webpack --config webpack.config.js -p -w --progress --verbose"
+    "jekyll": "bundle exec jekyll serve --livereload",
+    "start": "webpack --watch | bundle exec jekyll serve --livereload",
+    "build": "webpack && bundle exec jekyll build",
+    "stage": "npm run build && npx vercel",
+    "stage:prod": "npm run build && npx vercel --prod",
+    "webpack": "webpack -p",
+    "webpack-watch": "webpack --watch"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mdxprograms/jekyll-starter.git"
+    "url": "git+https://github.com/fullystudios/fullystudios.github.io"
   },
   "keywords": [
     "jekyll",
-    "webpack",
-    "react"
+    "webpack"
   ],
-  "author": "Josh Waller",
+  "author": "Jonas Sandstedt",
   "license": "ISC",
-  "homepage": "https://github.com/mdxprograms/jekyll-starter#readme",
-  "browserlist": "last 2 version, > 2%, maintained node versions, not dead, IE 11",
+  "homepage": "https://fullystudios.se",
   "devDependencies": {
-    "@babel/core": "^7.0.0",
-    "@babel/preset-env": "^7.0.0",
+    "@babel/core": "^7.10.2",
+    "@babel/preset-env": "^7.10.2",
     "@tweenjs/tween.js": "^17.2.0",
-    "babel-core": "^6.26.3",
-    "babel-loader": "^6.4.1",
-    "babel-preset-env": "^1.7.0",
+    "babel-loader": "^8.1.0",
     "eslint": "^4.0.0",
     "eslint-loader": "^1.8.0",
     "lory.js": "^2.3.3",
     "turbolinks": "^5.0.3",
-    "webpack": "^4.43.0",
-    "webpack-bundle-analyzer": "^3.3.2",
+    "webpack": "^4.41.2",
+    "webpack-bundle-analyzer": "^3.8.0",
     "webpack-cli": "^3.3.11"
   },
   "dependencies": {
-    "@babel/polyfill": "^7.0.0",
-    "babel-polyfill": "^6.26.0",
-    "gsap": "^2.0.2",
+    "@babel/plugin-proposal-object-rest-spread": "^7.10.1",
+    "@vimeo/player": "^2.12.0",
+    "core-js": "^3.6.5",
+    "gsap": "^3.3.1",
     "install": "^0.12.1",
     "intersection-observer": "^0.7.0",
     "iphone-inline-video": "^2.2.2",
     "lottie-web": "^5.5.5",
     "parallax-js": "^3.1.0",
+    "regenerator-runtime": "^0.13.5",
     "scrollmagic": "^2.0.6",
     "scrolltrigger-classes": "^0.3.6",
-    "sweet-scroll": "^2.2.1",
     "three": "^0.91.0"
   }
 }

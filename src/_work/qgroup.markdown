@@ -1,10 +1,14 @@
 ---
+order: 3
+order-in-development: 2
+order-in-identity: 1
+archived: false
 layout: work/qgroup
 title:  "Qgroup"
 subtitle: "A tunnel and a website"
 button-text: View case
-date:   2018-04-15 12:00:00 +0100
-categories: design, branding, web
+date: 2020-05-30 13:00:00 +0100
+categories: design identity web development
 slug: qgroup
 client: Qgroup
 project: Website
@@ -41,6 +45,8 @@ casetop-image3_small: casetop_image3.jpg
 casetop-image3_medium: casetop_image3@2x.jpg
 
 shareimage: work/qgroup/shareimage.png
+
+# thumbnail-video: QGROUP_SITE_THUMBNAIL.mp4
 
 ingress: |
   Qgroup is a global technology company that offers pretty much everything in the digital realm. They have offices all around the world, but their heart and head(quarters) remain in their beloved Malmö.

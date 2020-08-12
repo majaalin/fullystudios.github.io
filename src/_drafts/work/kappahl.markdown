@@ -4,7 +4,7 @@ title:  "KappAhl"
 subtitle: "The developer’s dilemma"
 button-text: View case
 date:   2016-05-13 12:00:00 +0100
-categories: film, web
+categories: film development
 slug: kappahl
 client: KappAhl
 project: Transformation

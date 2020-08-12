@@ -4,7 +4,7 @@ type: curious-about
 title:  "Fully Arcade"
 subtitle: "We are adding a gaming wing to our studio!"
 date:   2019-02-06 10:00:00 +0100
-categories: art, design, web
+categories: art design web
 slug: fully-arcade
 background-image_720: "hero_720.jpg"
 background-image_1440: "hero.jpg"
@@ -23,7 +23,7 @@ background: |
     </div>
     <div class="fa-bg__gt"></div>
     <script>
-      var runAnim = 'false';
+      var runAnim = 'true';
       function runStars(bool) {
         runAnim = bool;
         if (runAnim === 'true') draw();

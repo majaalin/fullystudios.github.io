@@ -1,10 +1,13 @@
 ---
+order: 16
+order-in-video: 10
+archived: false
 layout: work/tanumstrand
 title:  "TanumStrand"
 subtitle: "A year by the sea"
 button-text: View case
-date:   2016-05-13 12:00:00 +0100
-categories: film
+date: 2020-05-23 12:00:00 +0100
+categories: video
 slug: tanumstrand
 client: Tanumstrand
 project: Film production
@@ -20,6 +23,8 @@ casetop-bg_1440: casetop_bg@2x.jpg
 casetop-video: casetop.mp4
 
 shareimage: work/tanumstrand/shareimage.png
+preview: 162523357
+thumbnail-video: TANUM_SITE_THUMBNAIL.mp4
 
 ingress: |
   TanumStrand is a hotel and retreat center on Sweden’s west coast, close-ish to the Norwegian border. With its granite archipelagos, misty mornings and gently rocking rowboats, it’s an idyll that would make any Swedish ex-pat weep. 

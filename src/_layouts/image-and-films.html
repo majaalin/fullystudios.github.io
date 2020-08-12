@@ -1,0 +1,53 @@
+---
+layout: case
+---
+
+{% unless page.quote1_title == nil %}
+<div class="grid grid--padding section sectionspacing-custom aligncenter">
+  <div class="grid__column1-2">
+    {{ page.quote1_title | markdownify }}
+  </div>
+  <div class="grid__column2-2 box box--work">
+    {{ page.quote1_box | markdownify }}
+  </div>
+</div>
+{% endunless %}
+
+{% unless page.introtext == nil %}
+  <div class="section sectionspacing">
+    {{ page.introtext | markdownify }}
+  </div>
+{% endunless %}
+
+{% unless page.image1 == nil %}
+<div class="s">
+  <img
+    alt="{{page.image1_alt}}"
+    width="1440" height="810"
+    src="{{site.baseurl}}/assets/work/{{page.slug}}/{{ page.image1_1440 }}"
+    srcset="{{site.baseurl}}/assets/work/{{page.slug}}/{{ page.image1 }} 2652w,
+            {{site.baseurl}}/assets/work/{{page.slug}}/{{ page.image1_1440 }} 1400w,
+            {{site.baseurl}}/assets/work/{{page.slug}}/{{ page.image1_640 }} 640w"
+    sizes="100vw"
+    class="image"
+  >
+</div>
+{% endunless %}
+
+{% unless page.image1_text == nil %}
+<div class="section sectionspacing">
+  {{ page.image1_text | markdownify }}
+</div>
+{% endunless %}
+
+
+{% unless page.video_IDs == nil %}
+{% for video in page.video_IDs %}
+  <section class="sectionspacing-small marginbottom-none">
+    <div class="video">
+      <iframe src="https://player.vimeo.com/video/{{video.id}}?color=5F11E8&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    </div>
+  </section>
+  {{ video.text | markdownify }}
+{% endfor %}
+{% endunless %}
