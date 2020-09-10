@@ -205,19 +205,13 @@ peoples:
     email_name: linn.johansson
     email_domain: fullystudios.se
 
-  # - name: Amanda Fässberg
-  #   image: amanda-fassberg.jpg
-  #   title: Design Intern
-  #   email: amanda.fassberg@fullystudios.se
-  #   email_name_correct: amanda.fässberg
-  #   email_name: amanda.fassberg
-  #   email_domain: fullystudios.se
-
-  #- name: Mattias Larson
-  #  image: mattias-larson.jpg
-  #  title: Motion creative
-  #  email: mattias.larson@fullystudios.se
-  #  tel: +46 735 45 97 08
+  - name: Jesper Hansson
+    image: jesper-hansson.jpg
+    title: Motion intern
+    email: jesper.hansson@fullystudios.se
+    email_name_correct: jesper.hansson
+    email_name: jesper.hansson
+    email_domain: fullystudios.se
 
 ---
 
