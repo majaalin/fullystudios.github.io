@@ -9,15 +9,15 @@ Website for the Swedish agency Fully Studios
 Only if you haven't installed Jekyll, node or Gulp installed on your machine:
 
 1. [NodeJS](http://nodejs.org) - v7.2.1 [Download here](https://nodejs.org/en/download/)
-2. [Ruby](https://www.ruby-lang.org/) v2.5.1. Instructions for installation:
+2. [Ruby](https://www.ruby-lang.org/) v2.5.1. Instructions for installation belove:
 3. [Bundle](http://bundler.io/) -  `gem install bundler`
 
 Update Ruby using [rvm](https://rvm.io/):
-0. (only Linux:) ```sudo apt install gnupg2```
-1. ```gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB```
-2. ```curl -sSL https://get.rvm.io | bash -s stable```
-3. ```rvm install ruby-2.5.1```
-4. ```rvm use ruby-2.5.1```
+0. (only Linux:) `sudo apt install gnupg2`
+1. `gpg2 --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB`
+2. `\curl -sSL https://get.rvm.io | bash -s stable`
+3. `rvm install ruby-2.5.1`
+4. `rvm use ruby-2.5.1`
 
 
 ## Local Installation
@@ -104,7 +104,7 @@ Get highlighting in markdown files in Sublime:
 1. in _config.yml, make sure the baseurl is correct
 2. rake build
 3. Move all files in pulic to the server EXCEPT robots.txt
-
+4 .Push all files to master (if you want, you can use `npm run publish` for this)
 
 
 
