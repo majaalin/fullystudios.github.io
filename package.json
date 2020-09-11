@@ -1,6 +1,6 @@
 {
   "name": "fully-studios",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Based on jekyll-starter",
   "main": "bundle.js",
   "scripts": {
