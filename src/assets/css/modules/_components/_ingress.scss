@@ -75,6 +75,12 @@
     &__image {
         position: absolute;
         box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+        &--0 {
+            top: 17%;
+            left: 5%;
+            width: 90%;
+            transition: transform 0.8s $easeout;
+        }
         &--1 {
             top: 5%;
             left: 5%;

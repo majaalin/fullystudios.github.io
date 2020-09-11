@@ -95,6 +95,9 @@ layout: default
 				<source src="{{ site.baseurl }}/assets/work/{{page.slug}}/{{ page.casetop-video }}">
 			</video>
 			{% endunless %}
+			{% unless page.casetop-image == nil %}
+			<img class="image ingress__image ingress__image--0" alt="Screenshot" src="{{ site.baseurl }}/assets/work/{{page.slug}}/{{ page.casetop-image }}">
+			{% endunless %}
 			{% unless page.casetop-image1_medium == nil %}
 				<img class="image ingress__image ingress__image--1"
 					alt="{{page.casetop-image1_alt}}"
