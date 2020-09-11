@@ -1,8 +1,8 @@
 ---
-order: 1
+order: 1.5
 order-in-games: 1
 archived: false
-layout: pol
+layout: work/pol
 title:  "Planet of Lana"
 subtitle: "A tale of two sisters"
 button-text: View case

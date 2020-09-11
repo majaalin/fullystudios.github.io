@@ -1,5 +1,5 @@
 ---
-order: 2
+order: 3
 order-in-video: 3
 archived: false
 layout: work/weibulls

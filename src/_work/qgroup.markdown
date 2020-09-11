@@ -1,5 +1,5 @@
 ---
-order: 3
+order: 3.5
 order-in-development: 2
 order-in-identity: 1
 archived: false

@@ -1,6 +1,6 @@
 ---
-order: 1
-order-in-development: 1
+order: 3
+order-in-development: 1.5
 order-in-games: 4
 archived: false
 layout: work/bauer-quiz
@@ -58,4 +58,4 @@ endtext: |
 endcta: Play now
 
 ---
-The Scandinavian investment bank JOOL called us in to help them build a comprehensive online platform for investing in high-yield bonds. Working closely together over the course of a year, we did just that.
+Even though it sounds like plain balderdash, summer is the busiest season for hockey sales. And this summer, hockey heavyweight Bauer had three brand new products to release. Lucky for us, our friends at The Bond asked us to help out with the campaign.

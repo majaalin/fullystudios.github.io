@@ -2,17 +2,6 @@
 layout: case
 ---
 
-{% unless page.quote1_title == nil %}
-<div class="grid grid--padding section sectionspacing-custom aligncenter">
-  <div class="grid__column1-2">
-    {{ page.quote1_title | markdownify }}
-  </div>
-  <div class="grid__column2-2 box box--work">
-    {{ page.quote1_box | markdownify }}
-  </div>
-</div>
-{% endunless %}
-
 {% unless page.introtext == nil %}
   <div class="section sectionspacing">
     {{ page.introtext | markdownify }}
