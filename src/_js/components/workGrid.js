@@ -52,7 +52,6 @@ export default function() {
   previewClose.addEventListener('click', closeVideoModal);
   
   document.addEventListener('keydown', (e) => {
-      console.log('key', e);
       if (e.key === 'Escape' && player) closeVideoModal();
   });
   
