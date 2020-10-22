@@ -7,6 +7,7 @@ pagetitle: |
 permalink: /work/video/
 slug: work/video
 background-color: "#f8f8f8"
+bg-color: "c-signal-bg"
 background: |
   <video class="hero__background" poster="./../../assets/work/hero-poster.jpg" loop autoplay muted playsinline>
     <source src="./../../assets/work/hero.mp4">

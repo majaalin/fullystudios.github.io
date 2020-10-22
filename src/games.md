@@ -12,7 +12,7 @@ background: |
     <source src="./../../assets/work/hero.mp4">
     <img src="./../../assets/work/hero-poster.jpg">
   </video>
-
+bg-color: "c-signal-bg"
 sublink: '#projects'
 sublink-text: Projects
 excerpt: We make games

@@ -6,7 +6,7 @@ pagetitle: Whatever we do, we attempt to do it fully
 permalink: /work/identity/
 slug: work/identity
 background-color: "#f8f8f8"
-
+bg-color: "c-signal-bg"
 sublink: '#projects'
 sublink-text: Projects
 excerpt: We create identities
