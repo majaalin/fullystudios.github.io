@@ -11,9 +11,9 @@ categories: web development apps
 slug: atracta
 client: Atracta
 project: Digital service
-# background-image_2880: "hero@2x.jpg"
-# background-image_1440: "hero.jpg"
-# background-image_720: "hero_720.jpg"
+background-image_2880: "hero@2x.jpg"
+background-image_1440: "hero.jpg"
+background-image_720: "hero_720.jpg"
 background-image_color: "#0D101A"
 promo-image: "promo.png"
 
