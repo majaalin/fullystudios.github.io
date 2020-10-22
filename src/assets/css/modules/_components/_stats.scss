@@ -1,0 +1,10 @@
+:root .stats {
+  text-align: center;
+  strong {
+    color: $c-business;
+    font-size: 1.6em;
+  }
+  * + * {
+    margin-top: 0;
+  }
+}

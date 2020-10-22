@@ -38,7 +38,7 @@ p + *, ol + *, ul + *, section + p {
 /**
  * Images
  */
-img {
+img, video:not(.hero__background) {
     max-width: 100%;
     height: auto;
     vertical-align: middle;
