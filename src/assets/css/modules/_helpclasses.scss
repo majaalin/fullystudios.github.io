@@ -58,6 +58,12 @@
 .s {
     margin: $s-tiny $s-small;
 }
+.s-top {
+    margin-top: $s-small*3;
+    @include media-query($on-laptop) {
+        margin-top: $s-small*6;
+    }
+}
 
 // Position
 .center {

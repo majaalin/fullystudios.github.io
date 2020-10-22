@@ -499,7 +499,7 @@ grid-row: 1 / span 4;
 ```
 
 </div>
-<div class="boxtext grid__offsetcolumn2-2">
+<div class="boxtext grid__offsetcolumn2-2" style="z-index: 2">
     <h2>.boxtext</h2>
     <p>Dolem es simet lorem</p>
     <a href="#" class="button"><span>View case study</span></a>

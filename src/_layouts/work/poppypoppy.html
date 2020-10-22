@@ -1,0 +1,76 @@
+---
+layout: case
+---
+
+{% unless page.section1 == nil %}
+    <section class="sectionspacing-small">
+        <p>
+            {{ page.section1 | markdownify }}
+        </p>
+    </section>
+{% endunless %}
+
+{% unless page.video_IDs == nil %}
+<section class="imagegrid">
+    {% for video in page.video_IDs %}
+    <div class="imagegrid__image imagegrid__image--two">
+        <div class="video">
+            <iframe src="https://player.vimeo.com/video/{{video}}?color=5F11E8&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        </div>
+    </div>
+    {% endfor %}
+</section>
+{% endunless %}
+{{ page.videos_copy | markdownify }}
+
+<section class="sectionspacing-small">
+    <section class="imagegrid imagegrid--firstlarge">
+        <div class="imagegrid__image imagegrid__image--two">
+            
+            <img
+                sizes="calc(100vw - 46px)"
+                srcset="
+                    /assets/work/poppypoppy/Image1_big_krpfvd/Image1_big_krpfvd_c_scale,w_320.jpg 320w,
+                    /assets/work/poppypoppy/Image1_big_krpfvd/Image1_big_krpfvd_c_scale,w_658.jpg 658w,
+                    /assets/work/poppypoppy/Image1_big_krpfvd/Image1_big_krpfvd_c_scale,w_898.jpg 898w,
+                    /assets/work/poppypoppy/Image1_big_krpfvd/Image1_big_krpfvd_c_scale,w_1082.jpg 1082w,
+                    /assets/work/poppypoppy/Image1_big_krpfvd/Image1_big_krpfvd_c_scale,w_1274.jpg 1274w,
+                    /assets/work/poppypoppy/Image1_big_krpfvd/Image1_big_krpfvd_c_scale,w_1320.jpg 1320w"
+                class="image"
+                alt="Flower pots from Poppy Poppy in a cupboard"
+                src="/assets/work/poppypoppy/Image1_big_krpfvd/Image1_big_krpfvd_c_scale,w_1320.jpg"
+            >
+    
+        </div>
+        <div class="imagegrid__image imagegrid__image--two">
+            <img
+                sizes="calc(50vw - 46px)"
+                srcset="
+                    /assets/work/poppypoppy/Image2_small_gkc8qv/Image2_small_gkc8qv_c_scale,w_320.jpg 320w,
+                    /assets/work/poppypoppy/Image2_small_gkc8qv/Image2_small_gkc8qv_c_scale,w_634.jpg 634w,
+                    /assets/work/poppypoppy/Image2_small_gkc8qv/Image2_small_gkc8qv_c_scale,w_861.jpg 861w,
+                    /assets/work/poppypoppy/Image2_small_gkc8qv/Image2_small_gkc8qv_c_scale,w_1053.jpg 1053w,
+                    /assets/work/poppypoppy/Image2_small_gkc8qv/Image2_small_gkc8qv_c_scale,w_1205.jpg 1205w,
+                    /assets/work/poppypoppy/Image2_small_gkc8qv/Image2_small_gkc8qv_c_scale,w_1290.jpg 1290w"
+                class="image"
+                alt="Flower pots from Poppy Poppy in a cupboard"
+                src="/assets/work/poppypoppy/Image2_small_gkc8qv/Image2_small_gkc8qv_c_scale,w_1320.jpg"
+            >
+        </div>
+        <div class="imagegrid__image imagegrid__image--two">
+            <img
+                sizes="(max-width: 1288px) 100vw, 1288px"
+                srcset="
+                    /assets/work/poppypoppy/Image3_small_isjzsy/Image3_small_isjzsy_c_scale,w_320.jpg 320w,
+                    /assets/work/poppypoppy/Image3_small_isjzsy/Image3_small_isjzsy_c_scale,w_629.jpg 629w,
+                    /assets/work/poppypoppy/Image3_small_isjzsy/Image3_small_isjzsy_c_scale,w_864.jpg 864w,
+                    /assets/work/poppypoppy/Image3_small_isjzsy/Image3_small_isjzsy_c_scale,w_1048.jpg 1048w,
+                    /assets/work/poppypoppy/Image3_small_isjzsy/Image3_small_isjzsy_c_scale,w_1199.jpg 1199w,
+                    /assets/work/poppypoppy/Image3_small_isjzsy/Image3_small_isjzsy_c_scale,w_1288.jpg 1288w"
+                src="/assets/work/poppypoppy/Image3_small_isjzsy/Image3_small_isjzsy_c_scale,w_1288.jpg"
+                alt="Flower pots from Poppy Poppy in a cupboard"
+            >
+        </div>
+    </section>
+    {{ page.images_copy | markdownify }}
+</section>
