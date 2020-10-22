@@ -58,6 +58,9 @@
 .s {
     margin: $s-tiny $s-small;
 }
+code .s {
+    margin: 0;
+}
 
 // Position
 .center {

@@ -12,6 +12,12 @@ vimeo_IDs:
   - "205372936"
   - "162523357"
   - "54016145"
+
+stepper:
+  - Download app & choose screen
+  - Choose firework style & color
+  - Dedicate it to a loved one
+  - Give to a charity from the list
 ---
 
 <header class="ds-header" markdown='1' style="margin-top: 0">
@@ -570,3 +576,70 @@ grid-row: 1 / span 4;
 ```
 
 <br><br><br>
+
+
+### Stepper
+
+Example markdown front-matter:
+
+```markdown
+    stepper:
+      - Download app & choose screen
+      - Choose firework style & color
+      - Dedicate it to a loved one
+      - Give to a charity from the list
+```
+
+<section class="section sectionspacing-small">
+  <ul class="stepper">
+    {% for step in page.stepper %}
+      <li class="stepper__step flexcenter">{{step}}</li>
+      {% if forloop.last == false %}
+        <li class="stepper__arrow flexcenter">
+          <svg class="link--icon"><use xlink:href="#icon-arrow-right"></use></svg>
+        </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+</section>
+
+HTML: (See source code for good looping options using front-matter lists)
+
+
+``` html
+<ul class="stepper">
+ {% for step in page.stepper %}
+    <li class="stepper__step flexcenter">{{step}}</li>
+    {% if forloop.last == false %}
+    <li class="stepper__arrow flexcenter">
+        <svg class="link--icon"><use xlink:href="#icon-arrow-right"></use></svg>
+    </li>
+    {% endif %}
+ {% endfor %}
+</ul>
+```
+
+
+### Stats
+
+Example markdown:
+```markdown
+    stats: |
+      ## The app had over 
+      ## **300**
+      ## downloads before New Year’s Eve
+```
+
+<section class="section sectionspacing-small stats">
+    <h2 id="the-app-had-over">The app had over</h2>
+    <h2 id="300"><strong>300</strong></h2>
+    <h2 id="downloads-before-new-years-eve">downloads before New Year’s Eve</h2>
+</section>
+
+``` html
+<section class="section sectionspacing-small stats">
+    <h2 id="the-app-had-over">The app had over</h2>
+    <h2 id="300"><strong>300</strong></h2>
+    <h2 id="downloads-before-new-years-eve">downloads before New Year’s Eve</h2>
+</section>
+```

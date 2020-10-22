@@ -1,0 +1,29 @@
+.stepper {
+  display: grid;
+  grid-template-columns: 1fr 50px 1fr 50px 1fr 50px 1fr;
+  padding: 0 $s-small;
+  list-style-type: none;
+  max-width: 100%;
+
+  .stepper__step {
+    padding: $s-small;
+    background: $c-signal;
+    color: $c-white;
+    text-align: center;
+    font-family: $header-font-family;
+    font-size: 1.25em;
+    line-height: 1.25;
+    min-height: 8em;
+    &:hover {
+      transform: translate(5px, 0px)
+    }
+  }
+
+  .stepper__step, .stepper__arrow {
+    transition: transform 2s $cubic-bezier;
+  }
+}
+
+.stepper__step:hover + .stepper__arrow {
+  transform: translate(2px, 0px)    
+}

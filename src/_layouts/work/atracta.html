@@ -1,0 +1,63 @@
+---
+layout: case
+---
+
+
+<section class="grid grid--space grid--padding sectionspacing-small">
+  <div class="grid__column1-4 center-vertical">
+    {{ page.section1_title | markdownify }}
+  </div>
+  <div class="grid__column2-8 box">
+    {{ page.section1 | markdownify }}
+  </div>
+</section>
+
+<section class="grid grid--space grid--padding sectionspacing-small">
+  <div class="grid__column1-2 center-vertical">
+    <video muted autoplay playsinline loop style="max-height: 90vh; max-width: 100%">
+      <source src=" /assets/work/atracta/atracta-mobile.mp4"
+        type="video/mp4">
+    </video>
+  </div>
+  <div class="grid__column2-2">
+    {{ page.section2 | markdownify }}
+  </div>
+</section>
+
+
+<section class="section sectionspacing-small">
+  {{ page.section3 | markdownify }}
+</section>
+
+
+<section class="section sectionspacing-small">
+  <ul class="stepper">
+    {% for step in page.stepper %}
+      <li class="stepper__step flexcenter">{{step}}</li>
+      {% if forloop.last == false %}
+        <li class="stepper__arrow flexcenter">
+          <svg class="link--icon"><use xlink:href="#icon-arrow-right"></use></svg>
+        </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+</section>
+
+<section class="section sectionspacing-small stats">
+  {{ page.stats1 | markdownify }}
+</section>
+
+<section class="section sectionspacing-small">
+  <video muted autoplay playsinline loop>
+    <source src=" /assets/work/atracta/atracta_stockholm_lights_casevideo.mp4"
+      type="video/mp4">
+  </video>
+</section>
+
+<section class="section sectionspacing-small stats">
+  {{ page.stats2 | markdownify }}
+</section>
+
+<section class="section sectionspacing-small box box--people box--center box--right">
+  {{ page.section4 | markdownify }}
+</section>
