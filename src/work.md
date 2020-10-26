@@ -3,7 +3,7 @@ layout: work
 title: Creative Studio and Production House
 category: all
 pagetitle: |
-  # Whatever we do, we attempt to do it fully
+  # Whatever we do, we do it fully
 permalink: /work/
 slug: work
 background-color: "#f8f8f8"

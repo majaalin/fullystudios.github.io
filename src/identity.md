@@ -2,7 +2,7 @@
 layout: work-loadinghero
 title: Creative Studio and Production House
 category: identity
-pagetitle: Whatever we do, we attempt to do it fully
+pagetitle: Whatever we do, we do it fully
 permalink: /work/identity/
 slug: work/identity
 background-color: "#f8f8f8"
