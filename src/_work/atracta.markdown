@@ -3,8 +3,8 @@ order: 1
 order-in-development: 1
 archived: false
 layout: work/atracta
-title:  Atracta
-subtitle: Digital fireworks for Stockholm
+title:  Stockholm Light
+subtitle: Digital Fireworks
 button-text: View case
 date: 2020-10-01 10:00:00 +0100
 categories: web development apps
