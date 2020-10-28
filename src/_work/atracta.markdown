@@ -20,7 +20,7 @@ promo-image: "promo.png"
 casetop-bgcolor: "#0D101A"
 casetop-video: "case_top.mp4"
 
-shareimage: work/crusner/share-image.jpg
+shareimage: work/atracta/shareimage.jpg
 
 ingress: |
   Atracta is a company that operates advertising screens (and we’re talking SCREENS) in some of Stockholm’s most well-trafficked squares and avenues. To celebrate New Years Eve 2020, they wanted to do something special. 
