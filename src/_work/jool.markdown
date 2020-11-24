@@ -1,5 +1,5 @@
 ---
-order: 5
+order: 9
 order-in-development: 3
 archived: false
 layout: work/jool
@@ -24,6 +24,26 @@ casetop-bg_1440: bg-top.jpg
 casetop-video: jool_slider_640x360.mp4
 
 shareimage: work/jool/shareimage.jpg
+
+thumbnail-sizes-portrait: 
+  - 420
+  - 661
+  - 866
+  - 1049
+  - 1201
+  - 1356
+  - 1517
+  - 1663
+  - 1927
+  - 2188
+  - 2321
+  - 2500
+thumbnail-portrait-default-width: 1049
+thumbnail-sizes-square: NULL
+thumbnail-square-default-width: NULL
+thumbnail-sizes-landscape: NULL
+thumbnail-landscape-default-width: NULL
+default-thumbnail: portrait
 
 ingress: |
   The Scandinavian investment bank JOOL called us in to help them build a comprehensive online platform for investing in high-yield bonds. Working closely together over the course of a year, we did just that.

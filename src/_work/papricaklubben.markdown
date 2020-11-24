@@ -33,6 +33,42 @@ casetop-image3_medium: casetop_image3@2x.jpg
 
 shareimage: work/papricaklubben/shareimage.png
 
+thumbnail-sizes-portrait: 
+  - 420
+  - 582
+  - 730
+  - 848
+  - 982
+  - 1104
+  - 1224
+  - 1345
+  - 1572
+  - 1782
+  - 1894
+  - 2088
+  - 2289
+  - 2500
+thumbnail-portrait-default-width: 1104
+thumbnail-sizes-square: 
+  - 420
+  - 587
+  - 736
+  - 856
+  - 984
+  - 1113
+  - 1232
+  - 1357
+  - 1583
+  - 1797
+  - 1912
+  - 2019
+  - 2313
+  - 2500
+thumbnail-square-default-width: 1113
+thumbnail-sizes-landscape: NULL
+thumbnail-landscape-default-width: NULL
+default-thumbnail: square
+
 ingress: |
   Recently ICA Kvantum has been increasing its efforts in the education space, trying to get kids to care about fresh-grown foods. And in particular, to know more about the concept of eating fruits and vegetables according to the season.
 

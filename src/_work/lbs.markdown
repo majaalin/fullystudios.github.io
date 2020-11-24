@@ -1,4 +1,5 @@
 ---
+archived: true
 order: 14
 order-in-video: 9
 onlypreview: true

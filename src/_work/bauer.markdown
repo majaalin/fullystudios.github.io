@@ -1,5 +1,5 @@
 ---
-order: 3
+order: 4
 order-in-development: 1.5
 order-in-games: 4
 archived: false
@@ -26,6 +26,41 @@ link: "https://demo.fullystudios.se/quiz"
 link-text: "Try demo"
 
 shareimage: work/bauer-quiz/share_img.jpg
+
+thumbnail-sizes-portrait: 
+  - 420
+  - 610
+  - 771
+  - 949
+  - 1068
+  - 1223
+  - 1375
+  - 1536
+  - 1812
+  - 2240
+  - 2500
+thumbnail-portrait-default-width: 1068
+thumbnail-sizes-square: 
+  - 420
+  - 557
+  - 679
+  - 804
+  - 931
+  - 1041
+  - 1153
+  - 1247
+  - 1360
+  - 1516
+  - 1700
+  - 1893
+  - 2003
+  - 2116
+  - 2300
+  - 2500
+thumbnail-square-default-width: 1041
+thumbnail-sizes-landscape: NULL
+thumbnail-landscape-default-width: NULL
+default-thumbnail: square
 
 ingress: |
   Even though it sounds like plain balderdash, summer is the busiest season for hockey sales. And this summer, hockey heavyweight Bauer had three brand new products to release. Lucky for us, our friends at The Bond asked us to help out with the campaign.

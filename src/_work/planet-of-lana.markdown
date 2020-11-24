@@ -22,6 +22,26 @@ link: https://wishfullystudios.com
 link-text: Visit Wishfully
 # preview: 432873646
 
+thumbnail-sizes-portrait: NULL
+thumbnail-portrait-default-width: NULL
+thumbnail-sizes-square: 
+  - 420
+  - 646
+  - 819
+  - 979
+  - 1108
+  - 1225
+  - 1443
+  - 1550
+  - 1760
+  - 2048
+  - 2228
+  - 2500
+thumbnail-square-default-width: 1108
+thumbnail-sizes-landscape: NULL
+thumbnail-landscape-default-width: NULL
+default-thumbnail: square
+
 ingress: |
   Wishfully Studios is a place of dreams, if you, like us, dream about cinematic gaming experiences. It’s also one of our sister studios, so when they come knocking – we come flying. The project they’re working on now, Planet of Lana, even made us go off-earth.
 

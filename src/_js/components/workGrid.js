@@ -1,4 +1,5 @@
 import Player from '@vimeo/player';
+import Colcade from 'colcade';
 
 export default function() {
   const previewModal = document.getElementById('preview-modal');
@@ -58,4 +59,11 @@ export default function() {
   function logKey(e) {
     log.textContent += ` ${e.code}`;
   }
+
+var grid = document.querySelector('.workgrid');
+
+var colc = new Colcade( grid, {
+  columns: '.workgrid__column',
+  items: '.workgrid__box'
+});
 }

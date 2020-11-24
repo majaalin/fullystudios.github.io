@@ -27,6 +27,28 @@ link-text: "Visit site"
 
 shareimage: work/crusner/share-image.jpg
 
+thumbnail-sizes-portrait:
+  - 420
+  - 592
+  - 741
+  - 876
+  - 1027
+  - 1163
+  - 1289
+  - 1425
+  - 1551
+  - 1789
+  - 1902
+  - 2081
+  - 2396
+  - 2500
+thumbnail-portrait-default-width: 1027
+thumbnail-sizes-square: NULL
+thumbnail-square-default-width: NULL
+thumbnail-sizes-landscape: NULL
+thumbnail-landscape-default-width: NULL
+default-thumbnail: portrait
+
 ingress: |
   Crusner, a legal firm in Sweden, is on a mission to change what it means to “see a lawyer.” 
 

@@ -1,0 +1,243 @@
+$bgMqSmall: 400px;
+$bgMqSmallMedium: 500px;
+$bgMqMedium: 800px;
+$bgMqLarge: 1100px;
+
+.workgrid {
+    margin-top: $s-small;
+    margin-bottom: $s-small;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    max-width: 1800px;
+    padding: 0 $s-small*0.5 0;   
+    
+    @media (min-width: $bgMqLarge) {
+        padding: 0 $s-small 0;
+        margin-top: $s-small*3;
+        margin-bottom: $s-small*3;
+    }
+
+    h2{
+        text-align: center;
+    }
+
+    a:not(.link) {
+        color: $c-dark;
+    }
+
+    a.workgrid__box {
+        transition: transform 0.3s $easeout;
+
+        &:hover {
+            @media(hover: hover){
+                transform: translateY(-$s-small*0.4);
+            }
+        }
+
+        &:focus {
+            transform: translateY(-$s-small*0.3);
+        }
+    }
+
+    &__grid{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    &__filter-wrapper{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+        text-align: center;
+        margin: 0;
+    }
+
+    @media(min-width: $bgMqMedium){
+        &__filter-wrapper{
+            padding-left: $s-small;
+            padding-right: $s-small;
+        }
+        &__filter-wrapper:before, &__filter-wrapper:after{
+            display: block;
+            content: '';
+            background: $c-signal;
+            flex: 1 0 auto;
+            height: 2px;
+        }
+    }
+
+    &__filter{
+        padding: 0 20px;
+        margin: 0 auto;
+
+        a.link{
+            font-weight: 600;
+            padding: $s-small*0.5 $s-small*0.25;
+
+            @media(min-width: $bgMqSmallMedium){
+                font-size: 1.4rem;
+                padding: $s-small*0.5;
+            }
+        }
+
+        a.link:not(.link--active){
+            color: $c-dark;
+        }
+
+        @media(hover:hover){
+            a.link:hover{
+               color: $c-signal;
+            }
+        }
+    }
+
+    &__box, &__column {
+        display: block;
+        width: 100%;
+        position: relative;
+        margin-top: $s-small*1.5;
+
+        @media (min-width: $bgMqSmallMedium) {
+            margin-top: $s-small*2;
+            width: calc(50% - #{$s-small*1});
+            margin-right: $s-small*0.5;
+            margin-left: $s-small*0.5;
+        }
+        @media (min-width: $bgMqLarge) {
+            
+            width: calc(33.33333% - #{$s-small * 2});
+            margin-right: $s-small*1;
+            margin-left: $s-small*1;
+        }
+
+        img, video {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+    }
+
+    &__column{
+        display: none;
+        margin-top: 0;
+
+        .workgrid__box{
+            width: 100%;
+            flex: 1 0 100%;
+            max-width: 100%;
+            margin-right: 0px;
+            margin-left: 0px;
+        }
+
+        &.workgrid__column--1{
+            display: block;
+        }
+
+        @media (min-width: $bgMqSmallMedium) {
+            &.workgrid__column--2{
+                display: block;
+            }
+        }
+    
+        @media (min-width: $bgMqLarge) {
+            &.workgrid__column--3{
+                display: block;
+            }
+        }
+    }
+
+    &__caption {
+        // @extend .hyphenate;
+        flex: 1 0 100%;
+        min-width: 100%;
+        color: $c-dark;
+        display: block;
+        padding: $s-small*0.6 0 0;
+        overflow: auto;
+        
+        h3, p {
+            padding-left: 0;
+        }
+
+        h3{
+          font-size: 1.2rem;
+        }
+
+        h3 + p{
+          margin-top: 0.2em;
+        }
+
+        p{
+          @media (min-width: $bgMqMedium) {
+            font-size: 80%;
+          }
+        }
+    }
+
+    &__image{
+        position: relative;
+        padding-top: 133%;
+
+        img{
+            position: absolute; // Because of columm js
+            top: 0;
+            left: 0;
+            width: 100%;
+        }
+    }
+
+    &__image--square{
+        padding-top: 100%;
+    }
+
+    &__image--landscape{
+        padding-top: 56%;
+    }
+
+    &__hover-video{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        opacity: 0;
+        transition: all 0.1s;
+    }
+
+    @media(hover:hover){
+     &__image:hover{
+        .workgrid__hover-video{
+            opacity: 1;
+        }
+
+        .workgrid__playicon {
+            opacity: 1;
+            transform: scale(1);
+        }
+     }       
+    }
+    
+    .workgrid__playicon {
+        position: absolute;
+        top: 35%;
+        left: 40%;
+        width: 20%;
+        height: auto;
+        pointer-events: none;
+        opacity: 0;
+        transform: scale(0.9) rotate(-10deg);
+        transition: opacity 0.3s, transform 0.3s cubic-bezier(.48,.57,.44,1);
+    }
+}
+
+// Video work grid has some specific details.
+.workgrid--video{
+  .workgrid__box{
+    @media (min-width: $bgMqLarge) {
+        flex: 1 0 calc(50% - #{$s-small*2});
+        max-width: calc(50% - #{$s-small*2});
+    }
+  }
+}

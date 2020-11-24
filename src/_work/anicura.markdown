@@ -1,6 +1,7 @@
 ---
+archived: false
 order: 12
-order-in-video: 8
+order-in-video: 12
 onlypreview: true
 layout: case-film
 title:  "AniCura"
@@ -15,6 +16,19 @@ background-image_2880: "hero_1920.jpg"
 background-image_1440: "hero_1440.jpg"
 background-image_720: "hero_720.jpg"
 background-image_color: "#e8bdc6"
+thumbnail-sizes-portrait: NULL
+thumbnail-portrait-default-width: NULL
+thumbnail-sizes-square: NULL
+thumbnail-square-default-width: NULL
+thumbnail-sizes-landscape: 
+  - 480
+  - 720
+  - 906
+  - 1246
+  - 1440
+  - 1920
+thumbnail-landscape-default-width: 906
+default-thumbnail: landscape
 
 casetop-bgcolor: "#e8bdc6"
 # casetop-image1_small: hero_720.jpg

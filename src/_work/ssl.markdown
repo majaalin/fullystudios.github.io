@@ -1,5 +1,5 @@
 ---
-order: 8
+order: 11
 order-in-development: 5
 archived: false
 layout: work/svenskaskolan-london
@@ -30,6 +30,28 @@ casetop-image3_small: casetop_image3.jpg
 casetop-image3_medium: casetop_image3@2x.jpg
 
 shareimage: work/swedishschool-london/shareimage.png
+
+thumbnail-sizes-portrait: 
+  - 420
+  - 632
+  - 807
+  - 963
+  - 1100
+  - 1231
+  - 1358
+  - 1476
+  - 1595
+  - 1700
+  - 1801
+  - 1908
+  - 2201
+  - 2500
+thumbnail-portrait-default-width: 1100
+thumbnail-sizes-square: NULL
+thumbnail-square-default-width: NULL
+thumbnail-sizes-landscape: NULL
+thumbnail-landscape-default-width: NULL
+default-thumbnail: portrait
 
 ingress: |
   The Swedish School in London is a unique institution. It’s actually the only Swedish school in all of Great Britain. And since there are a lot of Swedes living in the UK, this school is quite a big deal. It was a proud day when Fully was commissioned to update everything, lock, stock, and barrel: logo, brand manual and website.

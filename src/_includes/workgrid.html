@@ -12,19 +12,26 @@
     {% assign items = site.work | sort: specialorder %}
 {% endunless %}
 
-<section class="boxgrid boxgrid--compact">
-    <h2 class="boxgrid__header h4">Selected work</h2>
-    <nav aria-labelledby="filter" class="filter boxgrid__info">
-        <h2 class="visuallyhidden">Selected work filter</h2>
-        <a class="link{% if page.category == 'all' %} link--active {% endif%}" href="{{site.works}}#projects"><span>All</span></a>
-        <a class="link{% if page.category == 'video' %} link--active {% endif%}" href="{{site.works_video}}#projects"><span>Video</span></a>
-        <a class="link{% if page.category == 'development' %} link--active {% endif%}" href="{{site.works_development}}#projects"><span>Development</span></a>
+<section class="workgrid {% if page.category == 'all' or page.category == nil %}workgrid--colcade{% else %}workgrid--flex{% endif %} {% if page.category == 'video' %} workgrid--video{% endif %}">
+    <h2 class="h2">Selected work</h2>
+    <div class="workgrid__filter-wrapper">
+        <nav aria-labelledby="filter" class="workgrid__filter">
+            <h2 class="visuallyhidden">Selected work filter</h2>
+            <a class="link{% if page.category == 'all' %} link--active {% endif%}" href="{{site.works}}#projects"><span>All</span></a>
+            <a class="link{% if page.category == 'video' %} link--active {% endif%}" href="{{site.works_video}}#projects"><span>Video</span></a>
+            <a class="link{% if page.category == 'development' %} link--active {% endif%}" href="{{site.works_development}}#projects"><span>Development</span></a>
 
-        {%- comment -%} <a class="link{% if page.category == 'apps' %} link--active {% endif%}" href="{{site.works_apps}}#projects"><span>Apps</span></a> {%- endcomment -%}
-        {%- comment -%} <a class="link{% if page.category == 'identity' %} link--active {% endif%}" href="{{site.works_identity}}#projects"><span>Identity</span></a>  {%- endcomment -%}
-        <a class="link{% if page.category == 'games' %} link--active {% endif%}" href="{{site.works_games}}#projects"><span>Games</span></a>
-    </nav>
-
+            {%- comment -%} <a class="link{% if page.category == 'apps' %} link--active {% endif%}" href="{{site.works_apps}}#projects"><span>Apps</span></a> {%- endcomment -%}
+            {%- comment -%} <a class="link{% if page.category == 'identity' %} link--active {% endif%}" href="{{site.works_identity}}#projects"><span>Identity</span></a>  {%- endcomment -%}
+            <a class="link{% if page.category == 'games' %} link--active {% endif%}" href="{{site.works_games}}#projects"><span>Games</span></a>
+        </nav>
+    </div>
+    <div class="workgrid__grid">{% if page.category == 'all' or page.category == nil %}
+        <div class="workgrid__column workgrid__column--1"></div>
+        <div class="workgrid__column workgrid__column--2"></div>
+        <div class="workgrid__column workgrid__column--3"></div>
+    {% endif %}
+    
     {% for work in items %}
 
         {%- comment -%}
@@ -44,49 +51,80 @@
             {% endunless %}
         {% endunless %}
 
-        <div class="boxgrid__box">
-            {% if work.preview %}
-            <a data-preview="{{work.preview}}" href="{{work.url | prepend: site.baseurl}}" class="boxgrid__image boxgrid__image--preview" style="background-color: {{work.background-color}}">
-            {% endif %}
-            {% if work.preview == nil %}
-            <div class="boxgrid__image" style="background-color: {{work.background-color}}">
-            {% endif %}
+        {%- comment -%}
+            Different project types have different thumbnail sizes. There are three types: Portrait, landscape and square.
+            Portrait has slightly different rules and are wider 
+        {%- endcomment -%}
+        
+        {% assign thumbnail_sizes = "(min-width: 768px) 50vw (min-width: 1100px) 33vw, (min-width: 1700px) 487px, 100vw" %}
+        
+        {% if page.category == "development"  %}
+            {% assign thumbnail_type = "portrait" %}
+        {% elsif page.category == "games"  %}
+            {% assign thumbnail_type = "square" %}
+        {% elsif page.category == "video"  %}
+            {% assign thumbnail_type = "landscape" %}
+            {% assign thumbnail_sizes = "(min-width: 768px) 50vw, (min-width: 1700px) 767px, 100vw" %}
+        {% else  %}
+            {% assign thumbnail_type = work.default-thumbnail %}
+        {% endif %}
+        
+        {% if thumbnail_type == "portrait"  %}
+            {% assign thumbnail_width = work.thumbnail-portrait-default-width %}
+            {% assign thumbnail_height = thumbnail_width | divided_by: 1.3333 | round %}
+            {% assign thumbnail_array = work.thumbnail-sizes-portrait %}
+            
+        {% elsif thumbnail_type == "square"  %}
+            {% assign thumbnail_width = work.thumbnail-square-default-width %}
+            {% assign thumbnail_height = work.thumbnail-square-default-width %}
+            {% assign thumbnail_array = work.thumbnail-sizes-square %}
+        {% elsif thumbnail_type == "landscape"  %}
+            {% assign thumbnail_width = work.thumbnail-landscape-default-width %}
+            {% assign thumbnail_height = thumbnail_width | divided_by: 1.779 | round %}
+            {% assign thumbnail_array = work.thumbnail-sizes-landscape %}
+        {% endif %}        
+        
+        {% if thumbnail_type == 'landscape' and work.preview %}
+        <a data-preview="{{work.preview}}" href="#" class="workgrid__box--video workgrid__box">
+        {% else %}
+        <a href="{{work.url | prepend: site.baseurl}}" class="workgrid__box">
+        {% endif %}
+            <div class="workgrid__image workgrid__image--{{thumbnail_type}}">
+                <img
+                width="{{thumbnail_width}}"
+                height="{{thumbnail_height}}"
+                src="{{site.baseurl}}/assets/work/{{work.slug}}/thumbnails/{{thumbnail_type}}_{{thumbnail_width}}.jpg" width="{{thumbnail_width}}" height="{{thumbnail_height}}" alt="{{work.title}}"
+                srcset="{% for item in thumbnail_array %}
+                {{site.baseurl}}/assets/work/{{work.slug}}/thumbnails/{{thumbnail_type}}_{{item}}.jpg {{item}}w,
+                {% endfor %}"
+                sizes="{{thumbnail_sizes}}">
+
                 {% if work.thumbnail-video %}
-                <video width="720" height="415" muted playsinline loop autoplay>
-                    <source src="{{site.baseurl}}/assets/work/{{work.slug}}/{{work.thumbnail-video}}" type="video/mp4">
-                </video>
+                    <video class="workgrid__hover-video" width="720" height="415" muted playsinline loop autoplay>
+                        <source src="{{site.baseurl}}/assets/work/{{work.slug}}/{{work.thumbnail-video}}" type="video/mp4">
+                    </video>
                 {% endif %}
 
-                {% if work.background-image_720 and work.thumbnail-video == nil  %}
-                    <img src="{{site.baseurl}}/assets/work/{{work.slug}}/{{work.background-image_720}}" alt="{{work.title}}">
+                {%- comment -%}
+                    Add playbutton if thumbnail is landscape = video project.
+                    Other thumbnails for multi category projects may have a moving hover video in the future without the need to play the project's full sceen video.
+                {%- endcomment -%}
+                {% if thumbnail_type == 'landscape' and work.preview %}
+                    <img class="workgrid__playicon" src="{{site.baseurl}}/assets/icons/controls-play.svg" />
                 {% endif %}
-                <img class="boxgrid__playicon" src="{{site.baseurl}}/assets/icons/controls-play.svg" />
-            {% if work.preview %}
-            </a>
-            {% endif %}
-            {% if work.preview == nil %}
             </div>
-            {% endif %}
-
-
-            <div class="boxgrid__caption">
+       
+            <div class="workgrid__caption">
                 <div>
-                    <h3>{{work.title}}</h3>
+                    <h3 class="sub-header">{{work.title}}</h3>
                     <p>{{work.subtitle}}</p>
                 </div>
-                {% if work.onlypreview == nil %}
-                    <a href="{{work.url | prepend: site.baseurl}}" class="button"><span>{{work.button-text}}</span></a>
-                {% endif %}
-                {% if work.onlypreview %}
-                    <a data-preview="{{work.preview}}" href="{{work.url | prepend: site.baseurl}}" class="button" style="background-color: {{work.background-color}}">
-                        <span>{{work.button-text}}</span>
-                    </a>
-                {% endif %}
             </div>
-        </div>
+        </a>
+        
 
     {% endfor %}
-
+</div>
 </section>
 
 <div id="preview-modal" class="preview-modal">

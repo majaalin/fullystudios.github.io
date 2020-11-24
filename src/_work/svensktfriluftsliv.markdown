@@ -1,4 +1,5 @@
 ---
+archived: true
 published: false
 order: 7
 order-in-video: 1

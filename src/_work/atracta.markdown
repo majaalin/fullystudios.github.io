@@ -16,6 +16,23 @@ background-image_1440: "hero.jpg"
 background-image_720: "hero_720.jpg"
 background-image_color: "#0D101A"
 promo-image: "promo.png"
+thumbnail-sizes-portrait:
+  - 420
+  - 597
+  - 753
+  - 883
+  - 1017
+  - 1284
+  - 1526
+  - 1834
+  - 2043
+  - 2500
+thumbnail-portrait-default-width: 1017
+thumbnail-sizes-square: NULL
+thumbnail-square-default-width: NULL
+thumbnail-sizes-landscape: NULL
+thumbnail-landscape-default-width: NULL
+default-thumbnail: portrait
 
 casetop-bgcolor: "#0D101A"
 casetop-video: "case_top.mp4"

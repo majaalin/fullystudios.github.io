@@ -1,7 +1,8 @@
 ---
-order: 4
-order-in-video: 4
+order: 12
+order-in-video: 8
 archived: false
+onlypreview: true
 layout: work/brooklyn
 title:  "Brooklyn Brewery Special Effects"
 subtitle: "A branded content mini-series"
@@ -22,6 +23,25 @@ promo-image: "promo.png"
 casetop-bgcolor: "#009844"
 casetop-video: BROOKLYN_SPECIAL_CASETOP.mp4
 preview: 313375709
+
+thumbnail-sizes-portrait: NULL
+thumbnail-portrait-default-width: NULL
+thumbnail-sizes-square: NULL
+thumbnail-square-default-width: NULL
+thumbnail-sizes-landscape: 
+  - 420
+  - 641
+  - 829
+  - 977
+  - 1135
+  - 1288
+  - 1430
+  - 1583
+  - 1966
+  - 2208
+  - 2500
+thumbnail-landscape-default-width: 1135
+default-thumbnail: landscape
 
 shareimage: work/brooklyn/shareimage.jpg
 

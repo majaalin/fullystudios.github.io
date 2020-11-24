@@ -1,5 +1,5 @@
 ---
-order: 18
+order: 20
 order-in-development: 8
 order-in-identity: 4
 archived: false
@@ -21,6 +21,26 @@ background-image_2880: "hero@2x.jpg"
 background-image_1440: "hero.jpg"
 background-image_720: "hero_720.jpg"
 background-image_color: "#c9cba3"
+
+thumbnail-sizes-portrait: 
+  - 420
+  - 650
+  - 845
+  - 997
+  - 1163
+  - 1324
+  - 1470
+  - 1621
+  - 1746
+  - 1999
+  - 2254
+  - 2500
+thumbnail-portrait-default-width: 1163
+thumbnail-sizes-square: NULL
+thumbnail-square-default-width: NULL
+thumbnail-sizes-landscape: NULL
+thumbnail-landscape-default-width: NULL
+default-thumbnail: portrait
 
 casetop-bg_640: casetop_bg.jpg
 casetop-bg_1440: casetop_bg@2x.jpg

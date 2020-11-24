@@ -1,7 +1,7 @@
 ---
 order: 16
 order-in-video: 10
-archived: false
+archived: true
 layout: work/tanumstrand
 title:  "TanumStrand"
 subtitle: "A year by the sea"
@@ -25,6 +25,19 @@ casetop-video: casetop.mp4
 shareimage: work/tanumstrand/shareimage.png
 preview: 162523357
 thumbnail-video: TANUM_SITE_THUMBNAIL.mp4
+
+thumbnail-default-size: 1235
+thumbnail-sizes-portrait: NULL
+thumbnail-sizes-square: NULL
+thumbnail-sizes-landscape:
+  - 480
+  - 908
+  - 1235
+  - 1512
+  - 1766
+  - 2011
+  - 2040
+default-thumbnail: landscape
 
 ingress: |
   TanumStrand is a hotel and retreat center on Sweden’s west coast, close-ish to the Norwegian border. With its granite archipelagos, misty mornings and gently rocking rowboats, it’s an idyll that would make any Swedish ex-pat weep. 

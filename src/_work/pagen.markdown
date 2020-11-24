@@ -1,9 +1,10 @@
 ---
 order: 11
-order-in-video: 7
+order-in-video: 9
 archived: false
 layout: work/pagen
 title:  "Pågen"
+onlypreview: true
 subtitle: "Social&nbsp;meals"
 button-text: View case
 date: 2020-05-27 +0100
@@ -25,6 +26,26 @@ casetop-bgcolor: "#342971"
 casetop-video: casetop.mp4
 preview: 289837071
 # thumbnail-video: PAGEN_SITE_THUMBNAIL.mp4
+
+thumbnail-sizes-portrait: NULL
+thumbnail-portrait-default-width: NULL
+thumbnail-sizes-square: NULL
+thumbnail-square-default-width: NULL
+thumbnail-sizes-landscape: 
+  - 420
+  - 637
+  - 823
+  - 992
+  - 1129
+  - 1283
+  - 1434
+  - 1575
+  - 1819
+  - 2067
+  - 2299
+  - 2500
+thumbnail-landscape-default-width: 1129
+default-thumbnail: landscape
 
 shareimage: work/pagen/shareimage.png
 

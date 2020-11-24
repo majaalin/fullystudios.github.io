@@ -1,10 +1,11 @@
 ---
-order: 3
-order-in-video: 3
+order: 9
+order-in-video: 4
 archived: false
+onlypreview: true
 layout: work/weibulls
 title:  "Weibulls"
-subtitle: "We are gardeners"
+subtitle: "Even celebrities can become gardeners"
 button-text: View case
 date: 2020-06-01 12:00:00 +0100
 categories: video
@@ -15,7 +16,7 @@ background-image_2880: "hero@2x.jpg"
 background-image_1440: "hero@1x.jpg"
 background-image_720: "hero@1x.jpg"
 background-image_color: "#156290"
-thumbnail-video: WEIBULLS_THUMBNAIL.mp4
+
 author: Jakob Åhl
 author-email: jakob.ahl@fullystudios.se
 casetop-bg_640: bg-top.jpg
@@ -24,7 +25,26 @@ casetop-video: WEIBULLS_CASETOP.mp4
 casetop-bgcolor: "#B2CE56"
 promo-image: promo.png
 shareimage: work/weibulls/shareimage.jpg
-preview: 337773820
+preview: 359035635
+thumbnail-sizes-portrait: NULL
+thumbnail-portrait-default-width: NULL
+thumbnail-sizes-square: NULL
+thumbnail-square-default-width: NULL
+thumbnail-sizes-landscape: 
+  - 420
+  - 670
+  - 869
+  - 1044
+  - 1200
+  - 1340
+  - 1487
+  - 1625
+  - 1860
+  - 2096
+  - 2219
+  - 2500
+thumbnail-landscape-default-width: 1044
+default-thumbnail: landscape
 
 ingress: |
   You don’t need to be a master gardener to get things growing. To give weight to this statement, gardening brand Weibulls followed a group of – for other reasons than gardening – celebrated swedes in their quest of creating a green oasis.

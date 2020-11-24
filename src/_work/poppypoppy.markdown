@@ -1,6 +1,7 @@
 ---
-order: 2
-order-in-video: 1
+order: 3
+order-in-video: 2
+onlypreview: true
 archived: false
 layout: work/poppypoppy
 title:  "Poppy Poppy"
@@ -19,7 +20,25 @@ background-image_color: "#FA8EB5"
 casetop-bgcolor: "#FA8EB5"
 casetop-video: CASETOP_POPPY_POPPY.mp4
 preview: 445168293
-# thumbnail-video: PAGEN_SITE_THUMBNAIL.mp4
+
+thumbnail-sizes-portrait: NULL
+thumbnail-portrait-default-width: NULL
+thumbnail-sizes-square: NULL
+thumbnail-square-default-width: NULL
+thumbnail-sizes-landscape: 
+  - 420
+  - 710
+  - 935
+  - 1131
+  - 1317
+  - 1463
+  - 1609
+  - 1869
+  - 2108
+  - 2217
+  - 2500
+thumbnail-landscape-default-width: 1131
+default-thumbnail: landscape
 
 shareimage: work/poppypoppy/shareimage.jpg
 

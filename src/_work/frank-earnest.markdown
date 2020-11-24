@@ -1,7 +1,7 @@
 ---
-order: 4.5
+order: 5
 order-in-development: 2
-order-in-video: 7.5
+order-in-video: 6
 archived: false
 layout: image-and-films
 title:  "Nya Styr & Ställ"
@@ -24,6 +24,38 @@ shareimage: work/nya-styr-och-stall/shareimage.jpg
 link: "https://styrostall.now.sh/"
 link-text: Visit the site
 preview: 412633873
+
+thumbnail-sizes-portrait: 
+  - 420
+  - 641
+  - 834
+  - 1008
+  - 1144
+  - 1308
+  - 1461
+  - 1614
+  - 1873
+  - 2007
+  - 2269
+  - 2500
+thumbnail-portrait-default-width: 1144
+thumbnail-sizes-square: NULL
+thumbnail-square-default-width: NULL
+thumbnail-sizes-landscape:
+  - 420
+  - 618
+  - 792
+  - 943
+  - 1100
+  - 1249
+  - 1398
+  - 1558
+  - 1827
+  - 2076
+  - 2206
+  - 2500
+thumbnail-landscape-default-width: 1100
+default-thumbnail: portrait
 
 ingress: |
   Together with Frank & Earnest we designed and developed a fun and playfully animated campaign site for the rejuvenation of the city’s bike initiative.

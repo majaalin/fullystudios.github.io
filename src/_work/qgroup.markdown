@@ -46,6 +46,26 @@ casetop-image3_medium: casetop_image3@2x.jpg
 
 shareimage: work/qgroup/shareimage.png
 
+thumbnail-sizes-portrait: 
+  - 420
+  - 676
+  - 884
+  - 1070
+  - 1230
+  - 1373
+  - 1531
+  - 1785
+  - 1901
+  - 2143
+  - 2378
+  - 2500
+thumbnail-portrait-default-width: 1070
+thumbnail-sizes-square: NULL
+thumbnail-square-default-width: NULL
+thumbnail-sizes-landscape: NULL
+thumbnail-landscape-default-width: NULL
+default-thumbnail: portrait
+
 # thumbnail-video: QGROUP_SITE_THUMBNAIL.mp4
 
 ingress: |

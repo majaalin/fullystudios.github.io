@@ -22,6 +22,26 @@ link: https://store.steampowered.com/app/492840/Veterans_Online/
 link-text: Play the game
 # preview: 432844122
 
+thumbnail-sizes-portrait: NULL
+thumbnail-portrait-default-width: NOLL
+thumbnail-sizes-square:
+  - 420
+  - 642
+  - 833
+  - 993
+  - 1150
+  - 1301
+  - 1437
+  - 1592
+  - 1720
+  - 1962
+  - 2207
+  - 2500
+thumbnail-square-default-width: 1150
+thumbnail-sizes-landscape: NULL
+thumbnail-landscape-default-width: NULL
+default-thumbnail: square
+
 ingress: |
   Veterans Online is an amazingly fun and super competitive top-down shooter that you play with trigger-happy adversaries from all around the world. Alas, we didn't get to play the game enough to get good at it. But we did get to help build it.
 

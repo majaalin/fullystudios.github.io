@@ -32,6 +32,25 @@ casetop-image3_medium: casetop_image3@2x.jpg
 
 shareimage: work/collector/shareimage.png
 
+thumbnail-sizes-portrait: 
+  - 420
+  - 659
+  - 859
+  - 1030
+  - 1190
+  - 1352
+  - 1498
+  - 1638
+  - 1904
+  - 2242
+  - 2500
+thumbnail-portrait-default-width: 1030
+thumbnail-sizes-square: NULL
+thumbnail-square-default-width: NULL
+thumbnail-sizes-landscape: NULL
+thumbnail-landscape-default-width: NULL
+default-thumbnail: portrait
+
 ingress: |
   Collector is a Scandinavian online-only bank, known for its refreshing digital-first approach to finance. They are continuously growing, and wanted to showcase their stellar numbers from 2016.
 

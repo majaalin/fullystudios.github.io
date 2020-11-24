@@ -30,6 +30,25 @@ casetop-image3_medium: casetop_image3@2x.jpg
 
 shareimage: work/studyinsweden/shareimage.png
 
+thumbnail-sizes-portrait: 
+  - 420
+  - 646
+  - 839
+  - 994
+  - 1172
+  - 1321
+  - 1465
+  - 1608
+  - 1980
+  - 2218
+  - 2500
+thumbnail-portrait-default-width: 1172
+thumbnail-sizes-square: NULL
+thumbnail-square-default-width: NULL
+thumbnail-sizes-landscape: NULL
+thumbnail-landscape-default-width: NULL
+default-thumbnail: portrait
+
 ingress: |
   Every year, new students from all over the world are recruited to be digital ambassadors and bloggers for Study In Sweden—a website that promotes Sweden as a top-notch destination for studying abroad. Knowing our penchant for bold and clear UX, the lovely people at Study in Sweden engaged us to redesign their blog.
 
