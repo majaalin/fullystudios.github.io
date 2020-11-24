@@ -31,12 +31,12 @@ $bgMqLarge: 1100px;
 
         &:hover {
             @media(hover: hover){
-                transform: translateY(-$s-small*0.4);
+                transform: translateY(-$s-small*0.3);
             }
         }
 
         &:focus {
-            transform: translateY(-$s-small*0.3);
+            transform: translateY(-$s-small*0.2);
         }
     }
 

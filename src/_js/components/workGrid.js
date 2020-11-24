@@ -59,11 +59,12 @@ export default function() {
   function logKey(e) {
     log.textContent += ` ${e.code}`;
   }
-
-var grid = document.querySelector('.workgrid');
-
-var colc = new Colcade( grid, {
-  columns: '.workgrid__column',
-  items: '.workgrid__box'
-});
+  
+    if (document.querySelector('.workgrid--colcade') != null ) {
+        var grid = document.querySelector('.workgrid');
+        var colc = new Colcade( grid, {
+            columns: '.workgrid__column',
+            items: '.workgrid__box'
+        });
+    }
 }
