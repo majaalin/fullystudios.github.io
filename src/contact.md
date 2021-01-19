@@ -113,7 +113,7 @@ peoples:
 
   - name: Alexander Tengner
     image: alexander-tengner.jpg
-    title: Associate Creative Producer
+    title: Associate Creative Director
     email: alexander.tengner@fullystudios.se
     email_name_correct: alexander.tengner
     email_name: alexander.tengner
@@ -208,7 +208,7 @@ peoples:
 
   - name: Emil Gradén
     image: emil-graden.jpg
-    title: Motion Designer
+    title: Motion Designer & Animator
     email: emil.graden@fullystudios.se
     email_name_correct: emil.gradén
     email_name: emil.graden
@@ -220,6 +220,14 @@ peoples:
     email: linn.johansson@fullystudios.se
     email_name_correct: linn.johansson
     email_name: linn.johansson
+    email_domain: fullystudios.se
+
+  - name: Nils Claesson 
+    image: nils-claesson.jpg
+    title: Game Developer
+    email: nils.claesson@fullystudios.se
+    email_name_correct: nils.claesson
+    email_name: nils.claesson
     email_domain: fullystudios.se
   
   - name: Elin Iller
