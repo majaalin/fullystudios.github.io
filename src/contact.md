@@ -102,15 +102,6 @@ peoples:
     email_name: olle.engstrom
     email_domain: fullystudios.se
 
-  - name: Diego Valdes
-    image: diego-valdes.jpg
-    title: Director of Photography
-    email: diego.valdes@fullystudios.se
-    email_name_correct: diego.valdes
-    email_name: diego.valdes
-    email_domain: fullystudios.se
-    tel: +46 735 08 16 38
-
   - name: Alexander Tengner
     image: alexander-tengner.jpg
     title: Associate Creative Director
@@ -119,6 +110,15 @@ peoples:
     email_name: alexander.tengner
     email_domain: fullystudios.se
     tel: +46 721 71 50 32
+
+  - name: Diego Valdes
+    image: diego-valdes.jpg
+    title: Director of Photography
+    email: diego.valdes@fullystudios.se
+    email_name_correct: diego.valdes
+    email_name: diego.valdes
+    email_domain: fullystudios.se
+    tel: +46 735 08 16 38
 
   - name: Anders Olofsson
     image: anders-olofsson.jpg
