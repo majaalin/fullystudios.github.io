@@ -113,7 +113,7 @@ peoples:
 
   - name: Alexander Tengner
     image: alexander-tengner.jpg
-    title: UX & Design Director
+    title: Associate Creative Producer
     email: alexander.tengner@fullystudios.se
     email_name_correct: alexander.tengner
     email_name: alexander.tengner
