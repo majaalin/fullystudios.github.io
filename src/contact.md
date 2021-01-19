@@ -76,15 +76,6 @@ peoples:
     email_domain: fullystudios.se
     tel: +46 738 07 30 72
 
-  - name: Marc Zacharoff
-    image: marc-zacharoff.jpg
-    title: Associate Creative Director
-    email: marc.zacharoff@fullystudios.se
-    email_name_correct: marc.zacharoff
-    email_name: marc.zacharoff
-    email_domain: fullystudios.se
-    tel: +46 707 30 79 16
-
   - name: Jonathan Asp
     image: jonathan-davis-asp.jpg
     title: Digital Producer & Production Manager
@@ -93,15 +84,32 @@ peoples:
     email_name: jonathan.asp
     email_domain: fullystudios.se
     tel: +46 739 48 07 05
-
-  - name: Jakob Åhl
-    image: jakob-ahl.jpg
-    title: Head of Film
-    email: jakob.ahl@fullystudios.se
-    email_name_correct: jakob.åhl
-    email_name: jakob.ahl
+  
+  - name: Daniela Rossi
+    image: daniela-rossi.jpg
+    title: Creative Producer Film
+    email: daniela.rossi@fullystudios.se
+    email_name_correct: daniela.rossi
+    email_name: daniela.rossi
     email_domain: fullystudios.se
-    tel: +46 723 09 62 04
+    tel: +46 728 75 70 53
+
+  - name: Olle Engström
+    image: olle-engstrom.jpg
+    title: Animation Director
+    email: olle.engstrom@fullystudios.se
+    email_name_correct: olle.engstrom
+    email_name: olle.engstrom
+    email_domain: fullystudios.se
+
+  - name: Diego Valdes
+    image: diego-valdes.jpg
+    title: Director of Photography
+    email: diego.valdes@fullystudios.se
+    email_name_correct: diego.valdes
+    email_name: diego.valdes
+    email_domain: fullystudios.se
+    tel: +46 735 08 16 38
 
   - name: Alexander Tengner
     image: alexander-tengner.jpg
@@ -111,6 +119,15 @@ peoples:
     email_name: alexander.tengner
     email_domain: fullystudios.se
     tel: +46 721 71 50 32
+
+  - name: Anders Olofsson
+    image: anders-olofsson.jpg
+    title: Senior Designer
+    email: anders.olofsson@fullystudios.se
+    email_name_correct: anders.olofsson
+    email_name: anders.olofsson
+    email_domain: fullystudios.se
+    tel: +46 709 31 99 65‬
 
   - name: Malin Wirdheim Wincrantz
     image: malin-wincrantz.jpg
@@ -204,14 +221,32 @@ peoples:
     email_name_correct: linn.johansson
     email_name: linn.johansson
     email_domain: fullystudios.se
-
-  - name: Jesper Hansson
-    image: jesper-hansson.jpg
-    title: Motion intern
-    email: jesper.hansson@fullystudios.se
-    email_name_correct: jesper.hansson
-    email_name: jesper.hansson
+  
+  - name: Elin Iller
+    image: elin-iller.jpg
+    title: Design Intern
+    email: elin.iller@fullystudios.se
+    email_name_correct: elin.iller
+    email_name: elin.iller
     email_domain: fullystudios.se
+
+  - name: Maja Alin
+    image: maja-alin.jpg
+    title: Developer Intern
+    email: maja.alin@fullystudios.se
+    email_name_correct: maja.alin
+    email_name: maja.alin
+    email_domain: fullystudios.se
+
+  - name: Jakob Åhl
+    image: jakob-ahl.jpg
+    title: (on leave) Head of Film
+    email: jakob.ahl@fullystudios.se
+    email_name_correct: jakob.åhl
+    email_name: jakob.ahl
+    email_domain: fullystudios.se
+    tel: +46 723 09 62 04
+
 
 ---
 

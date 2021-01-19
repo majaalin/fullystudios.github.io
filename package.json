@@ -6,6 +6,7 @@
   "scripts": {
     "jekyll": "bundle exec jekyll serve --livereload",
     "start": "webpack --watch | bundle exec jekyll serve --livereload",
+    "dev": "npm run start",
     "build": "webpack && bundle exec jekyll build",
     "stage": "npm run build && npx vercel",
     "stage:prod": "npm run build && npx vercel --prod",
