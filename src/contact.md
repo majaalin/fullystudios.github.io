@@ -102,6 +102,15 @@ peoples:
     email_name: olle.engstrom
     email_domain: fullystudios.se
 
+  - name: Alexander Tengner
+    image: alexander-tengner.jpg
+    title: Associate Creative Director
+    email: alexander.tengner@fullystudios.se
+    email_name_correct: alexander.tengner
+    email_name: alexander.tengner
+    email_domain: fullystudios.se
+    tel: +46 721 71 50 32
+
   - name: Diego Valdes
     image: diego-valdes.jpg
     title: Director of Photography
@@ -110,15 +119,6 @@ peoples:
     email_name: diego.valdes
     email_domain: fullystudios.se
     tel: +46 735 08 16 38
-
-  - name: Alexander Tengner
-    image: alexander-tengner.jpg
-    title: UX & Design Director
-    email: alexander.tengner@fullystudios.se
-    email_name_correct: alexander.tengner
-    email_name: alexander.tengner
-    email_domain: fullystudios.se
-    tel: +46 721 71 50 32
 
   - name: Anders Olofsson
     image: anders-olofsson.jpg
@@ -208,7 +208,7 @@ peoples:
 
   - name: Emil Gradén
     image: emil-graden.jpg
-    title: Motion Designer
+    title: Motion Designer & Animator
     email: emil.graden@fullystudios.se
     email_name_correct: emil.gradén
     email_name: emil.graden
@@ -230,6 +230,22 @@ peoples:
     email_name: elin.iller
     email_domain: fullystudios.se
 
+  - name: Nils Claesson 
+    image: nils-claesson.jpg
+    title: Game Developer
+    email: nils.claesson@fullystudios.se
+    email_name_correct: nils.claesson
+    email_name: nils.claesson
+    email_domain: fullystudios.se
+  
+  - name: Elin Iller
+    image: elin-iller.jpg
+    title: Design Intern
+    email: elin.iller@fullystudios.se
+    email_name_correct: elin.iller
+    email_name: elin.iller
+    email_domain: fullystudios.se
+
   - name: Maja Alin
     image: maja-alin.jpg
     title: Developer Intern
@@ -237,6 +253,8 @@ peoples:
     email_name_correct: maja.alin
     email_name: maja.alin
     email_domain: fullystudios.se
+    tel: +46 723 09 62 04
+
 
   - name: Jakob Åhl
     image: jakob-ahl.jpg
