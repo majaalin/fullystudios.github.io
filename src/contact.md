@@ -222,14 +222,6 @@ peoples:
     email_name: linn.johansson
     email_domain: fullystudios.se
   
-  - name: Elin Iller
-    image: elin-iller.jpg
-    title: Design Intern
-    email: elin.iller@fullystudios.se
-    email_name_correct: elin.iller
-    email_name: elin.iller
-    email_domain: fullystudios.se
-
   - name: Nils Claesson 
     image: nils-claesson.jpg
     title: Game Developer
@@ -237,7 +229,7 @@ peoples:
     email_name_correct: nils.claesson
     email_name: nils.claesson
     email_domain: fullystudios.se
-  
+
   - name: Elin Iller
     image: elin-iller.jpg
     title: Design Intern
@@ -254,7 +246,6 @@ peoples:
     email_name: maja.alin
     email_domain: fullystudios.se
     tel: +46 723 09 62 04
-
 
   - name: Jakob Åhl
     image: jakob-ahl.jpg
