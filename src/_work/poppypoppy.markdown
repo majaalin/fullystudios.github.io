@@ -1,6 +1,6 @@
 ---
 order: 3
-order-in-video: 2
+order-in-video: 2.5
 onlypreview: true
 archived: false
 layout: work/poppypoppy

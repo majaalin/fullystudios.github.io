@@ -1,13 +1,13 @@
 ---
 order: 4
 order-in-video: 1
-archived: true
+archived: false
 onlypreview: true
 layout: NULL
-title:  "Brooklyn Haha"
-subtitle: "A mini-series about stand-up and NYC"
+title:  "Brooklyn HaHa"
+subtitle: "A mini-series about stand-up in the heart of Brooklyn"
 button-text: View case
-date: 2020-11-13 12:00:00 +0100
+date: 2021-01-21 11:00:00 +0100
 categories: video
 slug: brooklyn-haha
 client: Brooklyn Breweries

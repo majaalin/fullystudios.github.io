@@ -2,7 +2,7 @@
 archived: true
 published: false
 order: 7
-order-in-video: 1
+order-in-video: 1.5
 onlypreview: true
 layout: case-film
 title:  "Svenskt Friluftsliv"
