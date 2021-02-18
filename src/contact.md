@@ -136,7 +136,6 @@ peoples:
     email_name_correct: malin.wirdheim.<span>wincrantz</span>
     email_name: malin.wincrantz
     email_domain: fullystudios.se
-    tel: +46 709 70 06 30
 
   - name: Josef Carlsson
     image: josef-carlsson.jpg

@@ -13,11 +13,12 @@ Only if you haven't installed Jekyll, node or Gulp installed on your machine:
 3. [Bundle](http://bundler.io/) -  `gem install bundler`
 
 Update Ruby using [rvm](https://rvm.io/):
-0. (only Linux:) `sudo apt install gnupg2`
+0. (only Linux:) `sudo apt-get update` and `sudo apt install gnupg2`
 1. `gpg2 --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB`
 2. `\curl -sSL https://get.rvm.io | bash -s stable`
-3. `rvm install ruby-2.5.1`
-4. `rvm use ruby-2.5.1`
+3. `sudo usermod -a -G rvm root` where root is the name of your user, to make your user able to access rvm. May need a reboot.
+4. `rvm install ruby-2.5.1`
+5. `rvm use ruby-2.5.1`
 
 
 ## Local Installation
