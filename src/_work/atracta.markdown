@@ -78,15 +78,15 @@ stepper:
   - Dedicate it to a loved one
   - Give to a charity from the list
 
-stats1: |
-  ## The app had over 
-  ## **300**
-  ## downloads before New Year’s Eve
+# stats1: |
+#   ## The app had over 
+#   ## **300**
+#   ## downloads before New Year’s Eve
 
-stats2: |
-  ## We shot up exactly 
-  ## **1 106**
-  ## fireworks!
+# stats2: |
+#   ## We shot up exactly 
+#   ## **1 106**
+#   ## fireworks!
 
 section4: |
   ### End scene
