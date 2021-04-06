@@ -113,7 +113,7 @@ peoples:
 
   - name: Diego Valdes
     image: diego-valdes.jpg
-    title: Director of Photography
+    title: Director & Producer
     email: diego.valdes@fullystudios.se
     email_name_correct: diego.valdes
     email_name: diego.valdes
