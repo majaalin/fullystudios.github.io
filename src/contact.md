@@ -78,7 +78,7 @@ peoples:
 
   - name: Jonathan Asp
     image: jonathan-davis-asp.jpg
-    title: Digital Producer & Production Manager
+    title: Digital Producer
     email: jonathan.asp@fullystudios.se
     email_name_correct: jonathan.asp
     email_name: jonathan.asp
