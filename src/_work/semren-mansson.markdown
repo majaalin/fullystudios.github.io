@@ -13,7 +13,7 @@ client: Semrén & Månsson
 project: Website
 link: https://semren-mansson.se/
 link-text: Visit the site
-author: Daniella Rossi
+author: Daniela Rossi
 author-email: daniela.rossi@fullystudios.se
 promo-image: "semren_hero_720.jpg"
 background-image_2880: "semren_hero@2x.jpg"
