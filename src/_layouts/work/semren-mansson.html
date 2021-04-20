@@ -1,0 +1,50 @@
+---
+layout: case
+---
+
+{% unless page.box1 == nil %}
+    <div class="box box--right box--business sectionspacing-small">
+        {{ page.box1 | markdownify }}
+    </div>
+{% endunless %}
+
+
+{% unless page.video == nil %}
+    <div class="video">
+        <iframe src="https://player.vimeo.com/video/{{page.video}}" width="1920" height="1080" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    </div>
+{% endunless %}
+
+{% unless page.box2 == nil %}
+    <div class="box sectionspacing-small">
+        {{ page.box2 | markdownify }}
+    </div>
+{% endunless %}
+
+<section class="sectionspacing">
+    <img
+        alt="{{page.case-image-1.alt}}"
+        width="1440" height="719"
+        src="{{site.baseurl}}/assets/work/{{page.slug}}/{{ page.case-image-1.medium }}"
+        srcset=",{{site.baseurl}}/assets/work/{{page.slug}}/{{ page.case-image-1.medium }} 1440w,
+                {{site.baseurl}}/assets/work/{{page.slug}}/{{ page.case-image-1.small }} 720w"
+        sizes="100vw"
+        class="image"
+    >
+    
+    {{ page.case-image-1.description | markdownify }}
+</section>
+
+<section class="sectionspacing">
+    <img
+        alt="{{page.case-image-2.alt}}"
+        width="1440" height="719"
+        src="{{site.baseurl}}/assets/work/{{page.slug}}/{{ page.case-image-2.medium }}"
+        srcset=",{{site.baseurl}}/assets/work/{{page.slug}}/{{ page.case-image-2.medium }} 1440w,
+                {{site.baseurl}}/assets/work/{{page.slug}}/{{ page.case-image-2.small }} 720w"
+        sizes="100vw"
+        class="image"
+    >
+    
+    {{ page.case-image-2.description | markdownify }}
+</section>
