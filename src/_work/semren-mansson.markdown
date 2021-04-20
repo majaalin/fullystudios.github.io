@@ -59,11 +59,8 @@ box2: |
   
   <a class="button" href="https://semren-mansson.se/"><span>Check them out!</span></a>
 
-case-image-1:
-  medium: case-image-slider.jpg
-  small: case-image-slider@0_5x.jpg
-  alt: Case slider
-  description: The image slider works as a way to both feature projects and navigate through the site.
+video-2: 539214810
+video-2-description: The image slider works as a way to both feature projects and navigate through the site.
 
 case-image-2:
   medium: case-image-collage.jpg

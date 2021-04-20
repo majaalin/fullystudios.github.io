@@ -64,6 +64,9 @@
         margin-top: $s-small*6;
     }
 }
+.s-top-small { // same as auto spacing for *
+    margin-top: $s-small*2;
+}
 code .s {
     margin: 0;
 }
