@@ -25,7 +25,7 @@ casetop-bgcolor: '#0018A8'
 casetop-video: "sm_top.mp4"
 
 
-shareimage: work/semren-mansson/semren_hero_720.jpg
+shareimage: work/semren-mansson/semren_mansson_share.jpg
 
 thumbnail-sizes-portrait: 
   - 205
