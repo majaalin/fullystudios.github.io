@@ -4,7 +4,6 @@ Website for the Swedish agency Fully Studios
 
 [Fully Studios site](https://fullystudios.se) is build on [Jekyll](https://jekyllrb.com/) in combination with [Webpack](https://webpack.js.org/) where we run [Babel](https://babeljs.io/) to be able to compile ES6+ code to ES5.
 
-
 ## System Preparation
 Only if you haven't installed Jekyll, node or Gulp installed on your machine:
 
@@ -36,6 +35,53 @@ Update gems:
 - `npm install`
 - `bundle install`
 
+
+## Adding a new case
+See the design and get all copy from Figma. Films should be loaded from Vimeo (unless it's a thumbnail case-video), images is usually exported to Drive, else get directly from the Figma project.
+### Thumbnails
+Each post category has it's own thumbnail size (the images in the work grid and under "read more" sections in each case)
+
+- Video should use landscape (4 : 3, biggest size: 1040x780)
+- Development should use portrait (3 : 4, biggest size: 1040x1387)
+- Games should use square (1:1, biggest size: 1040x1040)
+
+Get the org/raw image from Figma: Fully Studios - Official Site/Thumbnails
+
+If they are in multiple categories (ex papricaklubben), you will need to generate images for each category
+
+#### Generate thumbnails
+Generate thumbnails using https://www.responsivebreakpoints.com/. You can use these settings:
+
+- Resolution: 205 to 1040
+- Size step: 20kb
+- Maximum images: 6
+
+The name of the files should be like: portrait_205.jpg, portrait_320.jpg etc.
+
+Then populate the approriate array with these image sizes in your posts mardown-file. Ex for a web project:
+
+```md
+thumbnail-sizes-portrait: 
+  - 205
+  - 487
+  - 661
+  - 850
+  - 935
+  - 1040
+```
+
+If you have a case that belongs to multiple categories, make an array for each, ex thumbnail-sizes-landscape && thumbnail-sizes-square (both a video and game)
+
+Also add the correct settings for each thumbnail:
+
+```md
+thumbnail-portrait-default-width: 1040 <!-- the fallback image using the portrait ratio for the img src
+thumbnail-sizes-square: NULL <!-- the array of image sizes if the case belong to the game category -->
+thumbnail-square-default-width: NULL <!-- the fallback image using the square ratio for the img src -->
+thumbnail-sizes-landscape: NULL <!-- the array of image sizes if the case belong to the video category -->
+thumbnail-landscape-default-width: NULL <!-- the fallback image using the landscape ratio for the img src -->
+default-thumbnail: portrait <!-- When filtering on all cases, and the case has multiple arrays with thumbnails, this is the one it chooses  -->
+```
 
 ## Usage
 To run in dev mode: `npm run start`
