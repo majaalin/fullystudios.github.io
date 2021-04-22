@@ -11,8 +11,8 @@ categories: design web development animation
 slug: semren-mansson
 client: Semrén & Månsson
 project: Website
-link: https://semren-mansson.se/
-link-text: Visit the site
+# link: https://semren-mansson.se/
+# link-text: Visit the site
 author: Daniela Rossi
 author-email: daniela.rossi@fullystudios.se
 promo-image: "semren_hero_720.jpg"
