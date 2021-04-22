@@ -1,6 +1,6 @@
 ---
-order: 1
-order-in-development: 1
+order: 1.4
+order-in-development: 1.4
 archived: false
 layout: work/atracta
 title:  Stockholm Light

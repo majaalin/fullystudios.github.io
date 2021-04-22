@@ -78,7 +78,7 @@ peoples:
 
   - name: Jonathan Asp
     image: jonathan-davis-asp.jpg
-    title: Digital Producer & Production Manager
+    title: Digital Producer
     email: jonathan.asp@fullystudios.se
     email_name_correct: jonathan.asp
     email_name: jonathan.asp
@@ -113,7 +113,7 @@ peoples:
 
   - name: Diego Valdes
     image: diego-valdes.jpg
-    title: Director of Photography
+    title: Director & Producer
     email: diego.valdes@fullystudios.se
     email_name_correct: diego.valdes
     email_name: diego.valdes

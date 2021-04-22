@@ -1,0 +1,45 @@
+---
+layout: case
+---
+
+{% unless page.box1 == nil %}
+    <div class="box box--right box--business sectionspacing-small">
+        {{ page.box1 | markdownify }}
+    </div>
+{% endunless %}
+
+
+{% unless page.video == nil %}
+    <div class="video">
+        <iframe src="https://player.vimeo.com/video/{{page.video}}" width="1920" height="1080" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    </div>
+{% endunless %}
+
+{% unless page.box2 == nil %}
+    <div class="box sectionspacing-small">
+        {{ page.box2 | markdownify }}
+    </div>
+{% endunless %}
+
+<section class="sectionspacing">
+    <div class="video" style="overflow: hidden;">
+        <div style="filter: blur(20px); position: absolute; z-index: -1; top: 0; left: 0; right: 0; bottom: 0; background: url('data:image/png;base64,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'); background-size: cover"></div>
+        <iframe src="https://player.vimeo.com/video/{{page.video-2}}?background=1" width="1920" height="1080" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="Semr&amp;eacute;n &amp;amp; M&amp;aring;nsson - Slider"></iframe>
+    </div>
+    
+    <p class="s-top-small center">{{ page.video-2-description }}</p>
+</section>
+
+<section class="sectionspacing">
+    <img
+        alt="{{page.case-image-2.alt}}"
+        width="1440" height="719"
+        src="{{site.baseurl}}/assets/work/{{page.slug}}/{{ page.case-image-2.medium }}"
+        srcset=",{{site.baseurl}}/assets/work/{{page.slug}}/{{ page.case-image-2.medium }} 1440w,
+                {{site.baseurl}}/assets/work/{{page.slug}}/{{ page.case-image-2.small }} 720w"
+        sizes="100vw"
+        class="image"
+    >
+    
+    {{ page.case-image-2.description | markdownify }}
+</section>
