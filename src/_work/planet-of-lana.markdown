@@ -18,8 +18,8 @@ background-image_color: "#0492B5"
 casetop-video: planet_of_lana_420x236.mp4
 casetop-bgcolor: "#0492B5"
 shareimage: work/planet-of-lana/shareimage.jpg
-link: https://wishfullystudios.com
-link-text: Visit Wishfully
+link: https://planetoflana.com
+link-text: Visit site
 # preview: 432873646
 
 thumbnail-sizes-portrait: NULL
