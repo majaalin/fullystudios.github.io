@@ -59,13 +59,22 @@ peoples:
     tel: +46 703 21 44 22
 
   - name: Frida Netzén
-    image: frida-netzen-2.jpg
+    image: frida-netzen.jpg
     title: Account Manager
     email: frida.netzen@fullystudios.se
     email_name_correct: frida.netzén
     email_name: frida.netzen
     email_domain: fullystudios.se
     tel: +46 703 77 72 07
+
+  - name: Edīte Garjāne
+    image: edite-garjane.jpg
+    title: Account Manager
+    email: edite.garjane@fullystudios.se
+    email_name_correct: edīte.garjāne
+    email_name: edite.garjane
+    email_domain: fullystudios.se
+    tel: +46 723 33 95 08
 
   - name: Joakim Hanner
     image: joakim-hanner.jpg
@@ -229,32 +238,14 @@ peoples:
     email_name: nils.claesson
     email_domain: fullystudios.se
 
-  - name: Elin Iller
-    image: elin-iller.jpg
-    title: Design Intern
-    email: elin.iller@fullystudios.se
-    email_name_correct: elin.iller
-    email_name: elin.iller
-    email_domain: fullystudios.se
-
   - name: Maja Alin
     image: maja-alin.jpg
-    title: Developer Intern
+    title: Web Developer
     email: maja.alin@fullystudios.se
     email_name_correct: maja.alin
     email_name: maja.alin
     email_domain: fullystudios.se
     tel: +46 723 09 62 04
-
-  - name: Jakob Åhl
-    image: jakob-ahl.jpg
-    title: (on leave) Head of Film
-    email: jakob.ahl@fullystudios.se
-    email_name_correct: jakob.åhl
-    email_name: jakob.ahl
-    email_domain: fullystudios.se
-    tel: +46 723 09 62 04
-
 
 ---
 
