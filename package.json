@@ -12,7 +12,7 @@
     "stage:prod": "npm run build && npx vercel --prod",
     "webpack": "webpack -p",
     "webpack-watch": "webpack --watch",
-    "publish": "npm run build && git checkout master && git pull && git merge develop && git push && git checkout develop && git push"
+    "publish": "npm run build && git checkout master && git pull && git merge develop -m'Publish' && git push && git checkout develop && git push"
   },
   "repository": {
     "type": "git",
