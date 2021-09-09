@@ -201,11 +201,17 @@ $grh: 5vh;
 
 
 // Landing layout
-.logowall {
+.logowall.logowall {
     align-items: center;
     justify-content: space-between;
-    width: 100%;
-    max-width: $content-width;
+    
+    @include media-query($on-laptop) {
+        margin-left: 3.5%;
+        margin-right: 3.5%;
+        width: 93%;
+        padding-top: 0;
+    }
+
     .kappahl-logo {
         margin-top: 8px;
     }
@@ -218,6 +224,7 @@ $grh: 5vh;
     .column {
         margin-bottom: $s-small;
         align-items: center;
+        padding: 0 3.5vw 0.3vw;
     }
     img {display: block; margin: 0 auto;}
 }
