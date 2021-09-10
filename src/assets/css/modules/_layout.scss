@@ -201,11 +201,11 @@ $grh: 5vh;
 
 
 // Landing layout
-.logowall {
+.logowall.logowall {
     align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    max-width: $content-width;
+    justify-content: flex-start;
+    width: auto;
+
     .kappahl-logo {
         margin-top: 8px;
     }
@@ -215,11 +215,32 @@ $grh: 5vh;
     .logowall__small {
         max-width: 65%;
     }
+    img {
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+    }
     .column {
         margin-bottom: $s-small;
         align-items: center;
+        padding: 0 6vw .3vw;
+        @include media-query($on-laptop) {
+            padding: 0 3.5vw .3vw;
+        }
+        @include media-query($on-desktop) {
+            padding: 0 5vw .3vw;
+        }
     }
-    img {display: block; margin: 0 auto;}
+    @include media-query($on-laptop) {
+        margin-left: 3.5%;
+        margin-right: 3.5%;
+        padding-top: 0;
+    }
+    @include media-query($on-desktop) {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    
 }
 
 .footer {
