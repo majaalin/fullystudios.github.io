@@ -1,6 +1,6 @@
 ---
 order: 2
-order-in-video: 1
+order-in-video: 2
 archived: false
 onlypreview: true
 layout: NULL
