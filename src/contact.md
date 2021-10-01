@@ -94,15 +94,6 @@ peoples:
     email_domain: fullystudios.se
     tel: +46 739 48 07 05
   
-  - name: Daniela Rossi
-    image: daniela-rossi.jpg
-    title: Creative Producer Film
-    email: daniela.rossi@fullystudios.se
-    email_name_correct: daniela.rossi
-    email_name: daniela.rossi
-    email_domain: fullystudios.se
-    tel: +46 728 75 70 53
-
   - name: Olle Engström
     image: olle-engstrom.jpg
     title: Animation Director
@@ -245,7 +236,22 @@ peoples:
     email_name_correct: maja.alin
     email_name: maja.alin
     email_domain: fullystudios.se
-    tel: +46 723 09 62 04
+    
+  - name: Hanna Aspblad
+    image: hanna-aspblad.jpg
+    title: Web Developer Intern
+    email: hanna.aspblad@fullystudios.se
+    email_name_correct: hanna.aspblad
+    email_name: hanna.aspblad
+    email_domain: fullystudios.se
+  
+  - name: Lukas Blomdell
+    image: lukas-blomdell.jpg
+    title: Developer Intern
+    email: lukas.blomdell@fullystudios.se
+    email_name_correct: lukas.blomdell
+    email_name: lukas.blomdell
+    email_domain: fullystudios.se
 
 ---
 
