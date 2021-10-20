@@ -85,23 +85,6 @@ peoples:
     email_domain: fullystudios.se
     tel: +46 738 07 30 72
 
-  - name: Jonathan Asp
-    image: jonathan-davis-asp.jpg
-    title: Digital Producer
-    email: jonathan.asp@fullystudios.se
-    email_name_correct: jonathan.asp
-    email_name: jonathan.asp
-    email_domain: fullystudios.se
-    tel: +46 739 48 07 05
-  
-  - name: Olle Engström
-    image: olle-engstrom.jpg
-    title: Animation Director
-    email: olle.engstrom@fullystudios.se
-    email_name_correct: olle.engstrom
-    email_name: olle.engstrom
-    email_domain: fullystudios.se
-
   - name: Alexander Tengner
     image: alexander-tengner.jpg
     title: Associate Creative Director
@@ -110,6 +93,31 @@ peoples:
     email_name: alexander.tengner
     email_domain: fullystudios.se
     tel: +46 721 71 50 32
+
+  - name: Jonathan Asp
+    image: jonathan-davis-asp.jpg
+    title: Digital Producer
+    email: jonathan.asp@fullystudios.se
+    email_name_correct: jonathan.asp
+    email_name: jonathan.asp
+    email_domain: fullystudios.se
+    tel: +46 739 48 07 05
+
+  - name: Olle Engström
+    image: olle-engstrom.jpg
+    title: Animation Director
+    email: olle.engstrom@fullystudios.se
+    email_name_correct: olle.engstrom
+    email_name: olle.engstrom
+    email_domain: fullystudios.se
+    
+  - name: Morten Niklasson
+    image: morten-niklasson.jpg
+    title: Animation Lead
+    email: morten.niklasson@fullystudios.se
+    email_name_correct: morten.niklasson
+    email_name: morten.niklasson
+    email_domain: fullystudios.se
 
   - name: Diego Valdes
     image: diego-valdes.jpg
@@ -135,6 +143,14 @@ peoples:
     email: malin.wincrantz@fullystudios.se
     email_name_correct: malin.wirdheim.<span>wincrantz</span>
     email_name: malin.wincrantz
+    email_domain: fullystudios.se
+
+  - name: Emil Gradén
+    image: emil-graden.jpg
+    title: Motion Designer & Animator
+    email: emil.graden@fullystudios.se
+    email_name_correct: emil.gradén
+    email_name: emil.graden
     email_domain: fullystudios.se
 
   - name: Josef Carlsson
@@ -197,6 +213,14 @@ peoples:
     email_name: markus.boberg
     email_domain: fullystudios.se
 
+  - name: Nils Claesson 
+    image: nils-claesson.jpg
+    title: Game Developer
+    email: nils.claesson@fullystudios.se
+    email_name_correct: nils.claesson
+    email_name: nils.claesson
+    email_domain: fullystudios.se
+
   - name: Oskar Eriksson
     image: oskar-eriksson.jpg
     title: Web Developer
@@ -205,28 +229,12 @@ peoples:
     email_name: oskar.eriksson
     email_domain: fullystudios.se
 
-  - name: Emil Gradén
-    image: emil-graden.jpg
-    title: Motion Designer & Animator
-    email: emil.graden@fullystudios.se
-    email_name_correct: emil.gradén
-    email_name: emil.graden
-    email_domain: fullystudios.se
-
   - name: Linn Johansson
     image: linn-johansson.jpg
     title: Web Developer
     email: linn.johansson@fullystudios.se
     email_name_correct: linn.johansson
     email_name: linn.johansson
-    email_domain: fullystudios.se
-  
-  - name: Nils Claesson 
-    image: nils-claesson.jpg
-    title: Game Developer
-    email: nils.claesson@fullystudios.se
-    email_name_correct: nils.claesson
-    email_name: nils.claesson
     email_domain: fullystudios.se
 
   - name: Maja Alin
