@@ -244,22 +244,6 @@ peoples:
     email_name_correct: maja.alin
     email_name: maja.alin
     email_domain: fullystudios.se
-    
-  - name: Hanna Aspblad
-    image: hanna-aspblad.jpg
-    title: Web Developer Intern
-    email: hanna.aspblad@fullystudios.se
-    email_name_correct: hanna.aspblad
-    email_name: hanna.aspblad
-    email_domain: fullystudios.se
-  
-  - name: Lukas Blomdell
-    image: lukas-blomdell.jpg
-    title: Developer Intern
-    email: lukas.blomdell@fullystudios.se
-    email_name_correct: lukas.blomdell
-    email_name: lukas.blomdell
-    email_domain: fullystudios.se
 
 ---
 
