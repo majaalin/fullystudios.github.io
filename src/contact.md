@@ -244,6 +244,14 @@ peoples:
     email_name_correct: maja.alin
     email_name: maja.alin
     email_domain: fullystudios.se
+  
+  - name: Moa Berg
+    image: moa-berg.jpg
+    title: Web Developer Intern
+    email: moa.berg@fullystudios.se
+    email_name_correct: moa.berg
+    email_name: moa.berg
+    email_domain: fullystudios.se
 
 ---
 
