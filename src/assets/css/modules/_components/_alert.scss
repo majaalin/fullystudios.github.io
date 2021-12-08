@@ -1,0 +1,26 @@
+.alert {
+  background: $c-signal;
+  color: $c-white;
+  padding: $spacing-unit * 0.5 $spacing-unit * 3 $spacing-unit * 0.5 $spacing-unit * 0.5;
+  position: relative;
+  z-index: 10;
+  min-height: calc(6em + 2vw);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  a {
+    color: $c-white;
+  }
+  p {
+    margin-top: 0;
+  }
+  @media (min-width: 500px) {
+    padding: $spacing-unit $spacing-unit * 2;
+  }
+}
+
+.alert__wrap {
+  margin: auto;
+  max-width: $content-width;
+}
