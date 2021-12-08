@@ -259,6 +259,16 @@ p > a:not(.button):not(.link):not(.metabutton):not(.custom-button), h2 > a {
         transform: scaleX(1);
     }
 }
+// Not used, but if you wanna add links in a signal block, this is your CSS
+// a.inverted {
+//     color: $c-white;
+// }
+// p > a.inverted:not(.button):not(.link):not(.metabutton):not(.custom-button), h2 > a.inverted {
+//     text-shadow: 1px 1px 0 $c-signal, 2px 1px 0 $c-signal, -1px 1px 0 $c-signal, -2px 1px 0 $c-signal, 1px -1px 0 $c-signal, 2px -1px 0 $c-signal, -1px -1px 0 $c-signal, -2px -1px 0 $c-signal;
+//     &:after {
+//         border-bottom: 2px solid $c-white;
+//     }
+// }
 .c-business-bg a, h2 > a {
     text-shadow: none !important;
 }
@@ -340,6 +350,11 @@ p {
     text-transform: uppercase;
     font-size: 0.75em;
     font-weight: 700;
+}
+
+.site-content hr {
+    border: none;
+    padding: $spacing-unit
 }
 
 // Easter stuff

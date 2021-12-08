@@ -18,3 +18,17 @@
         {% include news/{{ site.herofile }} newsflash="hidden" menu="true" %}
     {% endunless %}
 </nav>
+
+{% unless page.hide-newsflash or page.newsflash == nil %}
+<div class="newsflash" data-videomodal>
+
+  {{ page.newsflash | markdownify }}
+  <a href="{{page.newsflash_buttonurl | relative_url }}" class="button">
+    <span>{{ page.newsflash_buttontext }}</span>
+  </a>
+  <!-- <a href="{{ site.baseurl }}/news" class="link link--next">
+    <span>{{ site.morenews }}</span>
+    <svg class="link--icon"><use xlink:href="#icon-arrow-right"></use></svg>
+  </a> -->
+</div>
+{% endunless %}
