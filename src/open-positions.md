@@ -13,7 +13,7 @@ date: 2021-12-07
 
 ## Open positions:
 
-Our Gothenburg team is looking to expand with a Digital Producer and a Senior Designer.
+Our Gothenburg team is looking to expand with a Digital Producer.
 
 You’ll be joining an award-winning creative studio and production house composed of programmers, designers, game developers, filmmakers, and animators. We work according to the motto **Whatever we do, we do it Fully** – a mindset that informs every new project and collaboration in which we are involved. This engaging way of tackling challenges has led us to find success in various industries, shaping our offer into three segments; Web & Service development, Film making and Game Development.
 
@@ -30,14 +30,14 @@ We are a value-driven company, who truly care about our coworkers and clients �
 </div>
 
 ---
-
+<!-- 
 <div class="box box--curiosities box--right">
   <h3>Senior designer – with a flair for digital design.</h3>
 
   <p>You have a knack for creating joyful digital experiences and brand expressive communication. You find excitement both in the conceptual phase as well as in being hands-on when the actual product needs to come to life. High and low, fast or slow – you enjoy challenging projects mixed with day-to-day tasks. This role requires a bit of flexibility and self-initiative, but hey, whenever you need help you are surrounded by friends.</p>
 
   <p>Sounds like you? Send your application to <a href="mailto:alexander.tengner@fullystudios.se">alexander.tengner@fullystudios.se</a> and we’ll be in touch!</p>
-</div>
+</div> -->
 
 ---
 
