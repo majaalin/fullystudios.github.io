@@ -173,7 +173,7 @@ peoples:
 
   - name: Jonas Sandstedt
     image: jonas-sandstedt.jpg
-    title: Web & UI Animator
+    title: Senior Frontend Developer
     email: jonas.sandstedt@fullystudios.se
     email_name_correct: jonas.sandstedt
     email_name: jonas.sandstedt
