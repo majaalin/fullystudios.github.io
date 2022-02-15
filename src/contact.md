@@ -67,15 +67,6 @@ peoples:
     email_domain: fullystudios.se
     tel: +46 703 77 72 07
 
-  - name: Edīte Garjāne
-    image: edite-garjane.jpg
-    title: Account Manager
-    email: edite.garjane@fullystudios.se
-    email_name_correct: edīte.garjāne
-    email_name: edite.garjane
-    email_domain: fullystudios.se
-    tel: +46 723 33 95 08
-
   - name: Joakim Hanner
     image: joakim-hanner.jpg
     title: Associate Creative Director
@@ -127,15 +118,6 @@ peoples:
     email_name: diego.valdes
     email_domain: fullystudios.se
     tel: +46 735 08 16 38
-
-  - name: Anders Olofsson
-    image: anders-olofsson.jpg
-    title: Senior Designer
-    email: anders.olofsson@fullystudios.se
-    email_name_correct: anders.olofsson
-    email_name: anders.olofsson
-    email_domain: fullystudios.se
-    tel: +46 709 31 99 65‬
 
   - name: Malin Wirdheim Wincrantz
     image: malin-wincrantz.jpg
@@ -251,6 +233,30 @@ peoples:
     email: moa.berg@fullystudios.se
     email_name_correct: moa.berg
     email_name: moa.berg
+    email_domain: fullystudios.se
+
+  - name: Sandra Runbert
+    image: sandra-runbert.jpg
+    title: Digital Design Intern 
+    email: sandra.runbert@fullystudios.se
+    email_name_correct: sandra.runbert
+    email_name: sandra.runbert
+    email_domain: fullystudios.se
+
+  - name: Matilda Landström
+    image: matilda-landstrom.jpg
+    title: Motion Intern
+    email: matilda.landstrom@fullystudios.se
+    email_name_correct: matilda.landström
+    email_name: matilda.landstrom
+    email_domain: fullystudios.se
+
+  - name: Lukas Blomdell
+    image: lukas-blomdell.jpg
+    title: Digital Producer Intern
+    email: lukas.blomdell@fullystudios.se
+    email_name_correct: lukas.blomdell
+    email_name: lukas.blomdell
     email_domain: fullystudios.se
 
 ---
